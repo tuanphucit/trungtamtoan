@@ -1,0 +1,10 @@
+[2013/04/10 08:19:05][/?portal=mc_web&page=Download&name=20120809/admin_1344482854.exe]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/04/10 08:19:04]
+--Run time(s): 1.0934729576111
+
+[2013/04/10 08:56:57][/?portal=mc_web&page=resetPassword]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/04/10 08:56:57]
+--Run time(s): 0.66983294487
+

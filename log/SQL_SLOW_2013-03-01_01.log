@@ -1,0 +1,110 @@
+[2013/03/01 01:07:00][/?cateID=4&classID=1&page=DocOfClass&portal=mc_web]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '1' AND `status` = 1 ;
+--Start time [2013/03/01 01:06:56]
+--Run time(s): 3.5112409591675
+
+[2013/03/01 01:07:08][/?cateID=3&classID=7&page=DocOfClass&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/01 01:07:08]
+--Run time(s): 0.54551815986633
+
+[2013/03/01 01:07:08][/?cateID=3&classID=8&page=DocOfClass&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/01 01:07:08]
+--Run time(s): 0.5175039768219
+
+[2013/03/01 01:23:09][/?cateID=2&classID=7&page=DocOfClass&portal=mc_web]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '7' AND `status` = 1 ;
+--Start time [2013/03/01 01:23:07]
+--Run time(s): 2.6365320682526
+
+[2013/03/01 01:23:09][/?cateID=2&classID=6&page=DocOfClass&portal=mc_web]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '6' AND `status` = 1 ;
+--Start time [2013/03/01 01:23:07]
+--Run time(s): 2.7205078601837
+
+[2013/03/01 01:41:19][/?cateID=2&classID=15&page=DocOfClass&portal=mc_web]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '15' AND `status` = 1 ;
+--Start time [2013/03/01 01:41:16]
+--Run time(s): 2.9106690883636
+
+[2013/03/01 01:41:21][/?cateID=2&classID=15&page=DocOfClass&portal=mc_web]
+SELECT * FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '15' AND `status` = 1  ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2013/03/01 01:41:19]
+--Run time(s): 1.6770350933075
+
+[2013/03/01 01:41:46][/?cateID=2&classID=20&page=DocOfClass&portal=mc_web]
+SELECT * FROM `class`;
+--Start time [2013/03/01 01:41:45]
+--Run time(s): 0.81249594688416
+
+[2013/03/01 01:41:49][/?cateID=2&classID=20&page=DocOfClass&portal=mc_web]
+SELECT * FROM `doccate`;
+--Start time [2013/03/01 01:41:46]
+--Run time(s): 3.3184440135956
+
+[2013/03/01 01:41:52][/?cateID=2&classID=3&page=DocOfClass&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/01 01:41:51]
+--Run time(s): 0.79581379890442
+
+[2013/03/01 01:41:53][/?cateID=2&classID=3&page=DocOfClass&portal=mc_web]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '3' AND `status` = 1 ;
+--Start time [2013/03/01 01:41:52]
+--Run time(s): 1.0237040519714
+
+[2013/03/01 01:42:01][/?cateID=2&classID=3&page=DocOfClass&portal=mc_web]
+SELECT * FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '3' AND `status` = 1  ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2013/03/01 01:41:53]
+--Run time(s): 7.9175131320953
+
+[2013/03/01 01:46:59][/?id=637&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=637 LIMIT 1;
+--Start time [2013/03/01 01:46:58]
+--Run time(s): 0.77818512916565
+
+[2013/03/01 01:46:59][/?id=634&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=634 LIMIT 1;
+--Start time [2013/03/01 01:46:58]
+--Run time(s): 0.74742293357849
+
+[2013/03/01 01:47:46][/?id=596&page=articleDetail&portal=mc_web]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/01 01:47:44]
+--Run time(s): 1.576712846756
+
+[2013/03/01 01:47:46][/?id=597&page=articleDetail&portal=mc_web]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/01 01:47:44]
+--Run time(s): 1.5765430927277
+
+[2013/03/01 01:48:03][/?id=595&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/01 01:48:00]
+--Run time(s): 3.0743560791016
+
+[2013/03/01 01:51:03][/?cateID=4&classID=9&page=DocOfClass&portal=mc_web]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocOfClass' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/01 01:51:02]
+--Run time(s): 0.82537412643433
+
+[2013/03/01 01:51:03][/?cateID=4&classID=8&page=DocOfClass&portal=mc_web]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocOfClass' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/01 01:51:02]
+--Run time(s): 1.6080830097198
+
+[2013/03/01 01:51:16][/?cateID=4&classID=6&page=DocOfClass&portal=mc_web]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '6' AND `status` = 1 ;
+--Start time [2013/03/01 01:51:13]
+--Run time(s): 2.876268863678
+
+[2013/03/01 01:55:30][/?id=148&page=DocDetail&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/01 01:55:29]
+--Run time(s): 1.0428199768066
+
+[2013/03/01 01:55:30][/?id=147&page=DocDetail&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/01 01:55:29]
+--Run time(s): 1.0530819892883
+

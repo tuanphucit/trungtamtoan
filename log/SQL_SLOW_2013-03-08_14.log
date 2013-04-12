@@ -1,0 +1,10 @@
+[2013/03/08 14:29:59][/ajax.php?path=mcweb&fnc=mcweb.class.process]
+SELECT COUNT(`hocsinh_id`) AS rows FROM `hocsinh` WHERE `status` = 1 AND `provinceID` = 1;
+--Start time [2013/03/08 14:29:57]
+--Run time(s): 1.2196729183197
+
+[2013/03/08 14:46:57][/?portal=mc_web&page=crawl]
+SELECT * FROM `university` WHERE name = 'Trường Đại học Bách khoa Hà Nội' LIMIT 0,1;
+--Start time [2013/03/08 14:46:56]
+--Run time(s): 0.68739199638367
+

@@ -1,0 +1,30 @@
+[2012/12/09 06:12:23][/?portal=mc_web&page=articleDetail&id=376]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/12/09 06:12:23]
+--Run time(s): 0.5820460319519
+
+[2012/12/09 06:39:35][/?portal=mc_web&page=articleDetail&id=605]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2012/12/09 06:39:33]
+--Run time(s): 2.0073189735413
+
+[2012/12/09 06:39:37][/?portal=mc_web&page=articleDetail&id=605]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 605 AND `category_id` = 1 AND `updatetime` > TIMESTAMP('2012-12-06 23:21:39') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/09 06:39:35]
+--Run time(s): 1.9565048217773
+
+[2012/12/09 06:39:39][/?portal=mc_web&page=articleDetail&id=605]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 605 AND `category_id` = 1 AND `updatetime` < TIMESTAMP('2012-12-06 23:21:39') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/09 06:39:37]
+--Run time(s): 2.2043499946594
+
+[2012/12/09 06:42:22][/?portal=mc_web&page=articleDetail&id=425]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/09 06:42:21]
+--Run time(s): 1.1480629444122
+
+[2012/12/09 06:55:13][/?portal=mc_web&page=Download&name=20120922/admin_1348307745.pdf]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2012/12/09 06:55:13]
+--Run time(s): 0.77331900596619
+

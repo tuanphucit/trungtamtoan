@@ -1,0 +1,10 @@
+[2013/03/11 05:40:42][/?portal=mc_web&page=DocDetail&id=156]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/11 05:40:42]
+--Run time(s): 0.94498491287231
+
+[2013/03/11 05:41:10][/?portal=mc_web&page=DocOfClass&classID=1&cateID=4]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '1' AND `status` = 1 ;
+--Start time [2013/03/11 05:41:09]
+--Run time(s): 0.89600610733032
+

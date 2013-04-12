@@ -1,0 +1,5 @@
+[2012/10/10 21:01:15][/?portal=mc_web]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='index' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/10 21:01:15]
+--Run time(s): 0.63667583465576
+

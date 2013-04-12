@@ -1,0 +1,35 @@
+<div class="box">
+	<h4>{|lang.header_log|}</h4>
+	
+	{|FORM_BEGIN|}
+	<table cellpadding="5" cellspacing="0" class="toggle-content">
+		<tr>
+			<td style="width:200px;">{|log_enable|}</th>
+			<td>
+				<ul class="use_in_table">
+					<li>{|log_error|}</li>
+					<li>{|log_sql|}
+						<div style="padding-left: 35px;">
+							<ul>
+								<li>{|log_sql_view|}</li>
+								<li>{|log_sql_add|}</li>
+								<li>{|log_sql_edit|}</li>
+								<li>{|log_sql_delete|}</li>
+								<li>{|log_sql_other|}</li>
+							</ul>
+						</div>
+					</li>
+					<li>{|log_sql_slow|} {|log_sql_slow_time|} Time (s)</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="footoperation">
+				{|log_btn_OK|}
+				{|log_btn_RESET|}
+			</td>
+		</tr>
+	</table>
+	
+	{|FORM_END|}
+</div>

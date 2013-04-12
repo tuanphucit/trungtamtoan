@@ -1,0 +1,10 @@
+[2013/03/06 15:13:10][/?portal=mc_web&page=regLearn]
+SELECT `sessions_id`,`session`,`day` FROM `sessions` ORDER BY sessions_id ASC;
+--Start time [2013/03/06 15:13:09]
+--Run time(s): 0.58373999595642
+
+[2013/03/06 15:49:46][/?portal=mc_web&page=regTeach]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/06 15:49:45]
+--Run time(s): 1.2357530593872
+

@@ -1,0 +1,5 @@
+[2012/10/30 21:10:42][/?portal=manager&page=EditHocsinh&id=52]
+UPDATE `hocsinh` SET `mothername`='ilfapbcxmmp', `starttime`='-0001-11-30 00:00:00', `expected_gender`='3', `pupilnumber`='1', `gender`='1', `email`='lygekx@vmsvsh.com', `mobile`='XCdbSuofGV', `address`='BqhqzMfqZUSwdFOHuZ', `location_id`='', `createtime`='2012-10-30 21:10:41', `class_id`='8', `expected_fee`='', `expected_level`='0', `duringtime`='180', `introduction`='wKVbXn  <a href=\"http://dydevipmmtxu.com/\">dydevipmmtxu</a>', `teach_sessions`=null, `status`='0', `userupdate`='admin', `isNeedGoodTeacher`='1' WHERE `hocsinh_id`=52;
+--Start time [2012/10/30 21:10:41]
+--Run time(s): 1.5819480419159
+

@@ -1,0 +1,30 @@
+[2013/03/20 16:07:28][/?id=306&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=306 LIMIT 1;
+--Start time [2013/03/20 16:07:27]
+--Run time(s): 0.68911790847778
+
+[2013/03/20 16:07:28][/?id=305&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=305 LIMIT 1;
+--Start time [2013/03/20 16:07:27]
+--Run time(s): 0.69151401519775
+
+[2013/03/20 16:08:55][/?page=NewDoc&portal=mc_web]
+SELECT COUNT(*) AS rows FROM `document` WHERE `status` = 1 ;
+--Start time [2013/03/20 16:08:54]
+--Run time(s): 0.69476819038391
+
+[2013/03/20 16:08:55][/?page=intro&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/20 16:08:54]
+--Run time(s): 0.86176300048828
+
+[2013/03/20 16:08:55][/?page=index&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 3 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/20 16:08:54]
+--Run time(s): 0.86283493041992
+
+[2013/03/20 16:08:55][/?page=listClass&portal=mc_web]
+SELECT * FROM `province` WHERE `status` = 1 ORDER BY name DESC;
+--Start time [2013/03/20 16:08:54]
+--Run time(s): 0.89671587944031
+

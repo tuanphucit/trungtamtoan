@@ -1,0 +1,10 @@
+[2013/03/18 11:20:54][/]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/18 11:20:54]
+--Run time(s): 0.5541570186615
+
+[2013/03/18 11:20:55][/]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/18 11:20:54]
+--Run time(s): 0.80447602272034
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+<write>&lt;?php
+defined ( 'IN_CGS' ) or die ( 'Restricted Access' );
+
+require_once CGS_SYSTEM_PATH.'cgs.database.php';</write>
+<write replace="CLASS_NAME,CONNECTION,TABLE_NAME,PREFIX">
+class %CLASS_NAME%Base extends CgsDatabase {
+	protected $__conn = '%CONNECTION%';
+	protected $__tbl = '%TABLE_NAME%';
+	protected $__prefix = '%PREFIX%';
+	public $field = '*';
+	function __construct(){
+		parent::__construct();
+		$this->setProperty('%CONNECTION%');
+	}
+	
+	function getTbl() {
+		return $this->__prefix . $this->__tbl;
+	}
+	
+	function getListAll($field='*'){
+		return $this->select($this->getTbl(), $field);
+	}
+	
+	function getRow($id=0,$field='*'){
+		settype($id, 'int');
+		return $this->selectOne($this->getTbl(), $field, "`id`={$id}");
+	}
+	
+	function updateId($id=0,$data=array()){
+		settype($id, 'int');
+		return $this->update($this->getTbl(), $data, "`id`={$id}");
+	}
+
+} // end class
+</write>
+</class>

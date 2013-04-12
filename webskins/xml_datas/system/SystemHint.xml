@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="SystemHint">
+	<bean name="SystemHintView">
+		<property type="checkbox" name="hint_layout_publish" id="hint_layout_publish" display="Bật hint Layout" value="1" option="1:Bật" field="setting.layout_publish" required="false"/>
+		<property type="text" name="hint_layout_color" id="hint_layout_color" display="Màu viền" field="setting.layout_color" validateType="Text" size="7" readonly="readonly"/>
+		<property type="checkbox" name="hint_block_publish" id="hint_block_publish" display="Bật hint Block" value="1" field="setting.block_publish" required="false"/>
+		<property type="text" name="hint_block_color" id="hint_block_color" display="Màu viền" field="setting.block_color" validateType="Text" size="7" readonly="readonly"/>
+	</bean>
+</page>
+

@@ -1,0 +1,31 @@
+<div class="mainbox list">	
+
+	<h3> Danh sách tài liệu</h3> 
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<th>STT</th>
+				<th>ID</th>
+				<th>Người bình luận</th>
+				<th>Nội dung</th>
+				<th>Bình luận ngày</th>
+				<th>Hành động</th>
+			</tr>
+		</thead>
+		<tbody>
+		
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|stt|}</td>
+				<td>{|id|}</td>					
+				<td>{|username|}</td>	
+				<td>{|content|}</td>		
+				<td>{|updatetime|}</td>
+				<td><a href="{|del_link|}" style="color: blue;">Xóa</a></td>
+			</tr>
+			<!-- END BlockList -->
+			<tr><td colspan="4" class="paging">{|paging|}<td></tr>
+		</tbody>
+	</table>
+	
+</div>

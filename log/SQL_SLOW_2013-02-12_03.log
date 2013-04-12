@@ -1,0 +1,10 @@
+[2013/02/12 03:15:47][/]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/12 03:15:45]
+--Run time(s): 1.8840498924255
+
+[2013/02/12 03:15:48][/]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/12 03:15:47]
+--Run time(s): 0.99506902694702
+

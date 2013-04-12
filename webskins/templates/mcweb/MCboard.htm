@@ -1,0 +1,84 @@
+<div class ="mainbox" style="padding-bottom: 90px;">	
+	<h3>TRUNGTAMTOAN.COM - Học toán hôm nay, vững bước ngày mai!</h3>
+	<ul id="slideshow">
+		<li>
+			<h3>Trungtamtoan.com</h3>
+			<span>{|CGS_SKIN|}photos/1.jpg</span>
+			<p>Đăng ký tìm gia sư toán</p>
+			<a href="#"><img src="{|CGS_SKIN|}thumbnails/1.jpg" alt="trungtamtoan.com" /></a>
+		</li>
+		<li>
+			<h3>Trungtamtoan.com</h3>
+			<span>{|CGS_SKIN|}photos/2.jpg</span>
+			<p>Đăng ký làm gia sư toán</p>
+			<a href="#"><img src="{|CGS_SKIN|}thumbnails/2.jpg" alt="trungtamtoan.com" /></a>
+		</li>
+		<li>
+			<h3>Trungtamtoan.com</h3>
+			<span>{|CGS_SKIN|}photos/3.jpg</span>
+			<p>Chia sẻ tài liệu toán</p>
+			<a href="#"><img src="{|CGS_SKIN|}thumbnails/3.jpg" alt="trungtamtoan.com" /></a>
+		</li>
+		<li>
+			<h3>Trungtamtoan.com</h3>
+			<span>{|CGS_SKIN|}photos/4.jpg</span>
+			<p>Thông tin về giáo dục, toán học</p>
+			<a href="#"><img src="{|CGS_SKIN|}thumbnails/4.jpg" alt="trungtamtoan.com" /></a>
+		</li>
+		<li>
+			<h3>Trungtamtoan.com</h3>
+			<span>{|CGS_SKIN|}photos/5.jpg</span>
+			<p>Đội ngũ gia sư giỏi toán</p>
+			<a href="#"><img src="{|CGS_SKIN|}thumbnails/5.jpg" alt="trungtamtoan.com" /></a>
+		</li>
+		
+		<li>
+			<h3>Trungtamtoan.com</h3>
+			<span>{|CGS_SKIN|}photos/6.jpg</span>
+			<p>Góp phần phát triển nền toán học nước nhà</p>
+			<a href="#"><img src="{|CGS_SKIN|}thumbnails/6.jpg" alt="trungtamtoan.com" /></a>
+		</li>
+	</ul>
+	<div id="wrapper">
+		<div id="fullsize">
+			<div id="imgprev" class="imgnav" title="Previous Image"></div>
+			<div id="imglink"></div>
+			<div id="imgnext" class="imgnav" title="Next Image"></div>
+			<div id="image"></div>
+			<div id="information">
+				<h3></h3>
+				<p></p>
+			</div>
+		</div>
+		<div id="thumbnails">
+			<div id="slideleft" title="Slide Left"></div>
+			<div id="slidearea">
+				<div id="slider"></div>
+			</div>
+			<div id="slideright" title="Slide Right"></div>
+		</div>
+	</div>
+</div>	
+<script type="text/javascript">
+	$('slideshow').style.display='none';
+	$('wrapper').style.display='block';
+	var slideshow=new TINY.slideshow("slideshow");
+	window.onload=function(){
+		slideshow.auto=true;
+		slideshow.speed=5;
+		slideshow.link="linkhover";
+		slideshow.info="information";
+		slideshow.thumbs="slider";
+		slideshow.left="slideleft";
+		slideshow.right="slideright";
+		slideshow.scrollSpeed=4;
+		slideshow.spacing=5;
+		slideshow.active="#fff";
+		slideshow.init("slideshow","image","imgprev","imgnext","imglink");
+	}
+</script>
+
+
+
+
+

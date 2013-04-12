@@ -1,0 +1,20 @@
+[2013/03/15 07:36:55][/]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/15 07:36:48]
+--Run time(s): 6.0349519252777
+
+[2013/03/15 07:37:00][/]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/03/15 07:36:55]
+--Run time(s): 4.7536299228668
+
+[2013/03/15 07:37:04][/]
+SELECT * FROM `article` WHERE `category_id` = 3 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/15 07:37:01]
+--Run time(s): 3.0318460464478
+
+[2013/03/15 07:37:08][/]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/15 07:37:05]
+--Run time(s): 2.3785121440887
+

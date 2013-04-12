@@ -1,0 +1,106 @@
+<div class="mainbox">	
+	<h3>Đăng ký tìm gia sư</h3>	
+	{|FORM_BEGIN|}
+	<table cellpadding="5" cellspacing="0">
+		<tr style="text-align:left;">
+			<th width="100%" colspan='2' style="background: #E8F3FD;" ><h2>Thông tin phụ huynh</h2></th>
+		</tr>
+		<tr>
+			<th width="15%">Họ tên:</th>
+			<th width="85%">{|mothername|}</th>
+		</tr>
+		<tr>
+			<th>Điện thoại</th>
+			<th>{|mobile|}</th>
+		</tr>
+		<tr>
+			<th>Địa chỉ</th>
+			<th>{|address|} Quận {|location|}</th>
+		</tr>
+		<tr>
+			<th>Email</th>
+			<th>{|email|}</th>
+		</tr>
+		<tr>
+			<th><br/></th>
+			<th></th>
+		</tr>
+		
+		<tr>
+			<th width="100" colspan='2' style="background: #E8F3FD;"><h2>Thông tin học sinh</h2></th>
+		</tr>		
+		<tr>
+			<th>Số lượng</th>
+			<th>{|pupilnumber|} học sinh</th>
+		</tr>
+		<tr>
+			<th>Giới tính</th>
+			<th>{|gender|}</th>
+		</tr>	
+		<tr>
+			<th>Lớp</th>
+			<th>{|class_id|}</th>
+		</tr>	
+				
+		<tr>
+			<th><br/></th>
+			<th></th>
+		</tr>
+		
+		<tr>
+			<th width="100" colspan='2' style="background: #E8F3FD;"><h2>Yêu cầu đối với gia sư</h2></th>
+		</tr>
+		
+		<tr>
+			<th>Trình độ</th>
+			<th>{|level|}</th>
+		</tr>
+		<tr>
+			<th>Giới tính</th>
+			<th>{|giasu_gender|}
+		</tr>
+		<tr>
+			<th>Ca dạy</th>
+			<th><div>{|sessions|}</div></th>
+		</tr>		
+		<tr>
+			<th>Một ca bằng</th>
+			<th><div>{|duringtime|}</th>
+		</tr>
+		<tr>
+			<th>Ngày bắt đầu</th>
+			<th>{|starttime|}<i>dd-mm-yyyy</i></th>
+		</tr>
+		<tr>
+			<th>Mức lương</th>
+			<th>{|fee|}đ/1ca <span style="color:green">(vd: 80.000đ/ca)</span></th>
+		</tr>
+		<tr>
+			<th>Thông tin khác:</th>
+			<th><div>{|introduction|}</div></th>
+		</tr>
+		<tr>
+			<th>Tình trạng</th>
+			<th>{|status|}</th>
+		</tr>
+		<tr>
+			<th width="100" colspan='2' style="background: #E8F3FD;"><h2>Yêu cầu đối với trung tâm</h2></th>
+		</tr>
+		<tr>
+			<th>Yêu cầu</th>
+			<th>{|isNeedGoodTeacher|}</th>
+		</tr>
+		<tr>
+			<td colspan="2" class="footoperation"><center>
+			<input type="submit" name="register" id="register" value="Hoàn thành"/>
+			<input type="reset" value="Làm lại" id="reset"/></center>		
+			</td>
+		</tr>
+	</table>	
+	{|FORM_END|}
+</div>
+
+
+
+
+

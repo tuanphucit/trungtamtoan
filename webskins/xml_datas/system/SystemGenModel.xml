@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="SystemGenModel">
+	<bean name="SystemGenModelView" action="" method="post" onsubmit="return true;">
+		<property type="select" name="connection" display="connection" required="true"/>
+		<property type="checkbox" name="customTable" id="customTable" display="Chọn bảng" value="1"/>
+		<property type="checkbox" name="checkall" id="checkall" display="" value="1" class="itemCheckall" rel="itemLs"/>
+		<property type="checkbox" name="item" id="item" display="" value="1" class="itemLs"/>
+		
+		<property type="button-submit" name="gen_btn_OK" id="gen_btn_OK" display="General MODEL" class="submit"/>
+		<property type="button-reset" name="gen_btn_RESET" id="gen_btn_RESET" display="lang.reset" class="submit"/>
+	</bean>
+</page>
+

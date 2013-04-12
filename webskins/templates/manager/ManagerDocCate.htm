@@ -1,0 +1,33 @@
+<div class="mainbox list">	
+	<span style="float: right;"><a href="{|newCate|}" style=" color: white;"><b>Thêm danh mục mới</b></a></span>
+	<h3>Danh học sinh</h3> 
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<th>STT</th>
+				<th>ID danh mục cha</th>
+				<th>Tên danh mục</th>	
+				<th>Mô tả</th>	
+				<th>Người tạo</th>
+				<th>Ngày tạo</th>
+				<th>Tình trạng</th>	
+			</tr>
+		</thead>
+		<tbody>
+		
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|stt|}</td>
+				<td>{|parentID|}</td>
+				<td><a href="{|detail_link|}">{|name|}</a></td>	
+				<td>{|description|}</td>			
+				<td>{|username|}</td>
+				<td>{|updatetime|}</td>
+				<td>{|status|}</td>
+			</tr>
+			<!-- END BlockList -->
+			<tr><td colspan="4" class="paging">{|paging|}<td></tr>
+		</tbody>
+	</table>
+	
+</div>

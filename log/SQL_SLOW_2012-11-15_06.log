@@ -1,0 +1,5 @@
+[2012/11/15 06:30:01][/?portal=mc_web&page=DocDetail&id=101]
+SELECT * FROM `document` WHERE `id` = 101 AND `status` = 1  LIMIT 1;
+--Start time [2012/11/15 06:29:59]
+--Run time(s): 1.5110490322113
+

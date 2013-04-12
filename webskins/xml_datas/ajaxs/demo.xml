@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<status>SUCC</status>
+	<data type="string|number|array|object"></data>
+	<msg></msg>
+	<sql></sql>
+	<error></error>
+</response>
+
+SUCC: data|msg|sql
+NOT_SUCC: data|msg|sql
+NOT_TODO: msg|sql
+ERROR: msg

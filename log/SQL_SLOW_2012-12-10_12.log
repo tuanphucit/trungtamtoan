@@ -1,0 +1,55 @@
+[2012/12/10 12:16:02][/]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/10 12:16:01]
+--Run time(s): 1.147763967514
+
+[2012/12/10 12:16:03][/]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2012/12/10 12:16:03]
+--Run time(s): 0.51424121856689
+
+[2012/12/10 12:16:05][/]
+SELECT * FROM `article` WHERE `category_id` = 4 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/10 12:16:05]
+--Run time(s): 0.81956791877747
+
+[2012/12/10 12:16:34][/?portal=mc_web&page=regTeach]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/10 12:16:33]
+--Run time(s): 1.1034488677979
+
+[2012/12/10 12:16:35][/?portal=mc_web&page=regTeach]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='regTeach' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/10 12:16:34]
+--Run time(s): 0.79804396629333
+
+[2012/12/10 12:16:37][/?portal=mc_web&page=regTeach]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/10 12:16:36]
+--Run time(s): 0.71574997901917
+
+[2012/12/10 12:16:39][/?portal=mc_web&page=regTeach]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2012/12/10 12:16:37]
+--Run time(s): 1.9995529651642
+
+[2012/12/10 12:16:40][/?portal=mc_web&page=regTeach]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2012/12/10 12:16:39]
+--Run time(s): 1.1231591701508
+
+[2012/12/10 12:16:45][/?portal=mc_web&page=regTeach]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2012/12/10 12:16:40]
+--Run time(s): 4.634006023407
+
+[2012/12/10 12:16:49][/?portal=mc_web&page=regTeach]
+SELECT * FROM `province` WHERE `status` = 1 ORDER BY name DESC;
+--Start time [2012/12/10 12:16:45]
+--Run time(s): 3.3720319271088
+
+[2012/12/10 12:16:50][/?portal=mc_web&page=regTeach]
+SELECT * FROM `province`;
+--Start time [2012/12/10 12:16:49]
+--Run time(s): 1.0713801383972
+

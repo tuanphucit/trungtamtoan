@@ -1,0 +1,5 @@
+[2013/02/16 03:27:23][/?portal=mc_web&page=articleDetail&id=620]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/16 03:27:22]
+--Run time(s): 0.76997399330139
+

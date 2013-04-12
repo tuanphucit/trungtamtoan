@@ -1,0 +1,10 @@
+[2013/02/07 11:10:17][/?portal=mc_web&page=DocDetail&id=129]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/07 11:10:15]
+--Run time(s): 2.2364039421082
+
+[2013/02/07 11:10:18][/?portal=mc_web&page=DocDetail&id=129]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/07 11:10:17]
+--Run time(s): 0.57586288452148
+

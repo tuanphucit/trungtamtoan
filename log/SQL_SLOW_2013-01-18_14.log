@@ -1,0 +1,10 @@
+[2013/01/18 14:27:56][/?portal=mc_web&page=regTeach]
+SELECT `sessions_id`,`session`,`day` FROM `sessions` ORDER BY sessions_id ASC;
+--Start time [2013/01/18 14:27:55]
+--Run time(s): 0.63377380371094
+
+[2013/01/18 14:57:06][/?portal=mc_web&page=articleDetail&id=599]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/01/18 14:57:05]
+--Run time(s): 0.6626091003418
+

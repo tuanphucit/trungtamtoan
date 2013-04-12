@@ -1,0 +1,119 @@
+<div class="box">
+	<span class="headactions"><span class="toggle"></span></span>
+	<h4>{|lang.form_name|}</h4>
+	
+	{|FORM_BEGIN|}
+	{|fm_page_id|}
+	<table cellpadding="5" cellspacing="0" class="toggle-content">
+		<tr>
+			<th width="100">{|lang.page_name|}</th>
+			<th>{|fm_page_name|}</th>
+		</tr>
+		<tr>
+			<th>{|lang.brief|}</th>
+			<th>{|fm_brief|}</th>
+		</tr>
+		<tr>
+			<th>{|lang.layout|}</th>
+			<th>{|fm_layout|} <span class="icon-reload_16 hand item-reload_layout" rel="{fm_id}" title="Reload layout">Reload</span></th>
+		</tr>
+		<tr>
+			<th>{|lang.master|}</th>
+			<th>{|fm_master_page_id|}</th>
+		</tr>
+		<tr>
+			<th>{|lang.parent|}</th>
+			<th>{|fm_portal_id|}</th>
+		</tr>
+		<tr>
+			<th>{|lang.publish|}</th>
+			<th>{|fm_publish|}</th>
+		</tr>
+		<tr>
+			<th>{|lang.title|}</th>
+			<th>{|fm_page_title|} {|lang.title_brief|}</th>
+		</tr>
+		<tr>
+			<th>{|lang.description|}</th>
+			<th>{|fm_page_description|} {|lang.description_brief|}</th>
+		</tr>
+		<tr>
+			<th>{|lang.keyword|}</th>
+			<th>{|fm_page_keyword|} {|lang.keyword_brief|}</th>
+		</tr>
+		<tr>
+			<td colspan="2" class="footoperation">{|page_btn_OK|} {|page_btn_RESET|}
+				{|fm_empty_module|}
+			</td>
+		</tr>
+	</table>
+	
+	{|FORM_END|}
+</div>
+
+<div class="block">
+	<p>Page Other: 
+		<!-- BEGIN BlockOtherPage --><a href="{|other_page_link|}" class="{|other_page_class|}">{|other_page_title|}</a> | <!-- END BlockOtherPage -->
+	</p>
+</div>
+
+<div class="mainbox list">
+	<span class="headactions"><a href="javascript:;">{|lang.help|}</a> <span class="toggle"></span></span>
+	<h3>Cắm modules vào PAGE</h3>
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<td colspan="99" class="footoperation" style="background: none repeat scroll 0 0 #E9E9E9;color:green;">
+					Goto: {|page_goto|} - <a href="{|parent_link|}">{|lang.parent_link|}</a>
+				</td>
+			</tr>
+			<tr>
+				<th width="100" style="font-weight:bold;">Layout</th>
+				<th align="center" width="80" style="font-weight:bold;"><span class="icon-module_16 show-list plugin_mod" rel="content-box" pos="">Plugin</span></th>
+				<th align="center" width="80" style="font-weight:bold;">Actions </th>
+				<th style="font-weight:bold;">Modules</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|ls_layout|}</td>
+				<td align="center">
+					<span class="icon-module_16 show-list hand plugin_mod" rel="content-box" pos="{|ls_layout|}" title="Cắm module vào vị trí này">Plugin</span>
+					
+				</td>
+				<td align="center"><span class="icon-trashcan_16 hand empty_mod" pos="{|ls_layout|}" title="Xóa tất cả module">Empty</span></td>
+				<td>{|ls_module|}</td>
+			</tr>
+			<!-- END BlockList -->
+		</tbody>
+	</table>
+</div>
+
+<div id="content-box" class="popup-choose" style="width:400px;">
+	<h2 class="jqDnR jqDrag">Cắm module<label class="popup-close button-close" title="Close"><b>X</b></label></h2>
+	<div class="popup-content">
+		<table class="popup-form" cellpadding="3" cellspacing="0" border="0">
+			<tr>
+				<td width="70">Position</td>
+				<td>
+					{|select_position|}
+				</td>
+			</tr>
+			<tr>
+				<td>Module</td>
+				<td>
+					{|select_module|}
+					<span class="icon-reload_16 hand reload_mod-module">Reload</span>
+				</td>
+			</tr>
+		</table>
+		<div align="center" style="padding-top: 10px;"><button class="submit" id="popup_btnOk">Chấp nhận</button></div>
+	</div>
+</div>
+
+<script language="javascript">
+	$(function(){
+		$('.popup-choose').jqDrag('.jqDrag');	
+	})
+</script>

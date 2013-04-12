@@ -1,0 +1,10 @@
+[2012/10/31 12:59:11][/?portal=mc_web&page=articleDetail&id=540]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=540 LIMIT 1;
+--Start time [2012/10/31 12:59:10]
+--Run time(s): 0.67725300788879
+
+[2012/10/31 12:59:12][/?portal=mc_web&page=articleDetail&id=540]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=540 LIMIT 1;
+--Start time [2012/10/31 12:59:11]
+--Run time(s): 0.80646300315857
+

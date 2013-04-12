@@ -1,0 +1,95 @@
+[2013/02/02 14:00:35][/?portal=mc_web&page=DocOfClass&classID=3&cateID=4]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '3' AND `status` = 1 ;
+--Start time [2013/02/02 14:00:34]
+--Run time(s): 0.78542804718018
+
+[2013/02/02 14:01:05][/?portal=mc_web&page=DocOfClass&classID=7&cateID=4]
+SELECT * FROM `class`;
+--Start time [2013/02/02 14:01:04]
+--Run time(s): 1.0108058452606
+
+[2013/02/02 14:01:19][/?portal=mc_web&page=DocOfClass&classID=8&cateID=4]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/02 14:01:18]
+--Run time(s): 0.89942407608032
+
+[2013/02/02 14:38:52][/?portal=mc_web&page=articleDetail&id=537]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=537 LIMIT 1;
+--Start time [2013/02/02 14:38:50]
+--Run time(s): 1.406858921051
+
+[2013/02/02 14:39:10][/?portal=mc_web&page=articleDetail&id=185]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/02 14:39:08]
+--Run time(s): 1.2172091007233
+
+[2013/02/02 14:41:03][/?portal=mc_web&page=articleDetail&id=547]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/02 14:41:02]
+--Run time(s): 1.5853500366211
+
+[2013/02/02 14:41:06][/?portal=mc_web&page=articleDetail&id=547]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/02 14:41:04]
+--Run time(s): 1.2508330345154
+
+[2013/02/02 14:42:07][/?portal=mc_web&page=articleDetail&id=184]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/02 14:41:55]
+--Run time(s): 12.274101018906
+
+[2013/02/02 14:42:09][/?portal=mc_web&page=articleDetail&id=184]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/02 14:42:07]
+--Run time(s): 1.3006539344788
+
+[2013/02/02 14:42:10][/?portal=mc_web&page=articleDetail&id=184]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/02 14:42:10]
+--Run time(s): 0.53085494041443
+
+[2013/02/02 14:42:52][/?portal=mc_web&page=articleDetail&id=597]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=597 LIMIT 1;
+--Start time [2013/02/02 14:42:51]
+--Run time(s): 1.3546359539032
+
+[2013/02/02 14:43:05][/?portal=mc_web&page=articleDetail&id=595]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=595 LIMIT 1;
+--Start time [2013/02/02 14:43:04]
+--Run time(s): 1.5299298763275
+
+[2013/02/02 14:47:08][/?portal=mc_web&page=DocOfClass&classID=13&cateID=2]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/02 14:47:06]
+--Run time(s): 2.1062998771667
+
+[2013/02/02 14:48:52][/?portal=mc_web&page=DocOfClass&classID=17&cateID=3]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '3' AND `classID` = '17' AND `status` = 1 ;
+--Start time [2013/02/02 14:48:51]
+--Run time(s): 1.1580669879913
+
+[2013/02/02 14:56:21][/?portal=mc_web&page=DocDetail&id=142]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/02 14:56:20]
+--Run time(s): 0.58906507492065
+
+[2013/02/02 14:56:36][/?portal=mc_web&page=DocDetail&id=144]
+SELECT * FROM `document` WHERE `id` = 144 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/02 14:56:30]
+--Run time(s): 6.4854259490967
+
+[2013/02/02 14:57:44][/?portal=mc_web&page=DocDetail&id=150]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/02 14:57:44]
+--Run time(s): 0.54201006889343
+
+[2013/02/02 14:57:46][/?portal=mc_web&page=DocDetail&id=150]
+SELECT * FROM `document` WHERE `id` = 150 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/02 14:57:46]
+--Run time(s): 0.65504598617554
+
+[2013/02/02 14:58:32][/?portal=mc_web&page=DocDetail&id=157]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/02 14:58:30]
+--Run time(s): 1.9180521965027
+

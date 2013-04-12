@@ -1,0 +1,20 @@
+[2013/02/04 02:33:53][/?portal=mc_web&page=DocDetail&id=158]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/04 02:33:51]
+--Run time(s): 1.6998591423035
+
+[2013/02/04 02:34:00][/?portal=mc_web&page=DocDetail&id=156]
+SELECT * FROM `document` WHERE `id` = 156 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/04 02:34:00]
+--Run time(s): 0.67057204246521
+
+[2013/02/04 02:34:01][/?portal=mc_web&page=DocDetail&id=156]
+SELECT `doc_cate_id`,`updatetime`,`classID`,`type`,`author` FROM `document` WHERE `id`=156 LIMIT 1;
+--Start time [2013/02/04 02:34:00]
+--Run time(s): 0.8847279548645
+
+[2013/02/04 02:34:32][/?portal=mc_web&page=DocDetail&id=146]
+SELECT * FROM `document` WHERE `id` = 146 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/04 02:34:31]
+--Run time(s): 0.99277281761169
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="EditArticle">
+	<bean name="EditArticleView" action="" method="post" onsubmit="return false;">
+		<property type="hidden" name="article_id" id="article_id" display="Article ID"/>
+		<property type="text" name="subject" id="subject" display="Tên bài" style="width:500px;" required="true"/>
+		<property type="text" name="headImage" id="headImage" display="Ảnh đại diện" style="width:500px;"/>
+		<property type="textarea" name="content" id="content" display="Nội dung" cols="50" rows="3" style="width:500px;"/>		
+		<property type="textarea" name="introduction" id="introduction" display="Giới thiệu" cols="50" rows="3" style="width:500px;"/>	
+		<property type="select" name="category_id" id="category_id" display ="Chuyên mục" style="width:140px;"/>
+		<property type="select" name="status" id="status" display ="Tình trạng" option="0: Ẩn| 1: Hiện"  style="width:200px;"/>
+			
+		<property type="button-submit" name="article_btn_OK" id="article_btn_OK" display="Sửa" class="submit"/>
+		<property type="button-reset" name="article_btn_RESET" id="article_btn_RESET" display="Làm lại" class="submit"/>
+	</bean> 
+</page>
+

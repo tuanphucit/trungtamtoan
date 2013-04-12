@@ -1,0 +1,15 @@
+[2013/02/16 22:50:30][/?id=138&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 138 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/16 22:50:29]
+--Run time(s): 0.56939888000488
+
+[2013/02/16 22:50:30][/?id=64&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 64 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/16 22:50:29]
+--Run time(s): 0.57504916191101
+
+[2013/02/16 22:53:57][/?portal=mc_web&page=articleDetail&id=554]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/16 22:53:56]
+--Run time(s): 0.6228461265564
+

@@ -1,0 +1,41 @@
+<div class="mainbox list">	
+
+	<h3> Danh sách tài liệu</h3> 
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<th>STT</th>
+				<th>ID</th>
+				<th>Tên</th>			
+				<th>Url</th>	
+				<th>Tác giả</th>
+				<th>Lớp</th>
+				<th>Mục</th>
+				<th>Người update</th>
+				<th>Ngày update</th>
+				<th>Tình Trạng</th>	
+				<th>Hành động</th>
+			</tr>
+		</thead>
+		<tbody>
+		
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|stt|}</td>
+				<td>{|id|}</td>					
+				<td>{|name|}</td>	
+				<td>{|url|}</td>		
+				<td>{|author|}</td>
+				<td>{|className|}</td>	
+				<td>{|doc_cate_name|}</td>
+				<td>{|userupdate|}</td>
+				<td>{|updatetime|}</td>
+				<td>{|status|}</td>
+				<td><a href="{|del_link|}" style="color: blue;">Xóa</a> || <a href="{|show_link|}" style="color: blue;">{|action|}</a></td>
+			</tr>
+			<!-- END BlockList -->
+			<tr><td colspan="4" class="paging">{|paging|}<td></tr>
+		</tbody>
+	</table>
+	
+</div>

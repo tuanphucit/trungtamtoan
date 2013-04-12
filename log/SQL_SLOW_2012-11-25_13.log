@@ -1,0 +1,50 @@
+[2012/11/25 13:10:52][/?portal=mc_web&page=articleDetail&id=600]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articleDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/11/25 13:10:51]
+--Run time(s): 0.75804901123047
+
+[2012/11/25 13:10:53][/?portal=mc_web&page=articleDetail&id=600]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/11/25 13:10:52]
+--Run time(s): 0.50270199775696
+
+[2012/11/25 13:10:54][/?portal=mc_web&page=articleDetail&id=600]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2012/11/25 13:10:53]
+--Run time(s): 1.2895278930664
+
+[2012/11/25 13:10:56][/?portal=mc_web&page=articleDetail&id=600]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=600 LIMIT 1;
+--Start time [2012/11/25 13:10:55]
+--Run time(s): 0.51186203956604
+
+[2012/11/25 13:10:56][/?portal=mc_web&page=articleDetail&id=600]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=600 LIMIT 1;
+--Start time [2012/11/25 13:10:56]
+--Run time(s): 0.57418298721313
+
+[2012/11/25 13:10:57][/?portal=mc_web&page=articleDetail&id=600]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 600 AND `category_id` = 1 AND `updatetime` > TIMESTAMP('2012-11-21 22:17:42') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/11/25 13:10:56]
+--Run time(s): 0.92293286323547
+
+[2012/11/25 13:10:58][/?portal=mc_web&page=articleDetail&id=600]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 600 AND `category_id` = 1 AND `updatetime` < TIMESTAMP('2012-11-21 22:17:42') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/11/25 13:10:57]
+--Run time(s): 0.55012702941895
+
+[2012/11/25 13:11:01][/?portal=mc_web&page=articleDetail&id=600]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/25 13:10:58]
+--Run time(s): 3.2232329845428
+
+[2012/11/25 13:11:04][/?portal=mc_web&page=articleDetail&id=600]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/25 13:11:01]
+--Run time(s): 2.9765329360962
+
+[2012/11/25 13:11:05][/?portal=mc_web&page=articleDetail&id=600]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/25 13:11:04]
+--Run time(s): 1.413731098175
+

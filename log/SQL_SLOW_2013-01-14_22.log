@@ -1,0 +1,5 @@
+[2013/01/14 22:54:49][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT `giasu_id`,`firstname`,`lastname`,`gender`,`level`,`updatetime` FROM `giasu` WHERE `status` = 1 AND `validate` = 0 AND `provinceID` = 1 ORDER BY updatetime DESC LIMIT 10,5;
+--Start time [2013/01/14 22:54:48]
+--Run time(s): 0.93501687049866
+

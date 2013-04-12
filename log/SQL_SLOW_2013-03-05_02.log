@@ -1,0 +1,5 @@
+[2013/03/05 02:03:18][/?portal=mc_web&page=NewDoc&page_no=4%20]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/05 02:03:17]
+--Run time(s): 1.0897789001465
+

@@ -1,0 +1,15 @@
+[2013/01/22 15:39:44][/?portal=mc_web&page=articleDetail&id=618]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/01/22 15:39:43]
+--Run time(s): 0.78550314903259
+
+[2013/01/22 15:39:45][/?portal=mc_web&page=articleDetail&id=618]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=618 LIMIT 1;
+--Start time [2013/01/22 15:39:44]
+--Run time(s): 0.57038998603821
+
+[2013/01/22 15:39:46][/?portal=mc_web&page=articleDetail&id=618]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=618 LIMIT 1;
+--Start time [2013/01/22 15:39:45]
+--Run time(s): 1.6019229888916
+

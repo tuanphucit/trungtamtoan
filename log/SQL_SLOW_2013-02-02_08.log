@@ -1,0 +1,50 @@
+[2013/02/02 08:44:51][/]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/02 08:44:50]
+--Run time(s): 0.80521988868713
+
+[2013/02/02 08:44:52][/]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/02 08:44:51]
+--Run time(s): 0.56438279151917
+
+[2013/02/02 08:44:54][/]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/02 08:44:52]
+--Run time(s): 2.576318025589
+
+[2013/02/02 08:44:56][/]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/02 08:44:54]
+--Run time(s): 1.7978019714355
+
+[2013/02/02 08:45:08][/]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/02 08:44:56]
+--Run time(s): 12.149568080902
+
+[2013/02/02 08:45:09][/]
+SELECT * FROM `article` WHERE `category_id` = 3 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/02 08:45:08]
+--Run time(s): 0.87301707267761
+
+[2013/02/02 08:45:10][/]
+SELECT * FROM `article` WHERE `category_id` = 4 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/02 08:45:09]
+--Run time(s): 1.0931210517883
+
+[2013/02/02 08:45:11][/]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/02 08:45:10]
+--Run time(s): 0.56197905540466
+
+[2013/02/02 08:45:12][/]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/02 08:45:11]
+--Run time(s): 0.79375696182251
+
+[2013/02/02 08:45:14][/]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/02 08:45:12]
+--Run time(s): 1.234925031662
+

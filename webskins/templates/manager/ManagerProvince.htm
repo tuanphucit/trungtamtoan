@@ -1,0 +1,31 @@
+<div class="mainbox list">	
+	<span style="float: right;"><a href="{|newProvince|}" style=" color: white;"><b>Thêm tỉnh mới</b></a></span>
+	<h3>Danh sách tỉnh/thành phố</h3> 
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<th width="30">STT</th>
+				<th>ID</th>
+				<th>Tên Tỉnh</th>
+				<th>Người tạo</th>
+				<th>Ngày tạo</th>	
+				<th>Tình trạng</th>	
+			</tr>
+		</thead>
+		<tbody>
+		
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|stt|}</td>
+				<td>{|id|}</td>
+				<td><a href="{|detail_link|}">{|name|}</a></td>
+				<th>{|username|}</th>
+				<th>{|updatetime|}</th>	
+				<td>{|status|}</td>
+			</tr>
+			<!-- END BlockList -->
+			<tr><td colspan="3" class="paging">{|paging|}<td></tr>
+		</tbody>
+	</table>
+	
+</div>

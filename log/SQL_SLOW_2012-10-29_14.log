@@ -1,0 +1,5 @@
+[2012/10/29 14:48:42][/?portal=mc_web&page=regLearn]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='regLearn' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/29 14:48:41]
+--Run time(s): 0.78805589675903
+

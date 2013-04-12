@@ -1,0 +1,5 @@
+[2013/04/06 16:07:21][/?portal=mc_web&page=NewDoc]
+SELECT * FROM `document` WHERE `status` = 1  ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2013/04/06 16:07:20]
+--Run time(s): 0.63640093803406
+

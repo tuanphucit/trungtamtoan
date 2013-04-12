@@ -1,0 +1,33 @@
+<div class="mainbox list">	
+
+				<span style="float: right;"><a href="{|newArticle|}" style=" color: white;"><b>Viết bài mới</b></a></span>
+			
+	<h3>Danh sách bài viết</h3> 
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<th>STT</th>
+				<th>Tên bài</th>
+				<th>Người cập nhật</th>	
+				<th>Ngày cập nhật</th>
+				<th>Tình trạng</th>	
+				<th>Hành động</th>				
+			</tr>
+		</thead>
+		<tbody>
+		
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|stt|}</td>
+				<td><a href="{|article_link|}">{|subject|}</a></td>
+				<td>{|userupdate|}</td>
+				<td>{|updatetime|}</td>
+				<td>{|status|}</td>
+				<td><span class="item-del" rel="{|article_id|}" title="Xóa" style="color:red"><a><b>Xóa</b></a></span></td>
+			</tr>
+			<!-- END BlockList -->
+			<tr><td colspan="6" class="paging">{|paging|}<td></tr>
+		</tbody>
+	</table>
+	
+</div>

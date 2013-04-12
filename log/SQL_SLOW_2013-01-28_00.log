@@ -1,0 +1,20 @@
+[2013/01/28 00:57:28][/?portal=mc_web&page=DocDetail&id=144]
+SELECT * FROM `document` WHERE `id` = 144 AND `status` = 1  LIMIT 1;
+--Start time [2013/01/28 00:57:27]
+--Run time(s): 1.6506340503693
+
+[2013/01/28 00:57:28][/?portal=mc_web&page=DocDetail&id=139]
+SELECT * FROM `document` WHERE `id` = 139 AND `status` = 1  LIMIT 1;
+--Start time [2013/01/28 00:57:27]
+--Run time(s): 1.645290851593
+
+[2013/01/28 00:57:28][/?portal=mc_web&page=articleDetail&id=608]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=608 LIMIT 1;
+--Start time [2013/01/28 00:57:27]
+--Run time(s): 1.6454179286957
+
+[2013/01/28 00:57:28][/?portal=mc_web&page=articleDetail&id=612]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/01/28 00:57:27]
+--Run time(s): 1.6476790904999
+

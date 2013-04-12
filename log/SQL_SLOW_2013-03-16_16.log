@@ -1,0 +1,10 @@
+[2013/03/16 16:08:56][/?id=596&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=596 LIMIT 1;
+--Start time [2013/03/16 16:08:56]
+--Run time(s): 0.78625893592834
+
+[2013/03/16 16:17:54][/?id=78&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 78 AND `status` = 1  LIMIT 1;
+--Start time [2013/03/16 16:17:52]
+--Run time(s): 1.7093341350555
+

@@ -1,0 +1,15 @@
+[2013/01/11 22:21:32][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://www.trungtamtoan.com/?portal=mc_web&page=articleDetail&id=313' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2013/01/11 22:21:31]
+--Run time(s): 0.58145904541016
+
+[2013/01/11 22:31:02][/?portal=mc_web&page=listClass]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/01/11 22:31:02]
+--Run time(s): 0.53985810279846
+
+[2013/01/11 22:38:39][/?portal=mc_web&page=listTeacherb]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/01/11 22:38:38]
+--Run time(s): 0.93821692466736
+

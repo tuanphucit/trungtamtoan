@@ -1,0 +1,15 @@
+[2012/10/16 16:50:39][/?portal=mc_web&page=articleDetail&id=518]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articleDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/16 16:50:37]
+--Run time(s): 2.4607679843903
+
+[2012/10/16 16:50:41][/?portal=mc_web&page=articleDetail&id=518]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=518 LIMIT 1;
+--Start time [2012/10/16 16:50:40]
+--Run time(s): 0.65314912796021
+
+[2012/10/16 16:50:43][/?portal=mc_web&page=articleDetail&id=518]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/16 16:50:42]
+--Run time(s): 1.0862181186676
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="SystemHint">
+	<bean name="SystemHintView">
+		<property type="hidden" name="action_action_id" display="action_action_id" field="action.action_id" required="false"/>
+		<property type="text" name="action_title" display="Tiêu đề" field="action.title" maxsize="255" validateType="Text" required="true" size="70" maxlength="255"  tabindex="1" autocomplete="on"/>
+		<property type="password" name="users_password" display="Mật khẩu" field="users.password" maxsize="20" validateType="Text" required="true" size="30" maxlength="50"  tabindex="2" autocomplete="off"/>
+		<property type="textarea" name="action_desc" display="Mô tả" field="action.desc" required="true" tabindex="2" editor="true" height="200"/>
+	
+		<property type="radio" name="action_ishot" display="Trạng thái" field="action.ishot" required="false" cols="1" tabindex="7" fieldex="0:Tin bình thường|1:Tin nổi bật"/>		
+		<property type="select" name="mod_group_permission" display="permission" field="mod_group.permission" required="true" fieldex="D:Dieny|R:Read|F:Full"/>
+		<property type="radio" name="action_delete_flg" display="Xoá" field="action.delete_flg" required="false" single="true" cols="1" tabindex="9" fieldex="0:Không xoá|1:Xoá"/>
+		<property type="checkbox" name="hint_layout_publish" display="Nhân viên chính thức" field="hoso_ungvien.nv_chinh_thuc_flg" required="false" cols="1" codeDef="nv_chinh_thuc_flg" single="true"/>
+	</bean>
+	<bean name="SystemHint2View">
+		<property type="hidden" name="action_action_id" display="action_action_id" field="action.action_id" required="false"/>
+		<property type="text" name="action_title" display="Tiêu đề" field="action.title" maxsize="255" validateType="Text" required="true" size="70" maxlength="255"  tabindex="1" autocomplete="on"/>
+		<property type="password" name="users_password" display="Mật khẩu" field="users.password" maxsize="20" validateType="Text" required="true" size="30" maxlength="50"  tabindex="2" autocomplete="off"/>
+		<property type="textarea" name="action_desc" display="Mô tả" field="action.desc" required="true" tabindex="2" editor="true" height="200"/>
+	
+		<property type="radio" name="action_ishot" display="Trạng thái" field="action.ishot" required="false" cols="1" tabindex="7" fieldex="0:Tin bình thường|1:Tin nổi bật"/>		
+		<property type="select" name="mod_group_permission" display="permission" field="mod_group.permission" required="true" fieldex="D:Dieny|R:Read|F:Full"/>
+		<property type="radio" name="action_delete_flg" display="Xoá" field="action.delete_flg" required="false" single="true" cols="1" tabindex="9" fieldex="0:Không xoá|1:Xoá"/>
+		<property type="checkbox" name="hint_layout_publish" display="Nhân viên chính thức" field="hoso_ungvien.nv_chinh_thuc_flg" required="false" cols="1" codeDef="nv_chinh_thuc_flg" single="true"/>
+	</bean>
+</page>
+

@@ -1,0 +1,20 @@
+[2012/05/29 22:22:27][/mc_web/debug.php]
+Warning(2) {mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'mysql-server' (11004)}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\database.mysqli.php(25)]
+
+[2012/05/29 22:22:27][/mc_web/debug.php]
+Notice(8) {Undefined index: class}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.exception.php(50)]
+
+[2012/05/29 22:22:27][/mc_web/debug.php]
+Notice(8) {Undefined index: type}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.exception.php(50)]
+
+[2012/05/29 22:22:27][/mc_web/debug.php]
+Notice(8) {Undefined index: class}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.exception.php(50)]
+
+[2012/05/29 22:22:27][/mc_web/debug.php]
+Notice(8) {Undefined index: type}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.exception.php(50)]
+

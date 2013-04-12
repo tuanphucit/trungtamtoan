@@ -1,0 +1,10 @@
+[2013/02/19 16:51:39][/?portal=mc_web&page=DocOfClass&classID=14&cateID=2]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/19 16:51:34]
+--Run time(s): 4.5259418487549
+
+[2013/02/19 16:51:40][/?portal=mc_web&page=DocOfClass&classID=14&cateID=2]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '14' AND `status` = 1 ;
+--Start time [2013/02/19 16:51:39]
+--Run time(s): 1.0508408546448
+

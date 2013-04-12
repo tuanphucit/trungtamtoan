@@ -1,0 +1,35 @@
+[2013/03/04 09:34:15][/?portal=mc_web&page=DocOfClass&classID=8&cateID=4]
+SELECT * FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '8' AND `status` = 1  ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2013/03/04 09:34:14]
+--Run time(s): 0.88344502449036
+
+[2013/03/04 09:34:16][/?portal=mc_web&page=DocOfClass&classID=8&cateID=3]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '3' AND `classID` = '8' AND `status` = 1 ;
+--Start time [2013/03/04 09:34:16]
+--Run time(s): 0.70394515991211
+
+[2013/03/04 09:34:16][/?portal=mc_web&page=DocOfClass&classID=7&cateID=3]
+SELECT * FROM `document` WHERE `doc_cate_id` = '3' AND `classID` = '7' AND `status` = 1  ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2013/03/04 09:34:16]
+--Run time(s): 0.87928700447083
+
+[2013/03/04 09:34:21][/?portal=mc_web&page=DocOfClass&classID=6&cateID=4]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '6' AND `status` = 1 ;
+--Start time [2013/03/04 09:34:19]
+--Run time(s): 2.4646601676941
+
+[2013/03/04 09:34:21][/?portal=mc_web&page=DocOfClass&classID=5&cateID=1]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '1' AND `classID` = '5' AND `status` = 1 ;
+--Start time [2013/03/04 09:34:20]
+--Run time(s): 1.1770720481873
+
+[2013/03/04 09:34:28][/?portal=mc_web&page=DocDetail&id=124]
+SELECT * FROM `document` WHERE `id` = 124 AND `status` = 1  LIMIT 1;
+--Start time [2013/03/04 09:34:26]
+--Run time(s): 2.2659459114075
+
+[2013/03/04 09:34:28][/?portal=mc_web&page=DocDetail&id=125]
+SELECT * FROM `document` WHERE `id` = 125 AND `status` = 1  LIMIT 1;
+--Start time [2013/03/04 09:34:27]
+--Run time(s): 0.72082805633545
+

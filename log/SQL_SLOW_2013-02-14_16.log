@@ -1,0 +1,5 @@
+[2013/02/14 16:04:58][/?portal=mc_web&page=articleDetail&id=644]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/14 16:04:57]
+--Run time(s): 1.2199189662933
+

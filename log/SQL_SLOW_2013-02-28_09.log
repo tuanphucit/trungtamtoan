@@ -1,0 +1,5 @@
+[2013/02/28 09:01:19][/]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/28 09:01:17]
+--Run time(s): 1.7306020259857
+

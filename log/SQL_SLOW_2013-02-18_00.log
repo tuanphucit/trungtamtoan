@@ -1,0 +1,5 @@
+[2013/02/18 00:08:13][/?portal=mc_web&page=DocOfClass&classID=14&cateID=3]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='70' LIMIT 1;
+--Start time [2013/02/18 00:08:13]
+--Run time(s): 0.67924499511719
+

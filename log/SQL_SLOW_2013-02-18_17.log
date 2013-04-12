@@ -1,0 +1,10 @@
+[2013/02/18 17:01:47][/?portal=mc_web&page=articleDetail&id=639]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/18 17:01:41]
+--Run time(s): 5.7603471279144
+
+[2013/02/18 17:13:50][/?portal=mc_web&page=regLearn]
+SELECT * FROM `province` WHERE `status` = 1 ORDER BY name DESC;
+--Start time [2013/02/18 17:13:49]
+--Run time(s): 0.95968580245972
+

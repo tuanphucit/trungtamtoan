@@ -1,0 +1,55 @@
+[2013/02/18 04:11:27][/?id=138&page=DocDetail&portal=mc_web]
+SELECT * FROM `doccate`;
+--Start time [2013/02/18 04:11:23]
+--Run time(s): 4.4169249534607
+
+[2013/02/18 04:11:28][/?id=137&page=DocDetail&portal=mc_web]
+SELECT * FROM `doccate`;
+--Start time [2013/02/18 04:11:23]
+--Run time(s): 5.098916053772
+
+[2013/02/18 04:11:28][/?id=138&page=DocDetail&portal=mc_web]
+SELECT `classID`,`doc_cate_id` FROM `document` WHERE `id` = 138 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/18 04:11:27]
+--Run time(s): 0.67592787742615
+
+[2013/02/18 04:14:23][/?id=133&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 133 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/18 04:14:18]
+--Run time(s): 4.7949140071869
+
+[2013/02/18 04:14:23][/?id=130&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 130 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/18 04:14:18]
+--Run time(s): 4.790326833725
+
+[2013/02/18 04:14:23][/?id=131&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 131 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/18 04:14:18]
+--Run time(s): 4.790687084198
+
+[2013/02/18 04:14:23][/?id=132&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 132 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/18 04:14:18]
+--Run time(s): 4.7906289100647
+
+[2013/02/18 04:14:23][/?id=129&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 129 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/18 04:14:18]
+--Run time(s): 4.7936418056488
+
+[2013/02/18 04:14:23][/?id=119&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 119 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/18 04:14:21]
+--Run time(s): 2.5334191322327
+
+[2013/02/18 04:14:23][/?id=118&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 118 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/18 04:14:21]
+--Run time(s): 2.5306780338287
+
+[2013/02/18 04:24:54][/?cateID=4&classID=17&page=DocOfClass&page_no=3&portal=mc_web]
+SELECT * FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '17' AND `status` = 1  ORDER BY updatetime DESC LIMIT 40,20;
+--Start time [2013/02/18 04:24:54]
+--Run time(s): 0.78072595596313
+

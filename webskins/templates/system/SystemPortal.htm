@@ -1,0 +1,31 @@
+<div class="mainbox list"> 
+	<span class="headactions"><a href="javascript:;">{|lang.help|}</a> <span class="toggle"></span></span>
+	<h3>{|lang.portal_list|}</h3> 
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<th width="30">{|lang.id|}</th>
+				<th width="150">{|lang.portal_name|}</th>
+				<th>{|lang.brief|}</th>
+				<th>{|lang.time|}</th>
+				<th align="center" width="120">{|lang.enable|}</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|id|}</td>
+				<td><a href="{|portal_link|}">{|name|}</a></td>
+				<td>{|brief|}</td>
+				<td>{|time_inserted|} | {|time_updated|}</td>
+				<td align="center">
+					<span class="{|publish_class|} change_publish hand" rel="{|id|}|{|publish_flg|}" title="{|publish_label|}"></span>
+					<span class="icon-edit_16 hand item-edit" rel="{|item_link_edit|}" title="Sửa"></span>
+					<span class="icon-cancel_16 hand item-del" rel="{|id|}" title="Xóa"></span>
+				</td>
+			</tr>
+			<!-- END BlockList -->
+		</tbody>
+	</table>
+	
+</div>

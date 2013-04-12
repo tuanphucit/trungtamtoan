@@ -1,0 +1,15 @@
+[2013/02/16 00:34:52][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/16 00:34:48]
+--Run time(s): 3.5968708992004
+
+[2013/02/16 00:35:02][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/16 00:35:01]
+--Run time(s): 0.63907098770142
+
+[2013/02/16 00:35:02][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/16 00:35:02]
+--Run time(s): 0.59521579742432
+

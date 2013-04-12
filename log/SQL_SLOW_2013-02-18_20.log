@@ -1,0 +1,20 @@
+[2013/02/18 20:26:16][/?portal=mc_web&page=regTeach]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/18 20:26:16]
+--Run time(s): 0.54714703559875
+
+[2013/02/18 20:26:59][/?portal=mc_web&page=regTeach]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/18 20:26:58]
+--Run time(s): 0.8200249671936
+
+[2013/02/18 20:27:04][/?portal=mc_web&page=regTeach]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/18 20:26:59]
+--Run time(s): 4.4173939228058
+
+[2013/02/18 20:27:05][/?portal=mc_web&page=regTeach]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/18 20:27:04]
+--Run time(s): 0.77031302452087
+

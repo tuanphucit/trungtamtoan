@@ -1,0 +1,15 @@
+[2012/12/08 16:05:22][/?portal=mc_web&page=articleDetail&id=508]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=508 LIMIT 1;
+--Start time [2012/12/08 16:05:22]
+--Run time(s): 0.63417887687683
+
+[2012/12/08 16:05:24][/?portal=mc_web&page=articleDetail&id=508]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/12/08 16:05:23]
+--Run time(s): 0.61949014663696
+
+[2012/12/08 16:49:41][/?portal=mc_web&page=articleDetail&id=523]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/12/08 16:49:40]
+--Run time(s): 0.59446406364441
+

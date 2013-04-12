@@ -1,0 +1,40 @@
+[2013/01/28 13:42:29][/?portal=mc_web&page=articleDetail&id=615]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articleDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/01/28 13:42:28]
+--Run time(s): 1.5941910743713
+
+[2013/01/28 13:42:30][/?portal=mc_web&page=DocDetail&id=138]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='70' LIMIT 1;
+--Start time [2013/01/28 13:42:28]
+--Run time(s): 1.5885510444641
+
+[2013/01/28 13:42:33][/?portal=mc_web&page=articleDetail&id=615]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=615 LIMIT 1;
+--Start time [2013/01/28 13:42:30]
+--Run time(s): 2.5755808353424
+
+[2013/01/28 13:42:33][/?portal=mc_web&page=DocDetail&id=138]
+SELECT * FROM `document` WHERE `id` = 138 AND `status` = 1  LIMIT 1;
+--Start time [2013/01/28 13:42:30]
+--Run time(s): 2.5550050735474
+
+[2013/01/28 13:42:34][/?portal=mc_web&page=articleDetail&id=615]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=615 LIMIT 1;
+--Start time [2013/01/28 13:42:33]
+--Run time(s): 1.0402271747589
+
+[2013/01/28 13:42:34][/?portal=mc_web&page=DocDetail&id=138]
+SELECT `doc_cate_id`,`updatetime`,`classID`,`type`,`author` FROM `document` WHERE `id`=138 LIMIT 1;
+--Start time [2013/01/28 13:42:33]
+--Run time(s): 0.99789690971375
+
+[2013/01/28 13:42:37][/?portal=mc_web&page=articleDetail&id=615]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 615 AND `category_id` = 1 AND `updatetime` > TIMESTAMP('2012-12-22 00:37:57') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/01/28 13:42:34]
+--Run time(s): 2.3398730754852
+
+[2013/01/28 13:42:37][/?portal=mc_web&page=DocDetail&id=138]
+SELECT `name`,`updatetime`,`id` FROM `document` WHERE `id` != 138 AND `doc_cate_id` = 4 AND `classID` = 17 AND `updatetime` > TIMESTAMP('2012-09-22 17:21:43') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/01/28 13:42:34]
+--Run time(s): 2.3094708919525
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="MCuploadDoc">
+	<bean name="MCuploadDocView" action="" method="post" onsubmit="return true;">
+		<property type="text" name="name" id="name" display="Name" style="width:140px;" class="validate[required]" required="true"/>
+		<property type="textarea" name="description" id="description" display="description" cols="50" rows="3" style="width:300px;"/>		
+		<property type="select" name="classID" id="classID" display="classID" style="width:140px;"/>
+		<property type="select" name="CateID" id="CateID" display="CateID" style="width:140px;"/>
+	</bean>
+</page>
+

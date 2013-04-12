@@ -1,0 +1,10 @@
+[2012/10/20 16:08:04][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT COUNT(`giasu_id`) AS rows FROM `giasu` WHERE `status` = 1 AND `validate` = 0 AND `provinceID` = 0;
+--Start time [2012/10/20 16:08:03]
+--Run time(s): 1.3923439979553
+
+[2012/10/20 16:12:59][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://trungtamtoan.com/?portal=mc_web&page=articleDetail&id=536' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2012/10/20 16:12:57]
+--Run time(s): 1.8909389972687
+

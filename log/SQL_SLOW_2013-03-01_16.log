@@ -1,0 +1,10 @@
+[2013/03/01 16:18:50][/?portal=mc_web&page=DocOfClass&classID=11&cateID=3]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/03/01 16:18:49]
+--Run time(s): 1.2444200515747
+
+[2013/03/01 16:31:23][/]
+SELECT * FROM `article` WHERE `category_id` = 3 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/01 16:31:22]
+--Run time(s): 0.52022194862366
+

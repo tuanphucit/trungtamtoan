@@ -1,0 +1,10 @@
+[2012/12/03 07:52:28][/?portal=mc_web&page=DocDetail&id=137]
+SELECT * FROM `document` WHERE `id` = 137 AND `status` = 1  LIMIT 1;
+--Start time [2012/12/03 07:52:27]
+--Run time(s): 0.81233596801758
+
+[2012/12/03 07:55:37][/?portal=mc_web&page=DocDetail&id=120]
+SELECT * FROM `document` WHERE `id` = 120 AND `status` = 1  LIMIT 1;
+--Start time [2012/12/03 07:55:37]
+--Run time(s): 0.5586040019989
+

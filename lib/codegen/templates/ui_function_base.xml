@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+<write>&lt;?php
+include_once CGS_SYSTEM_PATH . 'system.html.form.build.php';</write>
+<write replace="CLASS_NAME">
+class %CLASS_NAME% extends HtmlFormBuild {
+</write>
+
+<write replace="CLASS_NAME,BEAN_PROPERTY">
+	static protected $html_rq = " &lt;span style='color:red;font-weight: bold;'&gt;*&lt;/span&gt;";
+	private $validate = false;
+	private $form = array(%BEAN_PROPERTY%);
+	function __construct(){</write>
+		<repeat replace="FIELD_NAME,FIELD_VALUE">
+		self::$_property['%FIELD_NAME%']	= array(%FIELD_VALUE%);</repeat>
+<write>
+		// run format and filter data input
+		self::filterInput();
+	}</write>
+	
+<write>
+	/**
+	 * Validate form by javascript
+	 * @param unknown_type $is
+	 */
+	function setValidate($is=false){
+		$this->validate = ($is?true:false);
+	}
+	
+	function getValidate(){
+		return $this->validate;
+	}
+	
+	function getFormBegin($prop=array()){
+		if (is_array($prop)){
+			$prop = $prop + $this->form;
+		} else {
+			$prop = $this->form;
+		}
+	
+		//$form_name = get_called_class();
+		$form_name = get_class($this);
+		if (!is_array($prop)) return '&lt;form name="'.$form_name.'" id="'.$form_name.'"&gt;';
+		
+		if (!isset($prop['name'])){
+			$prop['name'] = $form_name;
+		}
+		if (!isset($prop['id'])){
+			$prop['id'] = $form_name;
+		}
+		
+		// add property of form
+		$this->form = $prop;
+		
+		// build html of form tag
+		$html = '&lt;form';
+		foreach ($prop as $key =&gt; $val){
+			$html.= ' '.$key.'="'.$val.'"';
+		}
+		$html.= '&gt;';
+		return $html;
+	}
+	//////////////////////////////////
+	function getFormEnd(){
+		$html = '&lt;/form&gt;';
+		if ($this->validate){
+			if (isset($this->form['id'])){
+				$form_name = $this->form['id'];
+			} else {
+				//$form_name = get_called_class();
+				$form_name = get_class($this);
+			}
+			$html.= "\n";
+			$html.= '&lt;script type="text/javascript" charset="UTF-8" language="JavaScript"&gt;';
+			$html.= '$(document).ready(function(){jQuery("#'.$form_name.'").validationEngine();});';
+			$html.= '&lt;/script&gt;';
+			$html.= "\n";
+		}
+		return $html;
+	}
+</write>
+
+<repeat replace="FieldsName,field_name">
+	function set%FieldsName%($value=null) {
+		return (self::$_property['%field_name%']['value'] = $value);
+	}
+	
+	function get%FieldsName%() {
+		return $this->getHtml('%field_name%');
+	}
+	
+	function getHtmlOf%FieldsName%() {
+		return $this->getHtml('%field_name%');
+	}
+	
+	function getHiddenOf%FieldsName%() {
+		return $this->getHidden('%field_name%');
+	}
+	
+	function getDisplayOf%FieldsName%() {
+		return $this->getDisplay('%field_name%');
+	}
+	////////////
+</repeat>
+
+<write>
+} // end class
+</write>
+</class>

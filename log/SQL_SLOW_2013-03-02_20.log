@@ -1,0 +1,10 @@
+[2013/03/02 20:21:31][/?portal=mc_web&page=NewDoc]
+SELECT COUNT(*) AS rows FROM `document` WHERE `status` = 1 ;
+--Start time [2013/03/02 20:21:30]
+--Run time(s): 1.4523780345917
+
+[2013/03/02 20:21:34][/?portal=mc_web&page=NewDoc]
+SELECT * FROM `class`;
+--Start time [2013/03/02 20:21:31]
+--Run time(s): 2.7409510612488
+

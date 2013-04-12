@@ -1,0 +1,10 @@
+[2013/03/05 05:55:22][/?portal=mc_web&page=articleDetail&id=632]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/03/05 05:55:20]
+--Run time(s): 1.5125780105591
+
+[2013/03/05 05:58:18][/?portal=mc_web&page=articleDetail&id=555]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/05 05:58:17]
+--Run time(s): 0.61297082901001
+

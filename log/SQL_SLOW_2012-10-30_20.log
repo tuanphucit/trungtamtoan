@@ -1,0 +1,10 @@
+[2012/10/30 20:17:11][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT COUNT(`giasu_id`) AS rows FROM `giasu` WHERE `status` = 1 AND `validate` = 0 AND `provinceID` = 1;
+--Start time [2012/10/30 20:17:10]
+--Run time(s): 0.51267910003662
+
+[2012/10/30 20:17:51][/?portal=manager&page=pupil]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='pupil' AND portal_id='14' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/30 20:17:51]
+--Run time(s): 0.6492919921875
+

@@ -1,0 +1,60 @@
+[2013/02/14 13:18:48][/?id=137&page=DocDetail&portal=mc_web]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/14 13:18:46]
+--Run time(s): 1.6850221157074
+
+[2013/02/14 13:18:48][/?id=136&page=DocDetail&portal=mc_web]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/14 13:18:46]
+--Run time(s): 1.6868071556091
+
+[2013/02/14 13:18:48][/?id=135&page=DocDetail&portal=mc_web]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/14 13:18:46]
+--Run time(s): 1.6865971088409
+
+[2013/02/14 13:18:49][/?id=137&page=DocDetail&portal=mc_web]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/14 13:18:48]
+--Run time(s): 0.53910708427429
+
+[2013/02/14 13:18:49][/?id=135&page=DocDetail&portal=mc_web]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/14 13:18:48]
+--Run time(s): 0.53616690635681
+
+[2013/02/14 13:18:49][/?id=136&page=DocDetail&portal=mc_web]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/14 13:18:48]
+--Run time(s): 0.53800201416016
+
+[2013/02/14 13:21:26][/?id=105&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 105 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/14 13:21:23]
+--Run time(s): 2.3054959774017
+
+[2013/02/14 13:21:26][/?id=106&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 106 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/14 13:21:24]
+--Run time(s): 2.2794442176819
+
+[2013/02/14 13:21:31][/?id=106&page=DocDetail&portal=mc_web]
+SELECT `name`,`updatetime`,`id` FROM `document` WHERE `id` != 106 AND `doc_cate_id` = 4 AND `classID` = 17 AND `updatetime` > TIMESTAMP('2012-09-22 16:47:03') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/14 13:21:26]
+--Run time(s): 5.0645220279694
+
+[2013/02/14 13:21:31][/?id=105&page=DocDetail&portal=mc_web]
+SELECT `name`,`updatetime`,`id` FROM `document` WHERE `id` != 105 AND `doc_cate_id` = 4 AND `classID` = 17 AND `updatetime` > TIMESTAMP('2012-09-22 16:46:27') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/14 13:21:26]
+--Run time(s): 5.0698919296265
+
+[2013/02/14 13:21:36][/?id=107&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 107 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/14 13:21:35]
+--Run time(s): 1.4371988773346
+
+[2013/02/14 13:21:37][/?id=107&page=DocDetail&portal=mc_web]
+SELECT `classID`,`doc_cate_id` FROM `document` WHERE `id` = 107 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/14 13:21:36]
+--Run time(s): 0.82712411880493
+

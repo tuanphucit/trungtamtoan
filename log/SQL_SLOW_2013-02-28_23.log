@@ -1,0 +1,35 @@
+[2013/02/28 23:01:40][/?portal=mc_web&page=articleDetail&id=625]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/28 23:01:39]
+--Run time(s): 0.62098097801208
+
+[2013/02/28 23:50:23][/]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/28 23:50:22]
+--Run time(s): 1.3159608840942
+
+[2013/02/28 23:50:24][/]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/28 23:50:24]
+--Run time(s): 0.52274703979492
+
+[2013/02/28 23:50:28][/]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/28 23:50:25]
+--Run time(s): 2.4534010887146
+
+[2013/02/28 23:50:28][/]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/28 23:50:28]
+--Run time(s): 0.6307430267334
+
+[2013/02/28 23:51:03][/?portal=mc_web&page=regLearn]
+SELECT * FROM `province` WHERE `status` = 1 ORDER BY name DESC;
+--Start time [2013/02/28 23:50:58]
+--Run time(s): 5.1667659282684
+
+[2013/02/28 23:51:07][/?portal=mc_web&page=regLearn]
+SELECT * FROM `province`;
+--Start time [2013/02/28 23:51:05]
+--Run time(s): 1.2793729305267
+

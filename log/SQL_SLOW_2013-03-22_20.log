@@ -1,0 +1,10 @@
+[2013/03/22 20:36:21][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://trungtamtoan.com/?portal=mc_web&page=articleDetail&id=307' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2013/03/22 20:36:19]
+--Run time(s): 1.7405090332031
+
+[2013/03/22 20:36:21][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT `avatar`,`giasu_id` FROM `giasu` WHERE `username` = 'Nguyễn Thanh Tùng' LIMIT 1;
+--Start time [2013/03/22 20:36:21]
+--Run time(s): 0.83476901054382
+

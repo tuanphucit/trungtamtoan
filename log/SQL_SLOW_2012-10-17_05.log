@@ -1,0 +1,5 @@
+[2012/10/17 05:14:08][/]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/17 05:14:07]
+--Run time(s): 0.53515887260437
+

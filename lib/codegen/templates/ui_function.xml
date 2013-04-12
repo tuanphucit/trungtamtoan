@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+<write replace="CLASS_NAME">&lt;?php
+include_once("base/%CLASS_NAME%Base.php");
+class %CLASS_NAME% extends %CLASS_NAME%Base {
+	function __construct(){
+		parent::__construct();
+	}
+</write>
+
+
+
+<write>
+} // end class</write>
+</class>

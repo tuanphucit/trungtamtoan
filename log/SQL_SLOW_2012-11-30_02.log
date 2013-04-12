@@ -1,0 +1,5 @@
+[2012/11/30 02:09:33][/?portal=mc_web&page=regTeach]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/30 02:09:32]
+--Run time(s): 0.59056806564331
+

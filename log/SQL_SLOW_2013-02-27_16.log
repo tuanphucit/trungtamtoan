@@ -1,0 +1,25 @@
+[2013/02/27 16:34:54][/]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/27 16:34:52]
+--Run time(s): 1.7011787891388
+
+[2013/02/27 16:35:39][/]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/27 16:35:38]
+--Run time(s): 0.64554405212402
+
+[2013/02/27 16:58:23][/?portal=mc_web&page=articleDetail&id=330]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articleDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/27 16:58:22]
+--Run time(s): 0.54751205444336
+
+[2013/02/27 16:58:24][/?portal=mc_web&page=articleDetail&id=330]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/27 16:58:23]
+--Run time(s): 0.85255408287048
+
+[2013/02/27 16:58:26][/?portal=mc_web&page=articleDetail&id=330]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/27 16:58:24]
+--Run time(s): 1.6074919700623
+

@@ -1,0 +1,10 @@
+[2013/03/01 06:11:36][/?portal=mc_web&page=DocOfClass&classID=17&cateID=3]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '3' AND `classID` = '17' AND `status` = 1 ;
+--Start time [2013/03/01 06:11:35]
+--Run time(s): 0.7020628452301
+
+[2013/03/01 06:31:30][/?portal=mc_web&page=Download&name=20120922/admin_1348310236.pdf]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/03/01 06:31:29]
+--Run time(s): 0.88197493553162
+

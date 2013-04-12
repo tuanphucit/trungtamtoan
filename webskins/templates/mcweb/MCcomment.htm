@@ -1,0 +1,35 @@
+<div class="mainbox list">
+<span style='display:none;' id="currentLink">{|currentLink|}</span>
+
+<div id="comment">
+	<div class="comment" id="menu" style="background: white;">
+		<span style=" color: blue; float: left; padding: 4px 8px 3px;text-decoration: none;"><b>BÌNH LUẬN</b></span>
+	<ul>	
+		<li class="active" id = "mc_tab"><a style="color: black;">Trên Trung Tâm Toán</a></li>
+		<li class="" id = "fb_tab" ><a style="color: black;">Trên Facebook</a></li>		
+	</ul>
+	</div>
+</div>
+
+<div class="comment">
+<div id ="fb_comment" style="display: none; padding: 30px 0px 0px 0px;">
+<div id="fb-root"></div>
+<div class="fb-comments" data-href="{|currentLink|}" data-num-posts="5" data-width="550"></div>
+</div>
+<div id ="mc_comment"  style="padding: 30px 0px 0px 0px;">
+	<div id="mc_comment_form">
+		<form method='POST' action='' id = 'MCcommentForm'>
+		<table>
+			<tr><td>Họ tên</td><td><input type="text" name = 'fullname' id = 'fullname' {|disable|} value='{|username|}'/><span id='validateUsername'></span></td></tr>
+			<tr><td>Bình luận</td><td><textarea style="width:400px;" rows="1" id="yourcomment" name="yourcomment"></textarea></td></tr>
+			<tr><td colspan="2" style="text-align: right; padding-right: 100px;"><input type="submit" name = 'cm-submit' id = 'cm-submit' value="Bình luận"/></td></tr>
+		</table>
+		</form>	
+	</div>
+	<div id="mc_comment_content">
+	</div>
+</div>
+
+</div>
+
+</div>

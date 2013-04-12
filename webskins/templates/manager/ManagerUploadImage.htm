@@ -1,0 +1,36 @@
+<div class="mainbox">	
+	<h3>Thêm Ảnh cho bài viết</h3><br>
+		
+	{|FORM_BEGIN|}
+	<table cellpadding="5" cellspacing="0" class="toggle-content">
+		<tr>
+			<td>STT</td>
+			<td>Ảnh</td>
+			<td>Link</td>
+			<td>Xóa</td>
+		</tr>
+		<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|stt|}</td>
+				<td>{|image|}</td>
+				<td>{|link|}</td>
+				<td><a href="{|del_link|}" style="color: blue;">Xóa</a></td>
+			</tr>
+			<!-- END BlockList -->
+		<tr>
+			<td>File</td>
+			<td colspan="3">{|fileUpload|}</td>
+		</tr>
+		<tr>
+			<td colspan="4" class="footoperation"><center>
+			<input type="submit" name="uploadImage" id="uploadImage" value="Hoàn thành" class="submit"/>
+			</td>
+		</tr>
+	</table>	
+	{|FORM_END|}
+</div>
+
+
+
+
+

@@ -1,0 +1,5 @@
+[2013/03/10 11:52:48][/?portal=mc_web&page=articleDetail&id=598]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/03/10 11:52:48]
+--Run time(s): 0.60212588310242
+

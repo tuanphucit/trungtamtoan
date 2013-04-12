@@ -1,0 +1,10 @@
+[2012/10/29 21:08:23][http://trungtamtoan.com/?portal=mc_web&page=articleDetail&id=399]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=399 LIMIT 1;
+--Start time [2012/10/29 21:08:21]
+--Run time(s): 2.7368350028992
+
+[2012/10/29 21:54:59][/?portal=mc_web&page=articleDetail&id=424]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/29 21:54:58]
+--Run time(s): 0.56240892410278
+

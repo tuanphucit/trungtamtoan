@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="SystemLogin">
+	<bean name="SystemLoginView" action="" method="post" onsubmit="return false;">
+		<property type="text" name="username" display="Username" maxsize="255" validateType="Text" required="true" class="validate[required]" maxlength="255" style="width:140px;"/>
+		<property type="password" name="password" display="Password" maxsize="255" validateType="Text" required="true" class="validate[required]" maxlength="255" style="width:140px;"/>
+		<property type="checkbox" name="save_password" display="Nhớ Pass" required="false"/>
+		<property type="button-submit" name="login_btn_OK" display="Đăng nhập" class="submit"/>
+		<property type="button-reset" name="login_btn_RESET" display="Hủy" class="submit"/>
+	</bean>
+</page>
+

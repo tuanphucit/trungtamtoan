@@ -1,0 +1,5 @@
+[2012/10/10 07:22:56][/?portal=mc_web&page=articleDetail&id=329]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/10 07:22:53]
+--Run time(s): 3.0699529647827
+

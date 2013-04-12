@@ -1,0 +1,15 @@
+[2013/02/28 13:41:53][/?portal=mc_web&page=DocDetail&id=113]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/28 13:41:50]
+--Run time(s): 3.2372372150421
+
+[2013/02/28 13:41:56][/?portal=mc_web&page=DocDetail&id=113]
+SELECT * FROM `class`;
+--Start time [2013/02/28 13:41:55]
+--Run time(s): 1.445837020874
+
+[2013/02/28 13:41:58][/?portal=mc_web&page=DocDetail&id=113]
+SELECT * FROM `doccate`;
+--Start time [2013/02/28 13:41:57]
+--Run time(s): 1.7949810028076
+

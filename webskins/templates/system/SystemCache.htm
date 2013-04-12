@@ -1,0 +1,32 @@
+<div class="box">
+	<h4>{|lang.header_cache|}</h4>
+	
+	{|FORM_BEGIN|}
+	<table cellpadding="5" cellspacing="0" class="toggle-content">
+		<tr>
+			<td style="width:200px;">{|cache_enable|}</th>
+			<td>
+				<ul class="use_in_table">
+					<li class="item">{|cache_sql|}</li>
+					<li>{|cache_sql_time|} Cache SQL Time</li>
+					<li class="item">{|cache_uri|}</li>
+					<li>{|cache_uri_time|} Cache URI Time</li>
+					<li class="item">{|cache_module|}</li>
+					<li>{|cache_module_time|} Cache Module Time</li>
+					<li class="item">{|cache_js|}</li>
+					<li>{|cache_js_time|} Cache Js Time</li>
+					<li class="item">{|cache_css|}</li>
+					<li>{|cache_css_time|} Cache Css Time</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="footoperation">
+				{|cache_btn_OK|}
+				{|cache_btn_RESET|}
+			</td>
+		</tr>
+	</table>
+	
+	{|FORM_END|}
+</div>

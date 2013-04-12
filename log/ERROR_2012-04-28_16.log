@@ -1,0 +1,60 @@
+[2012/04/28 16:16:34][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/user.base.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:16:40][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/user.base.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:36][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:37][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:37][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:37][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:38][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:38][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:38][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:39][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:39][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:39][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:40][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:40][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+
+[2012/04/28 16:18:40][/mc_web/debug.php?portal=system&page=login]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/DbUserBase.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemLogin.php(73)]
+

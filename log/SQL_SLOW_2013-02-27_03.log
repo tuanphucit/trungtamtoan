@@ -1,0 +1,15 @@
+[2013/02/27 03:04:40][/?portal=mc_web&page=DocOfClass&classID=2&cateID=1]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/27 03:04:37]
+--Run time(s): 3.1663889884949
+
+[2013/02/27 03:55:16][/]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/27 03:55:13]
+--Run time(s): 3.2849071025848
+
+[2013/02/27 03:55:17][/]
+SELECT * FROM `article` WHERE `category_id` = 3 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/27 03:55:17]
+--Run time(s): 0.55646681785583
+

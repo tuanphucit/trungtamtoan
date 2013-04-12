@@ -1,0 +1,475 @@
+[2013/02/26 23:02:48][/?portal=mc_web&page=articleDetail&id=481]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/26 23:02:47]
+--Run time(s): 1.5815668106079
+
+[2013/02/26 23:02:51][/?portal=mc_web&page=articleDetail&id=481]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articleDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/26 23:02:49]
+--Run time(s): 2.1092710494995
+
+[2013/02/26 23:02:53][/?portal=mc_web&page=articleDetail&id=481]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/26 23:02:51]
+--Run time(s): 2.0771708488464
+
+[2013/02/26 23:02:53][/?portal=mc_web&page=articleDetail&id=481]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:02:53]
+--Run time(s): 0.69004392623901
+
+[2013/02/26 23:02:54][/?portal=mc_web&page=articleDetail&id=481]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/26 23:02:53]
+--Run time(s): 0.98511981964111
+
+[2013/02/26 23:02:58][/?portal=mc_web&page=articleDetail&id=481]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/26 23:02:54]
+--Run time(s): 3.2464802265167
+
+[2013/02/26 23:02:59][/?portal=mc_web&page=articleDetail&id=481]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/26 23:02:58]
+--Run time(s): 0.75017404556274
+
+[2013/02/26 23:03:05][/?portal=mc_web&page=articleDetail&id=481]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:03:00]
+--Run time(s): 4.2514081001282
+
+[2013/02/26 23:03:13][/?portal=mc_web&page=articleDetail&id=481]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:03:05]
+--Run time(s): 7.8849020004272
+
+[2013/02/26 23:27:40][/?id=638&page=articleDetail&portal=mc_web]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/26 23:27:39]
+--Run time(s): 1.4208989143372
+
+[2013/02/26 23:27:40][/?id=399&page=articleDetail&portal=mc_web]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/26 23:27:39]
+--Run time(s): 1.4128999710083
+
+[2013/02/26 23:27:40][/?id=50&page=classdetail&portal=mc_web]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/26 23:27:39]
+--Run time(s): 1.422623872757
+
+[2013/02/26 23:27:41][/?id=399&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/26 23:27:41]
+--Run time(s): 0.60376811027527
+
+[2013/02/26 23:27:41][/?id=50&page=classdetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/26 23:27:41]
+--Run time(s): 0.5305860042572
+
+[2013/02/26 23:27:44][/?id=638&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/26 23:27:41]
+--Run time(s): 3.4702780246735
+
+[2013/02/26 23:27:44][/?id=399&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/26 23:27:41]
+--Run time(s): 2.6666638851166
+
+[2013/02/26 23:27:44][/?id=50&page=classdetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/26 23:27:41]
+--Run time(s): 2.6679151058197
+
+[2013/02/26 23:27:45][/?id=50&page=classdetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/26 23:27:44]
+--Run time(s): 0.88896894454956
+
+[2013/02/26 23:27:45][/?id=638&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/26 23:27:44]
+--Run time(s): 0.90316891670227
+
+[2013/02/26 23:27:45][/?id=399&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/26 23:27:44]
+--Run time(s): 1.1911709308624
+
+[2013/02/26 23:27:46][/?id=399&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=399 LIMIT 1;
+--Start time [2013/02/26 23:27:45]
+--Run time(s): 0.8829619884491
+
+[2013/02/26 23:27:46][/?id=50&page=classdetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/26 23:27:45]
+--Run time(s): 0.92192602157593
+
+[2013/02/26 23:27:47][/?id=638&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:27:46]
+--Run time(s): 0.62505793571472
+
+[2013/02/26 23:27:55][/?id=50&page=classdetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:27:47]
+--Run time(s): 8.1591279506683
+
+[2013/02/26 23:27:55][/?id=399&page=articleDetail&portal=mc_web]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 399 AND `category_id` = 5 AND `updatetime` < TIMESTAMP('2012-09-06 19:04:19') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:27:47]
+--Run time(s): 8.1672370433807
+
+[2013/02/26 23:27:55][/?id=638&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:27:47]
+--Run time(s): 8.1937508583069
+
+[2013/02/26 23:28:25][/?id=313&page=articleDetail&portal=mc_web]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articleDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/26 23:28:24]
+--Run time(s): 0.84427618980408
+
+[2013/02/26 23:28:25][/?id=330&page=articledetail&portal=mc_web]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/26 23:28:24]
+--Run time(s): 0.85143709182739
+
+[2013/02/26 23:28:26][/?id=313&page=articleDetail&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:28:26]
+--Run time(s): 0.51906204223633
+
+[2013/02/26 23:28:38][/?id=330&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/26 23:28:38]
+--Run time(s): 0.54073596000671
+
+[2013/02/26 23:28:38][/?id=605&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/26 23:28:38]
+--Run time(s): 0.5425488948822
+
+[2013/02/26 23:28:40][/?id=330&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/26 23:28:38]
+--Run time(s): 1.1410739421844
+
+[2013/02/26 23:28:40][/?id=605&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/26 23:28:38]
+--Run time(s): 1.3312969207764
+
+[2013/02/26 23:31:41][/?id=641&page=articleDetail&portal=mc_web]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/26 23:31:35]
+--Run time(s): 5.8534710407257
+
+[2013/02/26 23:31:45][/?id=641&page=articleDetail&portal=mc_web]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/26 23:31:41]
+--Run time(s): 3.8428170681
+
+[2013/02/26 23:31:48][/?id=641&page=articleDetail&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:31:46]
+--Run time(s): 2.3044760227203
+
+[2013/02/26 23:31:50][/?id=641&page=articleDetail&portal=mc_web]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=641 LIMIT 1;
+--Start time [2013/02/26 23:31:49]
+--Run time(s): 1.0778121948242
+
+[2013/02/26 23:31:51][/?id=641&page=articleDetail&portal=mc_web]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 641 AND `category_id` = 1 AND `updatetime` < TIMESTAMP('2013-01-14 23:52:49') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:31:50]
+--Run time(s): 0.54859614372253
+
+[2013/02/26 23:31:54][/?id=641&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:31:51]
+--Run time(s): 2.9156880378723
+
+[2013/02/26 23:31:55][/?id=641&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:31:54]
+--Run time(s): 0.74794602394104
+
+[2013/02/26 23:34:47][/?id=307&page=articleDetail&portal=mc_web]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/26 23:34:43]
+--Run time(s): 3.4700400829315
+
+[2013/02/26 23:34:48][/?id=307&page=articleDetail&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:34:47]
+--Run time(s): 1.2452731132507
+
+[2013/02/26 23:34:51][/?id=307&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/26 23:34:48]
+--Run time(s): 2.3906948566437
+
+[2013/02/26 23:34:51][/?id=307&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/26 23:34:51]
+--Run time(s): 0.83866286277771
+
+[2013/02/26 23:34:53][/?id=307&page=articleDetail&portal=mc_web]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 307 AND `category_id` = 3 AND `updatetime` > TIMESTAMP('2012-08-11 16:33:00') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:34:52]
+--Run time(s): 0.6798210144043
+
+[2013/02/26 23:34:54][/?id=307&page=articleDetail&portal=mc_web]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 307 AND `category_id` = 3 AND `updatetime` < TIMESTAMP('2012-08-11 16:33:00') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:34:53]
+--Run time(s): 0.82958602905273
+
+[2013/02/26 23:42:07][/?page=NewDoc&portal=mc_web]
+SELECT COUNT(*) AS rows FROM `document` WHERE `status` = 1 ;
+--Start time [2013/02/26 23:42:06]
+--Run time(s): 0.64586091041565
+
+[2013/02/26 23:42:07][/?id=642&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=642 LIMIT 1;
+--Start time [2013/02/26 23:42:06]
+--Run time(s): 0.66980886459351
+
+[2013/02/26 23:42:09][/?id=642&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:42:07]
+--Run time(s): 1.9341599941254
+
+[2013/02/26 23:42:11][/?id=642&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:42:09]
+--Run time(s): 1.5455310344696
+
+[2013/02/26 23:42:20][/?page=listClass&portal=mc_web]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/26 23:42:19]
+--Run time(s): 0.66851997375488
+
+[2013/02/26 23:42:20][/?page=listTeacher&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:42:19]
+--Run time(s): 1.3272898197174
+
+[2013/02/26 23:42:21][/?page=listTeacher&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/26 23:42:20]
+--Run time(s): 0.59961104393005
+
+[2013/02/26 23:42:21][/?page=listClass&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:42:20]
+--Run time(s): 1.2776229381561
+
+[2013/02/26 23:42:22][/?page=listClass&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/26 23:42:21]
+--Run time(s): 0.87373399734497
+
+[2013/02/26 23:42:22][/?page=listTeacher&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/26 23:42:21]
+--Run time(s): 0.88867211341858
+
+[2013/02/26 23:42:23][/?page=listTeacher&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:42:23]
+--Run time(s): 0.62901210784912
+
+[2013/02/26 23:42:24][/?page=listClass&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:42:23]
+--Run time(s): 0.59363508224487
+
+[2013/02/26 23:42:34][/?page=regLearn&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:42:32]
+--Run time(s): 2.1519179344177
+
+[2013/02/26 23:42:34][/?page=listTeacherb&portal=mc_web]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='listTeacherb' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/26 23:42:32]
+--Run time(s): 1.9056510925293
+
+[2013/02/26 23:42:34][/?page=listTeacherb&portal=mc_web]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/26 23:42:34]
+--Run time(s): 0.55387496948242
+
+[2013/02/26 23:42:35][/?page=regLearn&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/26 23:42:34]
+--Run time(s): 0.59047508239746
+
+[2013/02/26 23:42:39][/?page=listTeacherb&portal=mc_web]
+SELECT * FROM `province`;
+--Start time [2013/02/26 23:42:36]
+--Run time(s): 3.2753419876099
+
+[2013/02/26 23:42:39][/?page=regLearn&portal=mc_web]
+SELECT * FROM `province`;
+--Start time [2013/02/26 23:42:36]
+--Run time(s): 3.2634661197662
+
+[2013/02/26 23:42:39][/?page=listTeacherb&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:42:39]
+--Run time(s): 0.57465982437134
+
+[2013/02/26 23:42:39][/?page=regLearn&portal=mc_web]
+SELECT `class_id`,`name` FROM `class` WHERE `status` = 1 ORDER BY name ASC;
+--Start time [2013/02/26 23:42:39]
+--Run time(s): 0.63871288299561
+
+[2013/02/26 23:42:41][/?page=listTeacherb&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:42:40]
+--Run time(s): 1.1895611286163
+
+[2013/02/26 23:42:41][/?page=regLearn&portal=mc_web]
+SELECT `sessions_id`,`session`,`day` FROM `sessions` ORDER BY sessions_id ASC;
+--Start time [2013/02/26 23:42:40]
+--Run time(s): 1.3022630214691
+
+[2013/02/26 23:43:36][/?id=306&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/26 23:43:35]
+--Run time(s): 0.55346012115479
+
+[2013/02/26 23:43:36][/?id=312&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/26 23:43:35]
+--Run time(s): 0.55184316635132
+
+[2013/02/26 23:43:38][/?id=312&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:43:37]
+--Run time(s): 1.3330478668213
+
+[2013/02/26 23:43:38][/?id=306&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:43:37]
+--Run time(s): 1.3658680915833
+
+[2013/02/26 23:44:07][/?id=329&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/26 23:44:06]
+--Run time(s): 1.2978479862213
+
+[2013/02/26 23:44:07][/?id=329&page=articledetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/26 23:44:06]
+--Run time(s): 1.3038399219513
+
+[2013/02/26 23:44:08][/?id=329&page=articledetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/26 23:44:07]
+--Run time(s): 0.9968409538269
+
+[2013/02/26 23:44:10][/?id=329&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/26 23:44:07]
+--Run time(s): 3.4187500476837
+
+[2013/02/26 23:44:10][/?id=329&page=articledetail&portal=mc_web]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=329 LIMIT 1;
+--Start time [2013/02/26 23:44:08]
+--Run time(s): 2.4447150230408
+
+[2013/02/26 23:45:00][/?id=604&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:44:58]
+--Run time(s): 2.5608148574829
+
+[2013/02/26 23:45:00][/?id=640&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:44:58]
+--Run time(s): 2.8011739253998
+
+[2013/02/26 23:45:19][/?id=602&page=articleDetail&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:45:18]
+--Run time(s): 0.55253577232361
+
+[2013/02/26 23:45:20][/?id=602&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/26 23:45:19]
+--Run time(s): 0.77948403358459
+
+[2013/02/26 23:45:20][/?id=602&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/26 23:45:20]
+--Run time(s): 0.6517550945282
+
+[2013/02/26 23:45:20][/?id=603&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/26 23:45:20]
+--Run time(s): 0.58735680580139
+
+[2013/02/26 23:45:21][/?id=603&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=603 LIMIT 1;
+--Start time [2013/02/26 23:45:20]
+--Run time(s): 0.55720686912537
+
+[2013/02/26 23:45:23][/?id=602&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:45:22]
+--Run time(s): 0.55750584602356
+
+[2013/02/26 23:46:11][/?id=49&page=ClassDetail&portal=mc_web]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='ClassDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/26 23:46:10]
+--Run time(s): 0.63471817970276
+
+[2013/02/26 23:46:11][/?id=601&page=articleDetail&portal=mc_web]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/26 23:46:10]
+--Run time(s): 0.66422200202942
+
+[2013/02/26 23:46:12][/?id=49&page=ClassDetail&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:46:12]
+--Run time(s): 0.55533814430237
+
+[2013/02/26 23:46:14][/?id=49&page=ClassDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/26 23:46:12]
+--Run time(s): 1.4361989498138
+
+[2013/02/26 23:46:14][/?id=601&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/26 23:46:12]
+--Run time(s): 1.5244240760803
+
+[2013/02/26 23:46:16][/?id=601&page=articleDetail&portal=mc_web]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 601 AND `category_id` = 1 AND `updatetime` > TIMESTAMP('2012-11-23 01:03:50') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:46:15]
+--Run time(s): 1.4817578792572
+
+[2013/02/26 23:46:17][/?id=601&page=articleDetail&portal=mc_web]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 601 AND `category_id` = 1 AND `updatetime` < TIMESTAMP('2012-11-23 01:03:50') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/26 23:46:16]
+--Run time(s): 0.51349711418152
+
+[2013/02/26 23:46:17][/?id=49&page=ClassDetail&portal=mc_web]
+SELECT `session`,`day` FROM `sessions` WHERE `sessions_id` IN(3,9,15);
+--Start time [2013/02/26 23:46:14]
+--Run time(s): 2.5138931274414
+
+[2013/02/26 23:46:17][/?id=601&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:46:17]
+--Run time(s): 0.62835907936096
+
+[2013/02/26 23:46:17][/?id=49&page=ClassDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/26 23:46:17]
+--Run time(s): 0.62893104553223
+

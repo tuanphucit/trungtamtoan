@@ -1,0 +1,15 @@
+[2013/02/05 13:02:45][/?portal=mc_web&page=DocOfClass&classID=8&cateID=1]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/05 13:02:44]
+--Run time(s): 0.88368391990662
+
+[2013/02/05 13:02:51][/?portal=mc_web&page=DocOfClass&classID=8&cateID=1]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocOfClass' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/05 13:02:45]
+--Run time(s): 5.385363817215
+
+[2013/02/05 13:02:51][/?portal=mc_web&page=DocOfClass&classID=8&cateID=1]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='70' LIMIT 1;
+--Start time [2013/02/05 13:02:51]
+--Run time(s): 0.87599492073059
+

@@ -1,0 +1,65 @@
+[2012/12/24 08:29:07][/?portal=mc_web&page=articleDetail&id=211]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=211 LIMIT 1;
+--Start time [2012/12/24 08:29:05]
+--Run time(s): 2.6945798397064
+
+[2012/12/24 08:31:32][/?portal=mc_web&page=articleDetail&id=605]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=605 LIMIT 1;
+--Start time [2012/12/24 08:31:31]
+--Run time(s): 0.60820698738098
+
+[2012/12/24 08:32:54][/?portal=mc_web&page=articleDetail&id=264]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=264 LIMIT 1;
+--Start time [2012/12/24 08:32:53]
+--Run time(s): 0.77449798583984
+
+[2012/12/24 08:32:58][/?portal=mc_web&page=articleDetail&id=265]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=265 LIMIT 1;
+--Start time [2012/12/24 08:32:57]
+--Run time(s): 0.95895791053772
+
+[2012/12/24 08:33:38][/?portal=mc_web&page=articleDetail&id=372]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/24 08:33:36]
+--Run time(s): 1.4063568115234
+
+[2012/12/24 08:33:39][/?portal=mc_web&page=articleDetail&id=372]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/24 08:33:38]
+--Run time(s): 0.6590940952301
+
+[2012/12/24 08:33:43][/?portal=mc_web&page=articleDetail&id=374]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=374 LIMIT 1;
+--Start time [2012/12/24 08:33:41]
+--Run time(s): 1.4518609046936
+
+[2012/12/24 08:34:32][/?portal=mc_web&page=articleDetail&id=259]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=259 LIMIT 1;
+--Start time [2012/12/24 08:34:31]
+--Run time(s): 0.9973509311676
+
+[2012/12/24 08:34:33][/?portal=mc_web&page=articleDetail&id=260]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=260 LIMIT 1;
+--Start time [2012/12/24 08:34:32]
+--Run time(s): 0.74465084075928
+
+[2012/12/24 08:34:38][/?portal=mc_web&page=articleDetail&id=262]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=262 LIMIT 1;
+--Start time [2012/12/24 08:34:36]
+--Run time(s): 2.2143180370331
+
+[2012/12/24 08:34:41][/?portal=mc_web&page=articleDetail&id=368]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=368 LIMIT 1;
+--Start time [2012/12/24 08:34:40]
+--Run time(s): 0.51912498474121
+
+[2012/12/24 08:34:42][/?portal=mc_web&page=articleDetail&id=368]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 368 AND `category_id` = 1 AND `updatetime` > TIMESTAMP('2012-08-22 23:15:19') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/24 08:34:41]
+--Run time(s): 0.95430493354797
+
+[2012/12/24 08:37:04][/?portal=mc_web&page=articleDetail&id=515]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=515 LIMIT 1;
+--Start time [2012/12/24 08:37:02]
+--Run time(s): 1.4983730316162
+

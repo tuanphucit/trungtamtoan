@@ -1,0 +1,10 @@
+[2012/10/16 22:27:43][/?portal=mc_web&page=DocOfClass&classID=4&cateID=3]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/16 22:27:42]
+--Run time(s): 0.7972948551178
+
+[2012/10/16 22:27:44][/?portal=mc_web&page=DocOfClass&classID=4&cateID=3]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2012/10/16 22:27:43]
+--Run time(s): 0.63912391662598
+

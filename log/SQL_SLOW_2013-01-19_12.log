@@ -1,0 +1,15 @@
+[2013/01/19 12:48:53][/?portal=mc_web&page=articleDetail&id=351]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=351 LIMIT 1;
+--Start time [2013/01/19 12:48:52]
+--Run time(s): 1.0250568389893
+
+[2013/01/19 12:51:15][/?portal=mc_web&page=articleDetail&id=306]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/01/19 12:51:14]
+--Run time(s): 0.56305694580078
+
+[2013/01/19 12:55:02][/?portal=mc_web&page=DocOfClass&classID=12&cateID=2]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '12' AND `status` = 1 ;
+--Start time [2013/01/19 12:55:01]
+--Run time(s): 0.75444793701172
+

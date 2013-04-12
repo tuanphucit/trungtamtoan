@@ -1,0 +1,5 @@
+[2013/02/01 14:23:19][/?portal=mc_web&page=DocDetail&id=93]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/01 14:23:18]
+--Run time(s): 1.274894952774
+

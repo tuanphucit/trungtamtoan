@@ -1,0 +1,10 @@
+[2013/02/28 20:35:10][/?portal=mc_web&page=articleDetail&id=644]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=644 LIMIT 1;
+--Start time [2013/02/28 20:35:09]
+--Run time(s): 0.56629991531372
+
+[2013/02/28 20:52:35][/?portal=mc_web&page=articleDetail&id=649]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/28 20:52:34]
+--Run time(s): 0.98250699043274
+

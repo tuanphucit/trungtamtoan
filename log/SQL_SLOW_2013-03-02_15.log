@@ -1,0 +1,10 @@
+[2013/03/02 15:52:02][/?portal=mc_web&page=listTeacher]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/03/02 15:52:01]
+--Run time(s): 0.65467596054077
+
+[2013/03/02 15:52:03][/?portal=mc_web&page=listTeacher]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/03/02 15:52:02]
+--Run time(s): 0.50102519989014
+

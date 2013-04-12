@@ -1,0 +1,20 @@
+[2013/02/08 11:11:37][/?portal=mc_web&page=listTeacherb]
+SELECT * FROM `province` WHERE `status` = 1 ORDER BY name DESC;
+--Start time [2013/02/08 11:11:37]
+--Run time(s): 0.6669499874115
+
+[2013/02/08 11:11:39][/?portal=mc_web&page=listTeacherb]
+SELECT * FROM `province`;
+--Start time [2013/02/08 11:11:38]
+--Run time(s): 1.6726279258728
+
+[2013/02/08 11:13:57][/?portal=mc_web&page=articleDetail&id=612]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/08 11:13:56]
+--Run time(s): 1.0091030597687
+
+[2013/02/08 11:14:15][/?portal=mc_web&page=DocOfClass&classID=1&cateID=4]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/08 11:14:14]
+--Run time(s): 0.78251600265503
+

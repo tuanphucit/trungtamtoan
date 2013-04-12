@@ -1,0 +1,30 @@
+[2012/10/24 05:48:15][/?portal=mc_web&page=regTeach]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='regTeach' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/24 05:48:15]
+--Run time(s): 0.64439821243286
+
+[2012/10/24 05:48:29][/?portal=mc_web&page=ClassDetail&id=50]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='ClassDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/24 05:48:27]
+--Run time(s): 1.6109838485718
+
+[2012/10/24 05:50:51][/?portal=mc_web&page=articleDetail&id=304]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2012/10/24 05:50:50]
+--Run time(s): 0.84198093414307
+
+[2012/10/24 05:50:54][/?portal=mc_web&page=articleDetail&id=304]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/24 05:50:53]
+--Run time(s): 0.72907900810242
+
+[2012/10/24 05:56:20][/?portal=mc_web&page=articleDetail&id=404]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/24 05:56:20]
+--Run time(s): 0.59350109100342
+
+[2012/10/24 05:56:21][/?portal=mc_web&page=articleDetail&id=404]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/24 05:56:20]
+--Run time(s): 0.82135796546936
+

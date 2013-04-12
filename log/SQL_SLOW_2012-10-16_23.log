@@ -1,0 +1,25 @@
+[2012/10/16 23:52:59][/?portal=mc_web&page=DocOfClass&classID=7&cateID=4]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/16 23:52:58]
+--Run time(s): 0.70219898223877
+
+[2012/10/16 23:53:00][/?portal=mc_web&page=DocOfClass&classID=7&cateID=4]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='70' LIMIT 1;
+--Start time [2012/10/16 23:52:59]
+--Run time(s): 0.84099102020264
+
+[2012/10/16 23:53:02][/?portal=mc_web&page=DocOfClass&classID=7&cateID=4]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '7' AND `status` = 1 ;
+--Start time [2012/10/16 23:53:01]
+--Run time(s): 1.387405872345
+
+[2012/10/16 23:53:10][/?portal=mc_web&page=DocOfClass&classID=7&cateID=4]
+SELECT * FROM `class`;
+--Start time [2012/10/16 23:53:02]
+--Run time(s): 7.334566116333
+
+[2012/10/16 23:53:11][/?portal=mc_web&page=DocOfClass&classID=7&cateID=4]
+SELECT * FROM `doccate`;
+--Start time [2012/10/16 23:53:10]
+--Run time(s): 1.0725438594818
+

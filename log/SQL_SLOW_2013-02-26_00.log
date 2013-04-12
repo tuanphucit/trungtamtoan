@@ -1,0 +1,10 @@
+[2013/02/26 00:51:18][/?portal=mc_web&page=DocOfClass&classID=16&cateID=4]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocOfClass' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/26 00:51:13]
+--Run time(s): 4.7643609046936
+
+[2013/02/26 00:52:00][/?portal=mc_web&page=Download&name=20120922/admin_1348309436.pdf]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/26 00:51:59]
+--Run time(s): 0.56883811950684
+

@@ -1,0 +1,30 @@
+[2013/02/05 22:42:49][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT COUNT(`giasu_id`) AS rows FROM `giasu` WHERE `status` = 1 AND `validate` = 0 AND `provinceID` = 0;
+--Start time [2013/02/05 22:42:48]
+--Run time(s): 0.54780507087708
+
+[2013/02/05 22:43:14][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT COUNT(`giasu_id`) AS rows FROM `giasu` WHERE `status` = 1 AND `validate` = 0 AND `provinceID` = 4;
+--Start time [2013/02/05 22:43:13]
+--Run time(s): 1.6824731826782
+
+[2013/02/05 22:43:36][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT COUNT(`giasu_id`) AS rows FROM `giasu` WHERE `status` = 1 AND `validate` = 0 AND `provinceID` = 1;
+--Start time [2013/02/05 22:43:33]
+--Run time(s): 2.7330849170685
+
+[2013/02/05 22:44:03][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT `giasu_id`,`firstname`,`lastname`,`gender`,`level`,`updatetime` FROM `giasu` WHERE `status` = 1 AND `validate` = 0 AND `provinceID` = 1 ORDER BY updatetime DESC LIMIT 25,5;
+--Start time [2013/02/05 22:44:03]
+--Run time(s): 0.57531905174255
+
+[2013/02/05 22:45:05][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT `giasu_id`,`firstname`,`lastname`,`gender`,`level`,`updatetime` FROM `giasu` WHERE `status` = 1 AND `validate` = 0 AND `provinceID` = 1 ORDER BY updatetime DESC LIMIT 10,5;
+--Start time [2013/02/05 22:45:04]
+--Run time(s): 0.71743106842041
+
+[2013/02/05 22:45:34][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://www.trungtamtoan.com/?portal=mc_web&page=TeacherDetail&id=97' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2013/02/05 22:45:33]
+--Run time(s): 0.52446389198303
+

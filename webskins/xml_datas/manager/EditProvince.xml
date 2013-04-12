@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="EditProvince">
+	<bean name="EditProvinceView" action="" method="post" onsubmit="return true;">
+		<property type="hidden" name="id" id="id" display="ID"/>
+		<property type="text" name="name" id="name" display="Tên tỉnh" style="width:300px;" required="true"/>
+		<property type="text" name="description" id="description" display="Mô tả" style="width:300px;"/>
+		<property type="text" name="locate" id="locate" display="Vùng" style="width:300px;"/>		
+		<property type="select" name="status" id="status" display ="Tình trạng" option="0: Ẩn| 1: Hiện"  style="width:140px;"/>	
+	</bean> 
+	
+	<bean name="EditDistrictView" action="" method="post" onsubmit="return true;">
+		<property type="hidden" name="location_id" id="location_id" display="ID"/>
+		<property type="hidden" name="provinceID" id="provinceID" display="ID"/>
+		<property type="text" name="name" id="name" display="Tên quận/huyện" style="width:300px;" required="true"/>
+		<property type="text" name="description" id="description" display="Mô tả" style="width:300px;"/>
+		<property type="select" name="status" id="status" display ="Tình trạng" option="0: Ẩn| 1: Hiện"  style="width:140px;"/>	
+	</bean> 
+</page>
+

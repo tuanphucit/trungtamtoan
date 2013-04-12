@@ -1,0 +1,70 @@
+[2012/10/31 10:51:47][/?portal=mc_web&page=articleDetail&id=408]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2012/10/31 10:51:47]
+--Run time(s): 0.61807489395142
+
+[2012/10/31 10:51:48][/?portal=mc_web&page=articleDetail&id=408]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2012/10/31 10:51:47]
+--Run time(s): 0.71859908103943
+
+[2012/10/31 10:51:50][/?portal=mc_web&page=articleDetail&id=408]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 408 AND `category_id` = 1 AND `updatetime` < TIMESTAMP('2012-09-06 11:03:02') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/10/31 10:51:49]
+--Run time(s): 1.1046810150146
+
+[2012/10/31 10:51:51][/?portal=mc_web&page=articleDetail&id=408]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/31 10:51:50]
+--Run time(s): 0.56225681304932
+
+[2012/10/31 10:51:52][/?portal=mc_web&page=articleDetail&id=408]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/31 10:51:51]
+--Run time(s): 1.0562059879303
+
+[2012/10/31 10:52:02][/]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2012/10/31 10:52:01]
+--Run time(s): 1.035313129425
+
+[2012/10/31 10:52:03][/]
+SELECT * FROM `article` WHERE `category_id` = 3 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/10/31 10:52:02]
+--Run time(s): 0.68250894546509
+
+[2012/10/31 10:52:04][/]
+SELECT * FROM `article` WHERE `category_id` = 4 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/10/31 10:52:03]
+--Run time(s): 0.91692280769348
+
+[2012/10/31 10:52:10][/?portal=mc_web&page=resetPassword]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='resetPassword' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/31 10:52:07]
+--Run time(s): 2.4465780258179
+
+[2012/10/31 10:52:12][/?portal=mc_web&page=regLearn]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='regLearn' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/31 10:52:12]
+--Run time(s): 0.61133217811584
+
+[2012/10/31 10:52:13][/?portal=mc_web&page=regLearn]
+SELECT * FROM `province` WHERE `status` = 1 ORDER BY name DESC;
+--Start time [2012/10/31 10:52:12]
+--Run time(s): 0.83611798286438
+
+[2012/10/31 10:52:14][/?portal=mc_web&page=regLearn]
+SELECT * FROM `province`;
+--Start time [2012/10/31 10:52:13]
+--Run time(s): 0.7928729057312
+
+[2012/10/31 10:52:16][/?portal=mc_web&page=regLearn]
+SELECT `location_id`,`name` FROM `location` WHERE `status` = 1 AND `provinceID` = 0 ORDER BY name ASC;
+--Start time [2012/10/31 10:52:14]
+--Run time(s): 2.1765987873077
+
+[2012/10/31 10:52:18][/?portal=mc_web&page=regLearn]
+SELECT `sessions_id`,`session`,`day` FROM `sessions` ORDER BY sessions_id ASC;
+--Start time [2012/10/31 10:52:16]
+--Run time(s): 1.3761639595032
+

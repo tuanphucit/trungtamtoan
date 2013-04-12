@@ -1,0 +1,25 @@
+[2013/03/01 00:00:28][/?portal=mc_web&page=articleDetail&id=648]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/01 00:00:16]
+--Run time(s): 11.524712085724
+
+[2013/03/01 00:00:30][/?portal=mc_web&page=articleDetail&id=648]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/03/01 00:00:28]
+--Run time(s): 2.5997638702393
+
+[2013/03/01 00:00:31][/?portal=mc_web&page=articleDetail&id=648]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/03/01 00:00:31]
+--Run time(s): 0.58459210395813
+
+[2013/03/01 00:00:34][/?portal=mc_web&page=articleDetail&id=648]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 648 AND `category_id` = 1 AND `updatetime` < TIMESTAMP('2013-02-14 21:22:26') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/01 00:00:33]
+--Run time(s): 0.78619909286499
+
+[2013/03/01 00:22:34][/?portal=mc_web&page=resetPassword]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/01 00:22:32]
+--Run time(s): 2.1177408695221
+

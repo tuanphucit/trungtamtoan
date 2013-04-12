@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="SystemPortal">
+	<bean name="SystemPortalAddView" action="" method="post" onsubmit="return false;">
+		<property type="text" name="portal_name" id="portal_name" display="lang.portal_name" style="width:300px;" class="validate[required,custom[onlyLetNumSpec]]" required="true"/>
+		<property type="textarea" name="portal_brief" id="portal_brief" display="lang.portal_brief" cols="50" rows="3" style="width:300px;"/>
+		<property type="checkbox" name="portal_publish" id="portal_publish" display="lang.enable" value="1"/>
+		<property type="button-submit" name="portal_btn_OK" id="portal_btn_OK" display="lang.submit" class="submit"/>
+		<property type="button-reset" name="portal_btn_RESET" id="portal_btn_RESET" display="lang.reset" class="submit"/>
+	</bean>
+	<bean name="SystemPortalEditView" action="" method="post" onsubmit="return false;">
+		<property type="hidden" name="portal_id" id="portal_id" display="lang.portal_id"/>
+		<property type="text" name="portal_name" id="portal_name" display="lang.portal_name" style="width:300px;" class="validate[required,custom[onlyLetNumSpec]]" required="true"/>
+		<property type="textarea" name="portal_brief" id="portal_brief" display="lang.portal_brief" cols="50" rows="3" style="width:300px;"/>
+		<property type="checkbox" name="portal_publish" id="portal_publish" display="lang.enable" value="1"/>
+		<property type="button-submit" name="portal_btn_OK" id="portal_btn_OK" display="lang.submit" class="submit"/>
+		<property type="button-reset" name="portal_btn_RESET" id="portal_btn_RESET" display="lang.reset" class="submit"/>
+	</bean>
+</page>
+

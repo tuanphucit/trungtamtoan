@@ -1,0 +1,25 @@
+[2012/12/10 00:34:20][/?portal=mc_web&page=articleDetail&id=435]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articleDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/10 00:34:18]
+--Run time(s): 1.6377551555634
+
+[2012/12/10 00:34:21][/?portal=mc_web&page=articleDetail&id=435]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/10 00:34:20]
+--Run time(s): 0.66737103462219
+
+[2012/12/10 00:34:23][/?portal=mc_web&page=articleDetail&id=435]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=435 LIMIT 1;
+--Start time [2012/12/10 00:34:22]
+--Run time(s): 1.0739369392395
+
+[2012/12/10 00:34:32][/?portal=mc_web&page=articleDetail&id=435]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 435 AND `category_id` = 1 AND `updatetime` > TIMESTAMP('2012-09-16 21:33:01') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/10 00:34:23]
+--Run time(s): 9.7657871246338
+
+[2012/12/10 00:56:26][/?portal=mc_web&page=articleDetail&id=471]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/12/10 00:56:25]
+--Run time(s): 0.92304301261902
+

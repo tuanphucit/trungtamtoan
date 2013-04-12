@@ -1,0 +1,11 @@
+[2013/03/18 08:25:53][/?portal=mc_web&page=regTeach]
+INSERT INTO `giasu` (`username`, `password`, `birthday`, `firstname`, `lastname`, `gender`, `email`, `mobile`, `address`, `location_id`, `createtime`, `level`, `school`, `expected_fee`, `faculty`, `introduction`, `teach_sessions`, `teach_classes`, `teach_locations`, `provinceID`, `isNeedValid`) VALUES 
+('thanhdat', 'eab1347f4874fdde8fa6162ea6a82b5a', '1994-12-02 00:00:00', 'Nguyễn', 'Thành Đạt', '1', 'thanhdat02121994@gmail.com', '01642501208', 'Hà Nội', '4', '2013-03-18 08:25:52', '1', 'đại học xây dựng', '70.000-120.000', 'kinh tế và quản lý xây dựng', 'điểm thi đại học 23, toán 9, lý 7.5, hoá 6.5', '1,2,3,7,13,15,19,20,21', '10,11,12,13,14,15,16,17,20', '44,45,5,78,40,77,4,1,3,6,8,50,7,10', '0', '1');
+--Start time [2013/03/18 08:25:52]
+--Run time(s): 0.87014389038086
+
+[2013/03/18 08:26:24][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT COUNT(`giasu_id`) AS rows FROM `giasu` WHERE `status` = 1 AND `validate` = 0 AND `provinceID` = 1;
+--Start time [2013/03/18 08:26:23]
+--Run time(s): 0.80300498008728
+

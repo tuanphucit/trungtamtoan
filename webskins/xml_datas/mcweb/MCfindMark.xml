@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="MCfindMark">
+	<bean name="MCfindMarkView" action="" method="post" onsubmit="return false;">
+		<property type="text"  id="name_search" name="name_search" style="width:300px;"/>			
+		<property type="select"  id="university" name="university" display="university" option="" style="width:300px;"/>
+		<property type="select" name="searchType" id="searchType" option="sbd:Số báo danh|ten : Tên" style="width:200px;"/>
+	</bean>
+</page>

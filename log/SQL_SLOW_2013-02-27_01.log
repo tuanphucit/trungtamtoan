@@ -1,0 +1,45 @@
+[2013/02/27 01:21:15][/?portal=mc_web&page=articleDetail&id=605]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/27 01:21:15]
+--Run time(s): 0.57077097892761
+
+[2013/02/27 01:21:16][/?portal=mc_web&page=articleDetail&id=605]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/27 01:21:16]
+--Run time(s): 0.70113801956177
+
+[2013/02/27 01:21:17][/?portal=mc_web&page=articleDetail&id=605]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/27 01:21:16]
+--Run time(s): 0.71290302276611
+
+[2013/02/27 01:21:27][/?portal=mc_web&page=articleDetail&id=605]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=605 LIMIT 1;
+--Start time [2013/02/27 01:21:18]
+--Run time(s): 9.5723931789398
+
+[2013/02/27 01:21:31][/?portal=mc_web&page=articleDetail&id=605]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=605 LIMIT 1;
+--Start time [2013/02/27 01:21:27]
+--Run time(s): 4.0330691337585
+
+[2013/02/27 01:21:36][/?portal=mc_web&page=articleDetail&id=605]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/27 01:21:31]
+--Run time(s): 4.58282995224
+
+[2013/02/27 01:21:38][/?portal=mc_web&page=articleDetail&id=605]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/27 01:21:36]
+--Run time(s): 2.0202670097351
+
+[2013/02/27 01:25:42][/?portal=mc_web&page=articleDetail&id=206]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=206 LIMIT 1;
+--Start time [2013/02/27 01:25:42]
+--Run time(s): 0.70752501487732
+
+[2013/02/27 01:25:43][/?portal=mc_web&page=articleDetail&id=206]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 206 AND `category_id` = 1 AND `updatetime` < TIMESTAMP('2012-07-25 16:14:14') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/27 01:25:42]
+--Run time(s): 0.52024912834167
+

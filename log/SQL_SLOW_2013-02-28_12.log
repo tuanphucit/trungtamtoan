@@ -1,0 +1,30 @@
+[2013/02/28 12:57:43][/?portal=mc_web&page=articleDetail&id=647]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=647 LIMIT 1;
+--Start time [2013/02/28 12:57:42]
+--Run time(s): 1.1118040084839
+
+[2013/02/28 12:57:45][/?portal=mc_web&page=articleDetail&id=647]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 647 AND `category_id` = 1 AND `updatetime` > TIMESTAMP('2013-02-14 21:22:24') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/28 12:57:43]
+--Run time(s): 2.1345860958099
+
+[2013/02/28 12:57:47][/?portal=mc_web&page=articleDetail&id=647]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 647 AND `category_id` = 1 AND `updatetime` < TIMESTAMP('2013-02-14 21:22:24') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/28 12:57:45]
+--Run time(s): 1.4955458641052
+
+[2013/02/28 12:57:48][/?portal=mc_web&page=articleDetail&id=647]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/28 12:57:47]
+--Run time(s): 0.74633002281189
+
+[2013/02/28 12:57:50][/?portal=mc_web&page=articleDetail&id=647]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/28 12:57:48]
+--Run time(s): 1.6936390399933
+
+[2013/02/28 12:57:51][/?portal=mc_web&page=articleDetail&id=647]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/28 12:57:50]
+--Run time(s): 1.0749990940094
+

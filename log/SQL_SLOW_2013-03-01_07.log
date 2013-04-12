@@ -1,0 +1,5 @@
+[2013/03/01 07:10:57][/?portal=mc_web&page=DocOfClass&classID=2&cateID=2]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/01 07:10:56]
+--Run time(s): 0.75803112983704
+

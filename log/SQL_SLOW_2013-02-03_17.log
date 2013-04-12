@@ -1,0 +1,5 @@
+[2013/02/03 17:38:50][/?portal=mc_web&page=listTeacherb]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/03 17:38:47]
+--Run time(s): 3.174211025238
+

@@ -1,0 +1,45 @@
+[2013/02/25 14:04:34][/?portal=mc_web&page=DocDetail&id=112]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/25 14:04:32]
+--Run time(s): 1.3797450065613
+
+[2013/02/25 14:04:37][/?portal=mc_web&page=DocDetail&id=112]
+SELECT * FROM `document` WHERE `id` = 112 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/25 14:04:36]
+--Run time(s): 0.96050477027893
+
+[2013/02/25 14:08:59][/?portal=mc_web&page=articleDetail&id=639]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/25 14:08:58]
+--Run time(s): 0.55760216712952
+
+[2013/02/25 14:09:01][/?portal=mc_web&page=articleDetail&id=639]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/25 14:08:59]
+--Run time(s): 1.8118071556091
+
+[2013/02/25 14:16:07][/?id=331&page=articledetail&portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/25 14:16:07]
+--Run time(s): 0.93370389938354
+
+[2013/02/25 14:28:18][/?portal=mc_web&page=articleDetail&id=306]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/25 14:28:17]
+--Run time(s): 0.93668293952942
+
+[2013/02/25 14:43:45][/?portal=mc_web&page=articleDetail&id=560]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articleDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/25 14:43:44]
+--Run time(s): 0.70938491821289
+
+[2013/02/25 14:45:02][/?portal=mc_web&page=articleDetail&id=556]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/25 14:45:01]
+--Run time(s): 1.4397559165955
+
+[2013/02/25 14:45:03][/?portal=mc_web&page=articleDetail&id=556]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/25 14:45:02]
+--Run time(s): 0.95810103416443
+

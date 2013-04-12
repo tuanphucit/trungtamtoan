@@ -1,0 +1,35 @@
+[2013/03/11 15:06:37][/?name=20120922/admin_1348307223.pdf&page=Download&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/11 15:06:36]
+--Run time(s): 0.95603394508362
+
+[2013/03/11 15:06:37][/?name=20120922/admin_1348308021.pdf&page=Download&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/11 15:06:36]
+--Run time(s): 0.95310211181641
+
+[2013/03/11 15:06:37][/?name=20120922/admin_1348307496.pdf&page=Download&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/11 15:06:36]
+--Run time(s): 0.87843608856201
+
+[2013/03/11 15:11:47][/?cateID=1&classID=6&page=DocOfClass&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/11 15:11:46]
+--Run time(s): 0.74502611160278
+
+[2013/03/11 15:11:50][/?cateID=1&classID=5&page=DocOfClass&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/11 15:11:49]
+--Run time(s): 0.53106284141541
+
+[2013/03/11 15:11:51][/?cateID=1&classID=5&page=DocOfClass&portal=mc_web]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '1' AND `classID` = '5' AND `status` = 1 ;
+--Start time [2013/03/11 15:11:50]
+--Run time(s): 0.81644320487976
+
+[2013/03/11 15:32:52][/?id=275&page=articleDetail&portal=mc_web]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=275 LIMIT 1;
+--Start time [2013/03/11 15:32:51]
+--Run time(s): 1.6231601238251
+

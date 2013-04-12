@@ -1,0 +1,5 @@
+[2013/03/12 00:26:27][/?portal=mc_web&page=articleDetail&id=316]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 316 AND `category_id` = 7 AND `updatetime` > TIMESTAMP('2012-08-12 00:25:17') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/12 00:26:26]
+--Run time(s): 0.76854395866394
+

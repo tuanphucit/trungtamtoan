@@ -1,0 +1,5 @@
+[2012/11/05 20:58:06][/?portal=mc_web&page=TeacherDetail&id=72]
+SELECT `session`,`day` FROM `sessions` WHERE `sessions_id` IN(3,7,8,17);
+--Start time [2012/11/05 20:58:05]
+--Run time(s): 0.82209396362305
+

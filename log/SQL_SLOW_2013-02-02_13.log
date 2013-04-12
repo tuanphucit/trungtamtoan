@@ -1,0 +1,20 @@
+[2013/02/02 13:04:25][/?portal=mc_web&page=DocDetail&id=126]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/02 13:04:23]
+--Run time(s): 1.8150389194489
+
+[2013/02/02 13:04:27][/?portal=mc_web&page=DocDetail&id=126]
+SELECT * FROM `document` WHERE `id` = 126 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/02 13:04:26]
+--Run time(s): 1.0975890159607
+
+[2013/02/02 13:55:40][/?portal=mc_web&page=DocDetail&id=79]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/02 13:55:37]
+--Run time(s): 3.1302130222321
+
+[2013/02/02 13:56:15][/?portal=mc_web&page=DocOfClass&classID=1&cateID=3]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '3' AND `classID` = '1' AND `status` = 1 ;
+--Start time [2013/02/02 13:56:12]
+--Run time(s): 3.416482925415
+

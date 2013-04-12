@@ -1,0 +1,50 @@
+[2012/12/09 09:00:02][/?portal=mc_web&page=DocDetail&id=112]
+SELECT `name`,`updatetime`,`id` FROM `document` WHERE `id` != 112 AND `doc_cate_id` = 4 AND `classID` = 17 AND `updatetime` < TIMESTAMP('2012-09-22 16:55:45') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/09 08:59:59]
+--Run time(s): 2.6964640617371
+
+[2012/12/09 09:00:03][/?portal=mc_web&page=DocDetail&id=112]
+SELECT * FROM `class`;
+--Start time [2012/12/09 09:00:02]
+--Run time(s): 1.0662839412689
+
+[2012/12/09 09:04:30][/?portal=mc_web&page=articleDetail&id=577]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=577 LIMIT 1;
+--Start time [2012/12/09 09:04:29]
+--Run time(s): 1.3065669536591
+
+[2012/12/09 09:04:59][/?portal=mc_web&page=articleDetail&id=419]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=419 LIMIT 1;
+--Start time [2012/12/09 09:04:55]
+--Run time(s): 3.2056579589844
+
+[2012/12/09 09:05:02][/?portal=mc_web&page=articleDetail&id=270]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=270 LIMIT 1;
+--Start time [2012/12/09 09:05:00]
+--Run time(s): 1.9232451915741
+
+[2012/12/09 09:06:49][/?portal=mc_web&page=DocOfClass&classID=10&cateID=4]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '10' AND `status` = 1 ;
+--Start time [2012/12/09 09:06:48]
+--Run time(s): 1.2759158611298
+
+[2012/12/09 09:07:23][/?portal=mc_web&page=DocOfClass&classID=14&cateID=1]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '1' AND `classID` = '14' AND `status` = 1 ;
+--Start time [2012/12/09 09:07:22]
+--Run time(s): 0.95268988609314
+
+[2012/12/09 09:08:11][/?portal=mc_web&page=DocOfClass&classID=14&cateID=3]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocOfClass' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/09 09:08:09]
+--Run time(s): 1.3838949203491
+
+[2012/12/09 09:09:25][/?portal=mc_web&page=DocOfClass&classID=16&cateID=1]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/09 09:09:24]
+--Run time(s): 0.54851293563843
+
+[2012/12/09 09:11:57][/?portal=mc_web&page=articleDetail&id=415]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2012/12/09 09:11:56]
+--Run time(s): 1.0033280849457
+
