@@ -1,0 +1,40 @@
+[2012/11/16 07:16:17][/?portal=mc_web&page=articleDetail&id=376]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 376 AND `category_id` = 1 AND `updatetime` < TIMESTAMP('2012-08-27 00:04:28') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/11/16 07:16:16]
+--Run time(s): 0.52799415588379
+
+[2012/11/16 07:17:05][/?portal=mc_web&page=DocOfClass&classID=9&cateID=2]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='70' LIMIT 1;
+--Start time [2012/11/16 07:17:04]
+--Run time(s): 0.62422490119934
+
+[2012/11/16 07:17:06][/?portal=mc_web&page=DocOfClass&classID=9&cateID=2]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2012/11/16 07:17:05]
+--Run time(s): 0.80484390258789
+
+[2012/11/16 07:17:07][/?portal=mc_web&page=DocOfClass&classID=9&cateID=2]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '9' AND `status` = 1 ;
+--Start time [2012/11/16 07:17:06]
+--Run time(s): 0.90820384025574
+
+[2012/11/16 07:17:09][/?portal=mc_web&page=DocOfClass&classID=9&cateID=2]
+SELECT * FROM `doccate`;
+--Start time [2012/11/16 07:17:07]
+--Run time(s): 1.7576429843903
+
+[2012/11/16 07:20:42][/?portal=mc_web&page=articleDetail&id=499]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/16 07:20:41]
+--Run time(s): 0.96566605567932
+
+[2012/11/16 07:20:45][/?portal=mc_web&page=articleDetail&id=499]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/16 07:20:42]
+--Run time(s): 3.0584897994995
+
+[2012/11/16 07:20:46][/?portal=mc_web&page=articleDetail&id=499]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/16 07:20:45]
+--Run time(s): 0.86946201324463
+

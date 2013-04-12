@@ -1,0 +1,10 @@
+[2013/02/12 15:17:55][/?portal=mc_web&page=DocOfClass&classID=6&cateID=3]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/12 15:17:52]
+--Run time(s): 2.9870729446411
+
+[2013/02/12 15:34:32][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://trungtamtoan.com/?portal=mc_web&page=articleDetail&id=635' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2013/02/12 15:34:31]
+--Run time(s): 0.84935688972473
+

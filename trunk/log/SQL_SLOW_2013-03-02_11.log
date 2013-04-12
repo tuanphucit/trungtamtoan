@@ -1,0 +1,5 @@
+[2013/03/02 11:08:30][/?portal=mc_web&page=regTeach]
+SELECT * FROM `province`;
+--Start time [2013/03/02 11:08:29]
+--Run time(s): 0.84028697013855
+

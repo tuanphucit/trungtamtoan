@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="SystemPage">
+	<bean name="SystemPageAddView" action="" method="post" onsubmit="return false;">
+		<property type="text" name="page_name" id="page_name" display="lang.page_name" style="width:300px;" class="validate[required,custom[onlyLetNumSpec]]" required="true"/>
+		<property type="textarea" name="brief" id="brief" display="lang.page_brief" cols="50" rows="3" style="width:300px;"/>
+		<property type="select" name="layout" display="layout" required="true"/>
+		<property type="text" name="master_page_id" id="master_page_id" display="lang.master_page_id" style="width:100px;" class="validate[required,custom[onlyNumberSp]]" required="true"/>
+		<property type="select" name="portal_id" display="portal_id" class="validate[required,custom[onlyNumberSp]]" required="true"/>
+		<property type="checkbox" name="publish" id="publish" display="lang.enable" value="1"/>
+		<property type="text" name="page_title" id="page_title" display="lang.page_title" style="width:300px;"/>
+		<property type="text" name="page_description" id="page_description" display="lang.page_description" style="width:300px;"/>
+		<property type="textarea" name="page_keyword" id="page_keyword" display="lang.page_keyword" cols="50" rows="3" style="width:300px;"/>
+		
+		<property type="button-submit" name="page_btn_OK" id="page_btn_OK" display="lang.submit" class="submit"/>
+		<property type="button-reset" name="page_btn_RESET" id="page_btn_RESET" display="lang.reset" class="submit"/>
+	</bean>
+	<bean name="SystemPageEditView" action="" method="post" onsubmit="return false;">
+		<property type="hidden" name="page_id" id="page_id" display="Page ID"/>
+		<property type="text" name="page_name" id="page_name" display="lang.page_name" style="width:300px;" class="validate[required,custom[onlyLetNumSpec]]" required="true"/>
+		<property type="textarea" name="brief" id="brief" display="lang.page_brief" cols="50" rows="3" style="width:300px;"/>
+		<property type="select" name="layout" display="layout" required="true"/>
+		<property type="text" name="master_page_id" id="master_page_id" display="lang.master_page_id" style="width:100px;" class="validate[required,custom[onlyNumberSp]]" required="true"/>
+		<property type="select" name="portal_id" display="portal_id" class="validate[required,custom[onlyNumberSp]]" required="true"/>
+		<property type="checkbox" name="publish" id="publish" display="lang.enable" value="1"/>
+		<property type="text" name="page_title" id="page_title" display="lang.page_title" style="width:300px;"/>
+		<property type="text" name="page_description" id="page_description" display="lang.page_description" style="width:300px;"/>
+		<property type="textarea" name="page_keyword" id="page_keyword" display="lang.page_keyword" cols="50" rows="3" style="width:300px;"/>
+		<property type="checkbox" name="empty_module" id="empty_module" display="lang.empty_module" option="1:Xóa tất cả các module đã cắm"/>
+		
+		<property type="button-submit" name="page_btn_OK" id="page_btn_OK" display="lang.submit" class="submit"/>
+		<property type="button-reset" name="page_btn_RESET" id="page_btn_RESET" display="lang.reset" class="submit"/>
+	</bean>
+</page>
+

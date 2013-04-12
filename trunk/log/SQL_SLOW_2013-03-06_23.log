@@ -1,0 +1,10 @@
+[2013/03/06 23:23:57][/?portal=mc_web&page=listTeacher]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/06 23:23:56]
+--Run time(s): 0.7110390663147
+
+[2013/03/06 23:24:45][/?portal=mc_web&page=articleDetail&id=649]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/06 23:24:44]
+--Run time(s): 1.0307509899139
+

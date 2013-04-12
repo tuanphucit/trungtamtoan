@@ -1,0 +1,10 @@
+[2013/02/22 19:06:29][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT `avatar`,`giasu_id` FROM `giasu` WHERE `username` = 'tt' LIMIT 1;
+--Start time [2013/02/22 19:06:28]
+--Run time(s): 1.1719651222229
+
+[2013/02/22 19:06:46][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://trungtamtoan.com/?portal=mc_web&page=articleDetail&id=307' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2013/02/22 19:06:43]
+--Run time(s): 3.7704048156738
+

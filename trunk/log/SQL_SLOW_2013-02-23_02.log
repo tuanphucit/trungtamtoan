@@ -1,0 +1,5 @@
+[2013/02/23 02:30:31][/?name=20120906/admin_1346951301.pdf&page=Download&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/23 02:30:30]
+--Run time(s): 1.0731799602509
+

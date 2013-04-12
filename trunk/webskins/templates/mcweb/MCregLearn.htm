@@ -1,0 +1,111 @@
+<div class="mainbox">
+<span style=" color: white;
+    float: right;
+    padding: 4px 8px 4px;
+    text-decoration: none;"><b>{|provinceName|}</b></span>	
+	<h3><span>Đăng ký tìm gia sư</span></h3>	
+	{|FORM_BEGIN|}
+	<table cellpadding="5" cellspacing="0">
+		<tr style="text-align:left;">
+			<th width="100%" colspan='2' style="background: #E8F3FD;" ><h2>Thông tin phụ huynh</h2></th>
+		</tr>
+		<tr>
+			<th width="15%">Họ tên:</th>
+			<th width="85%">{|mothername|}<span style="color: red;">{|mothername_error|}</span></th>
+		</tr>
+		<tr>
+			<th>Điện thoại</th>
+			<th>{|mobile|}<span style="color: red;">{|mobile_error|}</span></th>
+		</tr>
+		<tr>
+			<th>Địa chỉ</th>
+			<th>{|address|}<span style="color: red;">{|address_error|}</span></th>
+		</tr>
+		<tr>
+			<th>Quận/huyện</th>
+			<th>{|location|}<span style="color: red;">{|location_id_error|}</span></th>
+		</tr>
+		<tr>
+			<th>Email</th>
+			<th>{|email|}<span style="color: red;">{|email_error|}</span></th>
+		</tr>
+		<tr>
+			<th><br/></th>
+			<th></th>
+		</tr>
+		
+		<tr>
+			<th width="100" colspan='2' style="background: #E8F3FD;"><h2>Thông tin học sinh</h2></th>
+		</tr>		
+		<tr>
+			<th>Số lượng</th>
+			<th>{|pupilnumber|} học sinh</th>
+		</tr>
+		<tr>
+			<th>Giới tính</th>
+			<th>{|gender|}</th>
+		</tr>	
+		<tr>
+			<th>Lớp</th>
+			<th>{|class_id|}</th>
+		</tr>	
+				
+		<tr>
+			<th><br/></th>
+			<th></th>
+		</tr>
+		
+		<tr>
+			<th width="100" colspan='2' style="background: #E8F3FD;"><h2>Yêu cầu đối với gia sư</h2></th>
+		</tr>
+		
+		<tr>
+			<th>Trình độ</th>
+			<th>{|level|}</th>
+		</tr>
+		<tr>
+			<th>Giới tính</th>
+			<th>{|giasu_gender|}
+		</tr>
+		<tr>
+			<th>Ca dạy</th>
+			<th><div>{|sessions|}</div></th>
+		</tr>		
+		<tr>
+			<th>Một ca bằng</th>
+			<th><div>{|duringtime|}</th>
+		</tr>
+		<tr>
+			<th>Ngày bắt đầu</th>
+			<th>{|starttime|}<i>dd-mm-yyyy</i></th>
+		</tr>
+		<tr>
+			<th>Mức lương</th>
+			<th>{|fee|}đ/1ca <span style="color:green">(vd: 80.000đ/ca)</span></th>
+		</tr>
+		<tr>
+			<th>Thông tin khác:</th>
+			<th><div>{|introduction|}</div></th>
+		</tr>
+		<tr>
+			<th width="100" colspan='2' style="background: #E8F3FD;"><h2>Quý phụ huynh có muốn trung tâm giúp đỡ tìm gia sư phù hợp?</h2></th>
+		</tr>
+		<tr>
+			<th>Yêu cầu</th>
+			<th>{|isNeedGoodTeacher|}</th>
+		</tr>
+		
+		<tr>
+			<td colspan="2" class="footoperation"><center>
+			<input type="submit" name="register" id="register" value="Đăng ký"/>
+			<input type="reset" value="Làm lại" id="reset"/></center>		
+			</td>
+		</tr>
+	</table>	
+	{|FORM_END|}
+</div>
+
+
+
+
+

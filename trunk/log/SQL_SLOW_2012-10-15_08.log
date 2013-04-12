@@ -1,0 +1,15 @@
+[2012/10/15 08:47:18][/?portal=mc_web&page=articleDetail&id=506]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2012/10/15 08:47:18]
+--Run time(s): 0.70087313652039
+
+[2012/10/15 08:47:19][/?portal=mc_web&page=articleDetail&id=506]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2012/10/15 08:47:18]
+--Run time(s): 0.78929495811462
+
+[2012/10/15 08:47:20][/?portal=mc_web&page=articleDetail&id=506]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=506 LIMIT 1;
+--Start time [2012/10/15 08:47:19]
+--Run time(s): 0.83210706710815
+

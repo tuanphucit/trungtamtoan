@@ -1,0 +1,5 @@
+[2012/11/16 02:30:19][/?portal=mc_web&page=regLearn]
+SELECT * FROM `province` WHERE `status` = 1 ORDER BY name DESC;
+--Start time [2012/11/16 02:30:17]
+--Run time(s): 1.8225378990173
+

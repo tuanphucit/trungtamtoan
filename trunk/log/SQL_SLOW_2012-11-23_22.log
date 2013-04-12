@@ -1,0 +1,10 @@
+[2012/11/23 22:32:29][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT `username` FROM `giasu` WHERE `username`='v' LIMIT 1;
+--Start time [2012/11/23 22:32:27]
+--Run time(s): 1.2318670749664
+
+[2012/11/23 22:32:38][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT `username` FROM `giasu` WHERE `username`='vũ hồng' LIMIT 1;
+--Start time [2012/11/23 22:32:36]
+--Run time(s): 2.0418078899384
+

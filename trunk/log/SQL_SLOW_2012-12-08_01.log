@@ -1,0 +1,20 @@
+[2012/12/08 01:55:29][/?portal=mc_web&page=articleDetail&id=381]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=381 LIMIT 1;
+--Start time [2012/12/08 01:55:27]
+--Run time(s): 2.2630159854889
+
+[2012/12/08 01:55:30][/?portal=mc_web&page=articleDetail&id=381]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 381 AND `category_id` = 1 AND `updatetime` > TIMESTAMP('2012-08-28 18:47:30') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/08 01:55:29]
+--Run time(s): 0.57786202430725
+
+[2012/12/08 01:57:50][/?portal=mc_web&page=DocOfClass&classID=9&cateID=4]
+SELECT * FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '9' AND `status` = 1  ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2012/12/08 01:57:49]
+--Run time(s): 0.59796714782715
+
+[2012/12/08 01:57:59][/?portal=mc_web&page=DocOfClass&classID=9&cateID=4]
+SELECT * FROM `class`;
+--Start time [2012/12/08 01:57:50]
+--Run time(s): 8.8614971637726
+

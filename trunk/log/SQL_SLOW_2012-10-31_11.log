@@ -1,0 +1,10 @@
+[2012/10/31 11:00:58][/?portal=mc_web&page=DocOfClass&classID=5&cateID=3]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '3' AND `classID` = '5' AND `status` = 1 ;
+--Start time [2012/10/31 11:00:57]
+--Run time(s): 0.71455097198486
+
+[2012/10/31 11:20:42][/?portal=mc_web&page=DocOfClass&classID=5&cateID=1]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '1' AND `classID` = '5' AND `status` = 1 ;
+--Start time [2012/10/31 11:20:41]
+--Run time(s): 0.68633389472961
+

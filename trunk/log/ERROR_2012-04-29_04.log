@@ -1,0 +1,4 @@
+[2012/04/29 04:31:38][/mc_web/debug.php?portal=manager&page=EditArticle&article_id=1]
+Notice(8) {Undefined index: article_btn_OK}
+File: [E:\xampp\htdocs\mc_web\modules\manager\EditArticle.php(51)]
+

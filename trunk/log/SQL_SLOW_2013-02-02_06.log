@@ -1,0 +1,20 @@
+[2013/02/02 06:24:07][/?id=327&page=articleDetail&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/02 06:24:07]
+--Run time(s): 0.64950513839722
+
+[2013/02/02 06:26:15][/?cateID=1&classID=11&page=DocOfClass&portal=mc_web]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '1' AND `classID` = '11' AND `status` = 1 ;
+--Start time [2013/02/02 06:26:14]
+--Run time(s): 1.4908459186554
+
+[2013/02/02 06:26:25][/?cateID=1&classID=16&page=DocOfClass&portal=mc_web]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '1' AND `classID` = '16' AND `status` = 1 ;
+--Start time [2013/02/02 06:26:24]
+--Run time(s): 1.3432769775391
+
+[2013/02/02 06:26:28][/?cateID=1&classID=17&page=DocOfClass&portal=mc_web]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '1' AND `classID` = '17' AND `status` = 1 ;
+--Start time [2013/02/02 06:26:27]
+--Run time(s): 0.88562893867493
+

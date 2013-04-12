@@ -1,0 +1,5 @@
+[2013/01/22 20:39:27][/?portal=mc_web&page=findMark]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/01/22 20:39:26]
+--Run time(s): 0.57730412483215
+

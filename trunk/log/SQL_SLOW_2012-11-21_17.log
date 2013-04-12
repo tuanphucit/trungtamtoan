@@ -1,0 +1,5 @@
+[2012/11/21 17:48:40][/?portal=mc_web&page=articleDetail&id=399]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=399 LIMIT 1;
+--Start time [2012/11/21 17:48:39]
+--Run time(s): 0.76389503479004
+

@@ -1,0 +1,5 @@
+[2013/01/11 23:56:10][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `hocsinh_id`,`pupilnumber`,`duringtime`,`gender`,`starttime`,`introduction`,`expected_gender`,`teach_sessions`,`introduction`,`expected_level`,`expected_fee`,`class_id`,`location_id`,`updatetime`,`isNeedGoodTeacher`,`mobile` FROM `hocsinh` WHERE `status` = 1 AND `hocsinh_id` = 49 LIMIT 1;
+--Start time [2013/01/11 23:56:08]
+--Run time(s): 1.5166399478912
+

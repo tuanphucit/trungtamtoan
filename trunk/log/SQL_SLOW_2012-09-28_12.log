@@ -1,0 +1,5 @@
+[2012/09/28 12:33:33][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT COUNT(`giasu_id`) AS rows FROM `giasu` WHERE `status` = 1 AND `validate` = 1 AND `provinceID` = 0;
+--Start time [2012/09/28 12:33:32]
+--Run time(s): 0.78597593307495
+

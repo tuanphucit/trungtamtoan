@@ -1,0 +1,35 @@
+<div class="mainbox list">	
+
+	<h3> Danh sách học sinh</h3> 
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<th>STT</th>
+				<th>Mã</th>
+				<th>Username</th>	
+				<th>Số điện thoại</th>
+				<th>Người cập nhật</th>	
+				<th>Ngày cập nhật</th>
+				<th>Đánh giá</th>
+				<th>Tình Trạng</th>	
+			</tr>
+		</thead>
+		<tbody>
+		
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|stt|}</td>
+				<td>{|code|}</td>
+				<td><a href="{|detail_link|}" style="color: blue;">{|username|}</a></td>	
+				<td>{|mobile|}</td>	
+				<td>{|userupdate|}</td>		
+				<td>{|updatetime|}</td>
+				<td>{|validate|}</td>	
+				<td>{|status|}</td>
+			</tr>
+			<!-- END BlockList -->
+			<tr><td colspan="4" class="paging">{|paging|}<td></tr>
+		</tbody>
+	</table>
+	
+</div>

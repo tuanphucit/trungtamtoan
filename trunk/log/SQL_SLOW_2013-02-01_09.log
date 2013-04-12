@@ -1,0 +1,35 @@
+[2013/02/01 09:30:23][/?portal=mc_web&page=articledetail&id=307]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articledetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/01 09:30:22]
+--Run time(s): 1.8402931690216
+
+[2013/02/01 09:30:25][/?portal=mc_web&page=articledetail&id=307]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/01 09:30:24]
+--Run time(s): 1.611526966095
+
+[2013/02/01 09:31:32][/?portal=mc_web&page=articledetail&id=329]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=329 LIMIT 1;
+--Start time [2013/02/01 09:31:31]
+--Run time(s): 0.5434730052948
+
+[2013/02/01 09:33:26][/?portal=mc_web&page=articledetail&id=275]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/01 09:33:26]
+--Run time(s): 0.5992739200592
+
+[2013/02/01 09:34:00][/?portal=mc_web&page=articledetail&id=319]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/01 09:34:00]
+--Run time(s): 0.61066818237305
+
+[2013/02/01 09:34:06][/?portal=mc_web&page=articledetail&id=318]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=318 LIMIT 1;
+--Start time [2013/02/01 09:34:05]
+--Run time(s): 1.5765759944916
+
+[2013/02/01 09:34:07][/?portal=mc_web&page=articledetail&id=318]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=318 LIMIT 1;
+--Start time [2013/02/01 09:34:06]
+--Run time(s): 0.801913022995
+

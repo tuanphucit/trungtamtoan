@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="MCwebTeacher">
+	<bean name="MCwebTeacherView" action="" method="post" onsubmit="return true;">
+		<property type="text" name="username" display="Username" maxsize="255" validateType="Text" required="true" class="validate[required,custom[onlyLetNumSpec]]" maxlength="255" style="width:140px;"/>
+		<property type="password" name="password" display="Password" maxsize="255" validateType="Text" required="true" class="validate[required]" maxlength="255" style="width:140px;"/>
+		<property type="text" name="birthday" id="birthday" display="Birthday" style="width:140px;"  required="true"/>
+		<property type="text" name="firstname" id="firstname" display="Firstname" style="width:140px;"  required="true"/>
+		<property type="text" name="lastname" id="lastname" display="Lastname" style="width:140px;"  required="true"/>
+		<property type="text" name="email" id="email" display="Email" required="true" style="width:140px;"/>
+		<property type="text" name="mobile" id="mobile" display="Mobile" style="width:140px;"  required="true"/>
+		<property type="radio" name="gender" display="Gender" label="Gender" value="1" option="0:Nữ|1:Nam"/>
+		<property type="text" name="address" id="address" display="Address" style="width:200px;"/>		
+		<property type="select" name="location" display="Location" style="width:140px;"/>
+		<property type="select" name="level" display="level" option="0:Cao đẳng|1:Đại học|2:Đã ra trường|3:Giáo viên"  style="width:140px;"/>
+		<property type="checkboxlist" name="teachat" id="teachat" display="teachat"/>
+		<property type="checkboxlist" name="sessions" id ="sessions" display="Sessions"/>	
+		<property type="checkboxlist" name="classes" id ="classes" display="Classes"/>	
+		<property type="text" name="school" id="school" display="School" style="width:200px;"/>
+		<property type="text" name="faculty" id="faculty" display="Faculty" style="width:140px;"/>
+		<property type="text" name="fee" id="fee" display="Fee" style="width:200px;"/>
+		<property type="textarea" name="introduction" id="introduction" display="Introduction" cols="50" rows="3" style="width:300px;"/>		
+		<property type="select" name="status" display="Status" style="width:140px;" option="0:Ẩn|1:Hiện"/>
+		<property type="select" name="permission" display="permission" style="width:140px;" option="0:Thông thường|1:Quản lý"/>
+		<property type="select" name="validate1" display="validate1" style="width:140px;" option="0:Chưa đánh giá|1:Đã đánh giá"/>
+		<property type="select" name="isNeedValid" display="isNeedValid" label="isNeedValid" value="1" option="0:Không cần trung tâm đánh giá năng lực|1:Yêu cầu trung tâm đánh giá năng lực"/>
+		
+	</bean>
+</page>
+

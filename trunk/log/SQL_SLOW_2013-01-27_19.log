@@ -1,0 +1,25 @@
+[2013/01/27 19:25:56][/?portal=mc_web&page=articleDetail&id=328]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=328 LIMIT 1;
+--Start time [2013/01/27 19:25:55]
+--Run time(s): 1.1396660804749
+
+[2013/01/27 19:25:57][/?portal=mc_web&page=articleDetail&id=328]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=328 LIMIT 1;
+--Start time [2013/01/27 19:25:56]
+--Run time(s): 0.66283702850342
+
+[2013/01/27 19:26:00][/?portal=mc_web&page=articleDetail&id=328]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/01/27 19:25:58]
+--Run time(s): 1.6382231712341
+
+[2013/01/27 19:26:02][/?portal=mc_web&page=articleDetail&id=328]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/01/27 19:26:00]
+--Run time(s): 2.4383668899536
+
+[2013/01/27 19:26:03][/?portal=mc_web&page=articleDetail&id=328]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/01/27 19:26:02]
+--Run time(s): 0.82993197441101
+

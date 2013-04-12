@@ -1,0 +1,112 @@
+[2012/08/07 19:32:23][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: logout}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(23)]
+
+[2012/08/07 19:32:23][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: login}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(35)]
+
+[2012/08/07 19:32:23][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: HTTPS}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.modules.php(192)]
+
+[2012/08/07 19:32:32][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: logout}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(23)]
+
+[2012/08/07 19:32:32][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: login}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(35)]
+
+[2012/08/07 19:32:32][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: HTTPS}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.modules.php(192)]
+
+[2012/08/07 19:32:37][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218%27]
+Notice(8) {Undefined index: logout}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(23)]
+
+[2012/08/07 19:32:37][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218%27]
+Notice(8) {Undefined index: login}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(35)]
+
+[2012/08/07 19:32:46][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: logout}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(23)]
+
+[2012/08/07 19:32:46][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: login}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(35)]
+
+[2012/08/07 19:32:46][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: HTTPS}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.modules.php(192)]
+
+[2012/08/07 19:32:52][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: logout}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(23)]
+
+[2012/08/07 19:32:52][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: login}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(35)]
+
+[2012/08/07 19:32:52][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: HTTPS}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.modules.php(192)]
+
+[2012/08/07 19:33:18][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218%20union%20select%201,2,3]
+Notice(8) {Undefined index: logout}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(23)]
+
+[2012/08/07 19:33:18][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218%20union%20select%201,2,3]
+Notice(8) {Undefined index: login}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(35)]
+
+[2012/08/07 19:33:46][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: logout}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(23)]
+
+[2012/08/07 19:33:46][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: login}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(35)]
+
+[2012/08/07 19:33:46][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: HTTPS}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.modules.php(192)]
+
+[2012/08/07 19:33:49][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: logout}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(23)]
+
+[2012/08/07 19:33:49][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: login}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(35)]
+
+[2012/08/07 19:33:49][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: HTTPS}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.modules.php(192)]
+
+[2012/08/07 19:33:54][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: logout}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(23)]
+
+[2012/08/07 19:33:54][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: login}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(35)]
+
+[2012/08/07 19:33:55][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=218]
+Notice(8) {Undefined index: HTTPS}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.modules.php(192)]
+
+[2012/08/07 19:33:57][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=217]
+Notice(8) {Undefined index: logout}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(23)]
+
+[2012/08/07 19:33:57][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=217]
+Notice(8) {Undefined index: login}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MClog.php(35)]
+
+[2012/08/07 19:33:57][/mc_web/debug.php?portal=mc_web&page=articleDetail&id=217]
+Notice(8) {Undefined index: HTTPS}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.modules.php(192)]
+

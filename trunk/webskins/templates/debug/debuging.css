@@ -1,0 +1,14 @@
+div.system-error-alert {border: 1px solid #CCCCCC; padding: 2px; font-size: 10px; color: #000000; text-align: left;}
+div.system-error-alert .system-error-header {border: 1px solid #FED22F; padding: 5px; background-color: #FEEFA1; color: #B81900; text-align: left;}
+div.system-error-alert .system-error-content {padding: 0px; background-color: #FEFEFE; display: none; text-align: left;}
+div.system-error-alert div.error-exec-hide {float:left; width:auto; margin-right:5px; color: #FF0000; background-color: #FFFF00; border: 2px solid #FF0000; font-weight: bold; cursor: pointer; padding: 1px 7px; border-radius: 8px 8px 8px 8px; -moz-border-radius: 8px; text-align: left;}
+div.system-error-alert div.error-exec-hide:hover {color: #1C94C4; background-color: #FEFEFE; border: 2px solid #CCCCCC;}
+div.system-error-alert div.error-exec-show {float:left; width:auto; margin-right:5px; color: #1C94C4; background-color: #FEFEFE; border: 2px solid #CCCCCC; font-weight: bold; cursor: pointer; padding: 1px 7px; border-radius: 8px 8px 8px 8px; -moz-border-radius: 8px; text-align: left;}
+div.system-error-alert div.error-exec-show:hover {color: #FF0000; background-color: #FFFF00; border: 2px solid #FF0000;}
+div.system-error-alert div.error-msg {}
+div.system-error-alert span.err-file {color: #007D00;}
+div.system-error-alert span.err-line {color: #B81900;}
+div.system-error-alert span.err-func {color: #0088EE;}
+div.system-error-alert .system-error-content ol {margin-top 0px; margin-left: 0px; margin-bottom: 0px;}
+div.system-error-alert .system-error-content ol li {padding: 2px 2px;}
+div.system-error-alert .system-error-content ol li:hover {background-color: #EEEEEE;}

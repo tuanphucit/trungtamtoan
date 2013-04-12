@@ -1,0 +1,25 @@
+[2013/03/18 14:26:01][/?portal=mc_web&page=help]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/18 14:26:01]
+--Run time(s): 0.60800886154175
+
+[2013/03/18 14:26:07][/?portal=mc_web&page=regLearn]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/18 14:26:06]
+--Run time(s): 0.73493599891663
+
+[2013/03/18 14:26:08][/?portal=mc_web&page=regLearn]
+SELECT * FROM `province`;
+--Start time [2013/03/18 14:26:07]
+--Run time(s): 0.65163111686707
+
+[2013/03/18 14:27:29][/?portal=mc_web&page=DocOfClass&classID=11&cateID=2]
+SELECT * FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '11' AND `status` = 1  ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2013/03/18 14:27:28]
+--Run time(s): 0.77682304382324
+
+[2013/03/18 14:28:48][/?portal=mc_web&page=DocOfClass&classID=2&cateID=4]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '2' AND `status` = 1 ;
+--Start time [2013/03/18 14:28:48]
+--Run time(s): 0.60433197021484
+

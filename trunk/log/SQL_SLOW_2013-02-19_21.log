@@ -1,0 +1,5 @@
+[2013/02/19 21:09:49][/?portal=mc_web&page=regTeach]
+SELECT `sessions_id`,`session`,`day` FROM `sessions` ORDER BY sessions_id ASC;
+--Start time [2013/02/19 21:09:48]
+--Run time(s): 0.68924689292908
+

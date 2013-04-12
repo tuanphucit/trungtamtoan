@@ -1,0 +1,20 @@
+[2012/12/12 00:28:11][/?portal=mc_web&page=ClassDetail&id=50]
+SELECT `hocsinh_id`,`pupilnumber`,`duringtime`,`gender`,`starttime`,`introduction`,`expected_gender`,`teach_sessions`,`introduction`,`expected_level`,`expected_fee`,`class_id`,`location_id`,`updatetime`,`isNeedGoodTeacher`,`mobile` FROM `hocsinh` WHERE `status` = 1 AND `hocsinh_id` = 50 LIMIT 1;
+--Start time [2012/12/12 00:28:10]
+--Run time(s): 0.67075705528259
+
+[2012/12/12 00:28:12][/?portal=mc_web&page=ClassDetail&id=50]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2012/12/12 00:28:11]
+--Run time(s): 1.1739580631256
+
+[2012/12/12 00:44:10][/?portal=mc_web&page=articleDetail&id=465]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/12/12 00:44:09]
+--Run time(s): 0.51862096786499
+
+[2012/12/12 00:45:04][/?portal=mc_web&page=DocDetail&id=143]
+SELECT * FROM `document` WHERE `id` = 143 AND `status` = 1  LIMIT 1;
+--Start time [2012/12/12 00:45:03]
+--Run time(s): 0.94555497169495
+

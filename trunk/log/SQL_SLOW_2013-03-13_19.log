@@ -1,0 +1,20 @@
+[2013/03/13 19:15:46][/?portal=mc_web&page=DocOfClass&classID=3&cateID=2]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/13 19:15:44]
+--Run time(s): 1.9425539970398
+
+[2013/03/13 19:15:49][/?portal=mc_web&page=DocOfClass&classID=3&cateID=2]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '3' AND `status` = 1 ;
+--Start time [2013/03/13 19:15:47]
+--Run time(s): 1.8269698619843
+
+[2013/03/13 19:15:56][/?portal=mc_web&page=DocOfClass&classID=3&cateID=2]
+SELECT * FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '3' AND `status` = 1  ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2013/03/13 19:15:49]
+--Run time(s): 6.4783139228821
+
+[2013/03/13 19:15:56][/?portal=mc_web&page=DocOfClass&classID=3&cateID=2]
+SELECT * FROM `doccate`;
+--Start time [2013/03/13 19:15:56]
+--Run time(s): 0.84183502197266
+

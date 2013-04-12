@@ -1,0 +1,5 @@
+[2013/01/13 10:39:17][/?portal=mc_web&page=crawl]
+SELECT * FROM `university` WHERE name = 'Trường Đại học Bách khoa Hà Nội' LIMIT 0,1;
+--Start time [2013/01/13 10:39:16]
+--Run time(s): 0.70742297172546
+

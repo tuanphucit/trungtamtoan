@@ -1,0 +1,22 @@
+$(document).ready(function(){
+	/*$('.toggle').toggle(
+		function(){
+			$(this).addClass('toggle-hide');
+			$(this).removeClass('toggle-show');
+			$(this).parent().children('.toggle-content').hide();
+			$(this).parent().parent().children('.toggle-content').hide();
+		},
+		function(){
+			$(this).addClass('toggle-show');
+			$(this).removeClass('toggle-hide');
+			$(this).parent().children('.toggle-content').show();
+			$(this).parent().parent().children('.toggle-content').show();
+		}
+	);*/
+	$('.toggle').click(function(){
+		$(this).toggleClass('toggle-hide');
+		$(this).parent().children('.toggle-content').slideToggle("fast");
+		$(this).parent().parent().children('.toggle-content').slideToggle("fast");
+	});
+
+});

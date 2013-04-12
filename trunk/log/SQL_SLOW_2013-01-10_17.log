@@ -1,0 +1,5 @@
+[2013/01/10 17:05:00][/?portal=manager&page=EditArticle&article_id=633]
+SELECT * FROM `document` WHERE `status` = 0 AND `name` = '633' AND `doc_cate_id` = 0 AND `classID` = 0  ORDER BY updatetime DESC;
+--Start time [2013/01/10 17:04:59]
+--Run time(s): 1.2665679454803
+

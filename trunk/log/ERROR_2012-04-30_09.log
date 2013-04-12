@@ -1,0 +1,508 @@
+[2012/04/30 09:01:53][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(544)]
+
+[2012/04/30 09:01:53][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:01:57][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(544)]
+
+[2012/04/30 09:01:57][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:02:17][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: }
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(521)]
+
+[2012/04/30 09:02:17][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(544)]
+
+[2012/04/30 09:02:17][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:02:57][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: }
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(521)]
+
+[2012/04/30 09:02:57][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(544)]
+
+[2012/04/30 09:02:57][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:03:45][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: }
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(521)]
+
+[2012/04/30 09:03:45][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: }
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(522)]
+
+[2012/04/30 09:03:45][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:03:45][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:27][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: }
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(521)]
+
+[2012/04/30 09:04:27][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(544)]
+
+[2012/04/30 09:04:27][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:04:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 09:06:51][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(546)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:07][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+
+[2012/04/30 09:19:31][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: session_id}
+File: [E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php(34)]
+

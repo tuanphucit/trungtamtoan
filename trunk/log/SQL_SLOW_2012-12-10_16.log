@@ -1,0 +1,35 @@
+[2012/12/10 16:00:29][/?portal=mc_web&page=DocOfClass&classID=3&cateID=3]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '3' AND `classID` = '3' AND `status` = 1 ;
+--Start time [2012/12/10 16:00:08]
+--Run time(s): 20.108130931854
+
+[2012/12/10 16:00:39][/?portal=mc_web&page=DocOfClass&classID=3&cateID=3]
+SELECT * FROM `class`;
+--Start time [2012/12/10 16:00:29]
+--Run time(s): 10.751129150391
+
+[2012/12/10 16:01:10][/?portal=mc_web&page=articleDetail&id=455]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/12/10 16:01:01]
+--Run time(s): 8.4336230754852
+
+[2012/12/10 16:57:04][/]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/10 16:57:03]
+--Run time(s): 1.2810671329498
+
+[2012/12/10 16:57:05][/]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='index' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/10 16:57:05]
+--Run time(s): 0.96689391136169
+
+[2012/12/10 16:57:07][/]
+SELECT * FROM `article` WHERE `category_id` = 3 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/10 16:57:06]
+--Run time(s): 0.50144195556641
+
+[2012/12/10 16:57:08][/]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/12/10 16:57:08]
+--Run time(s): 0.55266308784485
+

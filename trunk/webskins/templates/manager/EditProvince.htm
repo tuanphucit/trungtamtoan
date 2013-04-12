@@ -1,0 +1,67 @@
+<div class="box">	
+	<h3>Tỉnh/thành phố</h3><br>		
+	<form method="POST" action="">
+	{|id|}
+	<table cellpadding="5" cellspacing="0" class="toggle-content">
+		<tr>
+			<th width="100">name</th>
+			<th>{|name|}</th>
+		</tr>
+		<tr>
+			<th>Mô tả</th>
+			<th>{|description|}</th>
+		</tr>
+		<tr>
+			<th>Khu vực</th>
+			<th>{|locate|}</th>
+		</tr>
+		<tr>
+			<th>Tình trạng</th>
+			<th>{|status|}</th>
+		</tr>		
+		<tr>	<td colspan="2" class="footoperation">
+				<input type="submit" value="Hoàn thành" name="submit">	
+				<input type="reset" value="Làm lại" name="reset">		
+			</td>
+		</tr>
+	</table>	
+</form>
+</div>
+
+<div class="mainbox list">	
+	<span style="float: right;"><a href="{|newDistrict|}" style=" color: white;"><b>Thêm quận/huyện mới</b></a></span>
+	<h3>Danh sách Quận/huyện</h3> 
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<th width="30">STT</th>
+				<th>ID</th>
+				<th>Tên Quận/Huyện</th>	
+				<th>Người tạo</th>
+				<th>Ngày tạo</th>
+				<th>Tình trạng</th>	
+			</tr>
+		</thead>
+		<tbody>
+		
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|stt|}</td>
+				<td>{|districtID|}</td>
+				<td><a href="{|detail_link|}">{|DistrictName|}</a></td>
+				<td>{|DistrictUsername|}</td>
+				<td>{|DistrictUpdate|}</td>				
+				<td>{|DistrictStatus|}</td>
+			</tr>
+			<!-- END BlockList -->
+		</tbody>
+	</table>
+	
+</div>
+
+
+
+
+
+
+

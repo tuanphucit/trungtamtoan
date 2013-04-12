@@ -1,0 +1,10 @@
+[2013/02/23 19:14:06][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/23 19:14:05]
+--Run time(s): 1.1156849861145
+
+[2013/02/23 19:14:08][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/23 19:14:07]
+--Run time(s): 0.54432201385498
+

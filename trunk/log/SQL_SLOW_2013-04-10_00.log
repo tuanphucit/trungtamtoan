@@ -1,0 +1,5 @@
+[2013/04/10 00:39:34][/]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/04/10 00:39:34]
+--Run time(s): 0.50784397125244
+

@@ -1,0 +1,50 @@
+[2012/10/11 23:01:08][/?portal=mc_web&page=articleDetail&id=316]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/10/11 23:01:08]
+--Run time(s): 0.56426596641541
+
+[2012/10/11 23:01:09][/?portal=mc_web&page=articleDetail&id=316]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2012/10/11 23:01:08]
+--Run time(s): 0.98857808113098
+
+[2012/10/11 23:36:48][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2012/10/11 23:36:48]
+--Run time(s): 0.55053091049194
+
+[2012/10/11 23:36:48][/?portal=mc_web&page=articleDetail&id=307]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=307 LIMIT 1;
+--Start time [2012/10/11 23:36:48]
+--Run time(s): 0.51262712478638
+
+[2012/10/11 23:36:49][/?portal=mc_web&page=articleDetail&id=307]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=307 LIMIT 1;
+--Start time [2012/10/11 23:36:48]
+--Run time(s): 0.71475601196289
+
+[2012/10/11 23:36:49][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `hocsinh_id`,`pupilnumber`,`duringtime`,`gender`,`starttime`,`introduction`,`expected_gender`,`teach_sessions`,`introduction`,`expected_level`,`expected_fee`,`class_id`,`location_id`,`updatetime`,`isNeedGoodTeacher`,`mobile` FROM `hocsinh` WHERE `status` = 1 AND `hocsinh_id` = 49 LIMIT 1;
+--Start time [2012/10/11 23:36:48]
+--Run time(s): 0.70099401473999
+
+[2012/10/11 23:36:50][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `session`,`day` FROM `sessions` WHERE `sessions_id` IN(3,9,15);
+--Start time [2012/10/11 23:36:49]
+--Run time(s): 0.85637211799622
+
+[2012/10/11 23:36:50][/?portal=mc_web&page=articleDetail&id=307]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 307 AND `category_id` = 3 AND `updatetime` > TIMESTAMP('2012-08-11 16:33:00') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/10/11 23:36:49]
+--Run time(s): 0.86767792701721
+
+[2012/10/11 23:36:51][/?portal=mc_web&page=articleDetail&id=307]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/11 23:36:50]
+--Run time(s): 0.83492493629456
+
+[2012/10/11 23:36:51][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/11 23:36:51]
+--Run time(s): 0.64371609687805
+

@@ -1,0 +1,11 @@
+[2012/11/13 21:03:22][/?portal=mc_web&page=listTeacherb]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/11/13 21:03:21]
+--Run time(s): 1.1329369544983
+
+[2012/11/13 21:09:11][/?portal=mc_web&page=crawl]
+INSERT INTO `article` (`subject`, `headImage`, `content`, `introduction`, `category_id`, `status`, `updatetime`) VALUES 
+('Yêu cầu kiểm tra thông tin \"70% tiến sĩ không làm nghiên cứu khoa học\"', 'data/images/imageForArticle/images651425_images.jpg', '<p style=\"text-align: justify;\"></p>&#13;\n<div>&#13;\n<table align=\"left\" width=\"300\" cellspacing=\"0\" cellpadding=\"3\" class=\"image leftside\" fck_template=\"imagecontener\"><tbody><tr><td><img width=\"300\" height=\"217\" alt=\"\" src=\"data/images/imageForArticle/images651425_images.jpg\" /></td>&#13;\n        </tr><tr><td align=\"center\" class=\"image_desc\"> Ảnh minh họa</td>&#13;\n        </tr></tbody></table><p style=\"text-align: justify;\">Theo nội dung bài báo, tại Hội thảo do Quỹ phát triển Đại học Quốc gia thành phố Hồ Chí Minh tổ chức đã công bố các số liệu: Việt Nam hiện có khoảng 24.000 tiến sĩ, 9.000 giáo sư và phó giáo sư. Khoảng 70% tiến sĩ không làm nghiên cứu khoa học mà chỉ làm các chức vụ hành chính và quản lý.</p>&#13;\n<p style=\"text-align: justify;\">Về vấn đề này, Phó Thủ tướng Nguyễn Thiện Nhân yêu cầu Đại học Quốc gia thành phố Hồ Chí Minh - cơ quan chủ trì Hội thảo khẩn trương kiểm tra, làm rõ tính xác thực của các số liệu đã được công bố tại Hội thảo, báo cáo Thủ tướng Chính phủ ngay trong ngày hôm nay (13/11/2012).</p>&#13;\n<p style=\"text-align: right;\"><strong>Bảo Minh</strong></p>&#13;\n</div>', '<i>(Nguồn giaoducthoidai.vn)</i> (GD&amp;TĐ) - Phó Thủ tướng Nguyễn Thiện Nhân vừa chính thức <a href=\"http://baodientu.chinhphu.vn/Uploaded_VGP/nguyenminhdiem/20121113/91120001.pdf\"><u>yêu cầu</u></a><u> </u>Đại học Quốc gia thành phố Hồ Chí Minh khẩn trương kiểm tra, làm rõ tính xác thực của các số liệu đã đưa tại một cuộc hội thảo mà báo Tuổi trẻ online phản ánh qua bài \"70% tiến sĩ không làm nghiên cứu khoa học\", đăng ngày 10/11/2012.', '1', '1', null);
+--Start time [2012/11/13 21:09:08]
+--Run time(s): 3.0130009651184
+

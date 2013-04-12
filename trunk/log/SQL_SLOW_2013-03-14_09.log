@@ -1,0 +1,160 @@
+[2013/03/14 09:04:50][/]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/14 09:04:49]
+--Run time(s): 1.2447421550751
+
+[2013/03/14 09:04:51][/]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/03/14 09:04:50]
+--Run time(s): 0.71576189994812
+
+[2013/03/14 09:04:51][/]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/03/14 09:04:51]
+--Run time(s): 0.54178905487061
+
+[2013/03/14 09:04:57][/]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/03/14 09:04:52]
+--Run time(s): 5.4553480148315
+
+[2013/03/14 09:05:07][/]
+SELECT * FROM `article` WHERE `category_id` = 3 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/14 09:04:57]
+--Run time(s): 9.8710739612579
+
+[2013/03/14 09:05:09][/]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:05:08]
+--Run time(s): 0.57395792007446
+
+[2013/03/14 09:05:10][/]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:05:09]
+--Run time(s): 1.3497309684753
+
+[2013/03/14 09:05:16][/]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:05:10]
+--Run time(s): 5.8710379600525
+
+[2013/03/14 09:11:03][/?portal=manager&page=EditArticle&article_id=654]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='EditArticle' AND portal_id='14' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/14 09:11:02]
+--Run time(s): 0.72603702545166
+
+[2013/03/14 09:15:59][/?portal=mc_web&page=DocDetail&id=149]
+SELECT * FROM `document` WHERE `id` = 149 AND `status` = 1  LIMIT 1;
+--Start time [2013/03/14 09:15:57]
+--Run time(s): 1.4002912044525
+
+[2013/03/14 09:15:59][/?portal=mc_web&page=DocDetail&id=149]
+SELECT `doc_cate_id`,`updatetime`,`classID`,`type`,`author` FROM `document` WHERE `id`=149 LIMIT 1;
+--Start time [2013/03/14 09:15:59]
+--Run time(s): 0.78254890441895
+
+[2013/03/14 09:25:06][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://www.trungtamtoan.com/?portal=mc_web&page=articleDetail&id=654' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2013/03/14 09:25:04]
+--Run time(s): 1.532322883606
+
+[2013/03/14 09:25:32][/?portal=mc_web&page=crawl]
+SELECT * FROM `article` WHERE subject = 'Góp ý dự thảo Quy định xử phạt vi phạm hành chính trong lĩnh vực giáo dục' LIMIT 0,1;
+--Start time [2013/03/14 09:25:29]
+--Run time(s): 2.9376771450043
+
+[2013/03/14 09:25:38][/?portal=mc_web&page=crawl]
+SELECT * FROM `university` WHERE name = 'Trường Cao đẳng Kinh tế Kỹ thuật Điện Biên' LIMIT 0,1;
+--Start time [2013/03/14 09:25:38]
+--Run time(s): 0.63621592521667
+
+[2013/03/14 09:25:41][/?portal=mc_web&page=crawl]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:25:39]
+--Run time(s): 2.1195120811462
+
+[2013/03/14 09:26:22][/?portal=mc_web&page=listTeacherb]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/14 09:26:18]
+--Run time(s): 4.6626250743866
+
+[2013/03/14 09:26:24][/?portal=mc_web&page=listTeacherb]
+SELECT * FROM `province`;
+--Start time [2013/03/14 09:26:23]
+--Run time(s): 0.99879002571106
+
+[2013/03/14 09:26:25][/?portal=mc_web&page=listTeacherb]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:26:25]
+--Run time(s): 0.58558011054993
+
+[2013/03/14 09:26:26][/?portal=mc_web&page=listTeacherb]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:26:26]
+--Run time(s): 0.56489706039429
+
+[2013/03/14 09:26:59][/?portal=mc_web&page=articleDetail&id=657]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/14 09:26:57]
+--Run time(s): 2.0050938129425
+
+[2013/03/14 09:27:01][/?portal=mc_web&page=articleDetail&id=657]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/14 09:26:59]
+--Run time(s): 2.6776349544525
+
+[2013/03/14 09:27:02][/?portal=mc_web&page=articleDetail&id=657]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/03/14 09:27:01]
+--Run time(s): 0.64930105209351
+
+[2013/03/14 09:27:03][/?portal=mc_web&page=articleDetail&id=657]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=657 LIMIT 1;
+--Start time [2013/03/14 09:27:02]
+--Run time(s): 0.73712086677551
+
+[2013/03/14 09:27:04][/?portal=mc_web&page=articleDetail&id=657]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 657 AND `category_id` = 1 AND `updatetime` < TIMESTAMP('2013-03-14 10:25:36') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/14 09:27:03]
+--Run time(s): 0.54344797134399
+
+[2013/03/14 09:27:05][/?portal=mc_web&page=articleDetail&id=657]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:27:04]
+--Run time(s): 1.0460767745972
+
+[2013/03/14 09:27:06][/?portal=mc_web&page=articleDetail&id=657]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:27:05]
+--Run time(s): 1.0706658363342
+
+[2013/03/14 09:27:07][/?portal=mc_web&page=articleDetail&id=657]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:27:06]
+--Run time(s): 0.5743510723114
+
+[2013/03/14 09:27:39][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://www.trungtamtoan.com/?portal=mc_web&page=articleDetail&id=655' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2013/03/14 09:27:38]
+--Run time(s): 1.5688359737396
+
+[2013/03/14 09:27:48][/?portal=mc_web&page=articleDetail&id=656]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/14 09:27:47]
+--Run time(s): 0.89518094062805
+
+[2013/03/14 09:27:51][/?portal=mc_web&page=articleDetail&id=656]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:27:48]
+--Run time(s): 2.8079650402069
+
+[2013/03/14 09:44:58][/]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:44:58]
+--Run time(s): 0.74570798873901
+
+[2013/03/14 09:44:59][/]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/14 09:44:59]
+--Run time(s): 0.77769589424133
+

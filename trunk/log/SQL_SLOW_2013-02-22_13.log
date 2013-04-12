@@ -1,0 +1,25 @@
+[2013/02/22 13:04:47][/?portal=mc_web&page=DocOfClass&classID=11&cateID=3]
+SELECT * FROM `doccate`;
+--Start time [2013/02/22 13:04:46]
+--Run time(s): 0.73601603507996
+
+[2013/02/22 13:04:57][/?portal=mc_web&page=regLearn]
+SELECT * FROM `province`;
+--Start time [2013/02/22 13:04:56]
+--Run time(s): 1.2064468860626
+
+[2013/02/22 13:04:58][/?portal=mc_web&page=regLearn]
+SELECT `sessions_id`,`session`,`day` FROM `sessions` ORDER BY sessions_id ASC;
+--Start time [2013/02/22 13:04:57]
+--Run time(s): 0.81382703781128
+
+[2013/02/22 13:30:14][/?portal=mc_web&page=DocOfClass&classID=7&cateID=1]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/22 13:30:12]
+--Run time(s): 1.935231924057
+
+[2013/02/22 13:30:15][/?portal=mc_web&page=DocOfClass&classID=7&cateID=1]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/22 13:30:15]
+--Run time(s): 0.77304601669312
+

@@ -1,0 +1,5 @@
+[2012/09/23 22:39:05][/?portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2012/09/23 22:39:04]
+--Run time(s): 0.526211977005
+

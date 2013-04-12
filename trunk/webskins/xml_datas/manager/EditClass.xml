@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="EditClass">
+	<bean name="EditClassView" action="" method="post" onsubmit="return true;">
+		<property type="hidden" name="class_id" id="class_id" display="ID"/>
+		<property type="text" name="name" id="name" display="Tên lớp" style="width:300px;" required="true"/>
+		<property type="text" name="description" id="description" display="Mô tả" style="width:300px;"/>
+		<property type="select" name="status" id="status" display ="Tình trạng" option="0: Ẩn| 1: Hiện"  style="width:140px;"/>	
+	</bean> 
+</page>
+

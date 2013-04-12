@@ -1,0 +1,5 @@
+[2012/10/30 01:32:30][http://trungtamtoan.com/?portal=mc_web&page=ClassDetail&id=50]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2012/10/30 01:32:30]
+--Run time(s): 0.61554884910583
+

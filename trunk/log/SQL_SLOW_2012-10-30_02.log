@@ -1,0 +1,10 @@
+[2012/10/30 02:37:22][/]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/30 02:37:21]
+--Run time(s): 0.62406897544861
+
+[2012/10/30 02:37:22][/]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/30 02:37:22]
+--Run time(s): 0.52685284614563
+

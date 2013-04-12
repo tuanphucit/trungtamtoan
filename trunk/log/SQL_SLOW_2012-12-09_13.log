@@ -1,0 +1,5 @@
+[2012/12/09 13:04:50][/?portal=mc_web&page=DocDetail&id=110]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='70' LIMIT 1;
+--Start time [2012/12/09 13:04:48]
+--Run time(s): 2.6526319980621
+

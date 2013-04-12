@@ -1,0 +1,15 @@
+[2013/04/05 15:33:54][/?portal=mc_web&page=DocOfClass&classID=16&cateID=2]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/04/05 15:33:53]
+--Run time(s): 0.64863801002502
+
+[2013/04/05 15:33:56][/?portal=mc_web&page=DocOfClass&classID=16&cateID=2]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '16' AND `status` = 1 ;
+--Start time [2013/04/05 15:33:54]
+--Run time(s): 1.2105851173401
+
+[2013/04/05 15:33:56][/?portal=mc_web&page=DocOfClass&classID=16&cateID=2]
+SELECT * FROM `document` WHERE `doc_cate_id` = '2' AND `classID` = '16' AND `status` = 1  ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2013/04/05 15:33:56]
+--Run time(s): 0.57204914093018
+

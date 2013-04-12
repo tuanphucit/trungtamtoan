@@ -1,0 +1,82 @@
+#langswitcher_menu {
+	OVERFLOW: visible
+}
+#langswitcher_menu {
+	WHITE-SPACE: nowrap
+}
+#langswitcher_menu UL LI {
+	WHITE-SPACE: nowrap
+}
+#langswitcher_menu UL LI.current A {
+	WHITE-SPACE: nowrap
+}
+#langswitcher_menu UL LI A {
+	WHITE-SPACE: nowrap
+}
+#langswitcher_menu UL LI.current {
+	FONT-WEIGHT: bold
+}
+#langswitcher_menu UL LI.current A {
+	COLOR: #666
+}
+#langswitcher_menu {
+	
+}
+#langswitcher_menu LI.current {
+	FONT-WEIGHT: bold
+}
+
+/*---------------*/
+.standard   {font-size: 10pt;}
+.bold       {text-align: center; font-size: 10pt; font-weight:bold;}
+.bold_left  {text-align: left; font-size: 10pt; font-weight:bold;}
+.green      {text-align: center; color: #01DF00; font-weight:bold;}
+.green_left {text-align: left; color: #01DF00; font-weight:bold;}
+.red        {text-align: center; color: #FF0000; font-weight:bold;}
+.red_left   {text-align: left; color: #FF0000; font-weight:bold;}
+
+
+/*------------------------*/
+
+
+/*loginbox ext legend*/
+.smallbox { border: 1px solid #E8C9B7; background: #FFFBF8; padding: 10px; margin: 10px auto; width: 500px; text-align: center; line-height: 35px; float: left;}
+	.smallbox label { padding: 0 20px; }
+	.smallbox img { vertical-align: middle; margin-right: 10px; }
+	.smallbox div.login table { padding: 0 20px; align:center;}
+	.smallbox div.login div.boximage { margin: 10px 0px 0px 10px; padding: 0px;	border: 0px; float: left; width: 50px;}
+	.smallbox div.login ul li { padding: 0 20px; float: left; display: block;height: 80px;}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+div.headerbox {
+	background: #FFF url("../images/portalbox_bg.gif"); background-repeat: repeat-x; background-position: 0 0; border-color: #FFF #FFF #E6E6E2 #FFF; padding: 0px 0px; margin-bottom: 1em;
+	height:100px;
+	OVERFLOW: hidden; WIDTH: 100%
+}
+hr.line {clear:both; border: 1px solid #E6E6E2; margin-bottom: 6px; border-collapse: separate;}
+.side {min-width: 170px;}
+/*mainbox-side*/
+.mainbox-side { list-style-type: none; float: right; width: 30%; border: 0px solid #E8C9B7; padding:0px 0px 0px 0px;}
+	.mainbox-side .login { border: 1px solid #E8C9B7; background: #FFFBF8; margin: 0px 0px 5px 0px; padding:0px 0px 0px 0px; width: 100%; text-align: center; line-height: 35px; float: right;display:block;}
+	.mainbox-side .login .boximage {margin: 10px 5px 10px 0px;	padding: 0px 0px;border: 0px solid #E8C9B7;float: left; width:30%;}
+	.mainbox-side .login .boximage img {margin: 10px 0px 0px 0px;	padding: 0px 0px;}
+	.mainbox-side .login .boxtext {margin: 0px 10px 0px 0px; padding: 0px 0px;border: 0px solid #E8C9B7;float: right;width:65%;}
+	.mainbox-side .login .boxtext .title {text-align: center; color: #CC0000; font-weight:bold;}
+	.mainbox-side .login .boxtext .box {height:64px;min-width:200px;padding:3px 3px;}
+		.mainbox-side .login .boxtext .box ul{clear:both;list-style-type: none;}
+			.mainbox-side .login .boxtext .box ul li{list-style-type: none;float: left; display: block;}
+				.mainbox-side .login .boxtext .box ul li.label{width:30%;text-align: right;}
+				.mainbox-side .login .boxtext .box ul li.textbox{width:68%;text-align: left;}
+				.mainbox-side .login .boxtext .box ul li.button{width:40%;text-align: right;}
+.mainbox-content { list-style-type: none; float: left; width: 68%;}
+	.mainbox-content .boxitems {border: 0px;margin: 0px 0px 10px 0px;padding: 0px 0px 10px 0px;width: 100%;}
+	/*.mainbox-content .boxitems ul li {list-style-type: none;border: solid #c3c3c3 1px;float: left;padding: 0px 0px 0px 0px;margin: 0px 10px 10px 0px;height: 90px;background: #FFF url("../images/ext/littleboxbg.jpg");background-repeat: no-repeat;background-position: bottom right;}*/
+	.mainbox-content .boxitems ul li {list-style-type: none;border: solid #c3c3c3 1px;float: left;padding: 0px 0px 0px 0px;margin: 0px 10px 10px 0px;height: 90px;background: #FFF url("../images/portalbox_bg.gif"); background-repeat: repeat-x; background-position: 0 0;}
+	.mainbox-content .boxitems a { font-family: Verdana; font-size: 9pt; color: #0089FE; font-weight: bold }
+	.mainbox-content .boxitems .boximage {	margin: 10px 10px 10px 10px; padding: 0px;border: 0px;float: left;width: 50px;}
+	.mainbox-content .boxitems .boxtext { margin: 0px 0px 0px 0px;	padding: 7px 0px 0px 0px; border: 0px; float: right; width: 170px;}
+	.mainbox-content .boxitems .boxtexttitle {	color: #0089fe;	font-weight: bold; text-decoration: none;}
+		.mainbox-content .boxitems .boxtexttitle a { color: #0089ee; font-weight: bold; text-decoration: none;}
+		.mainbox-content .boxitems .boxtexttitle a:hover { text-decoration:none; color: #CC0000;}
+	.mainbox-content .boxitems .boxtextowner {	font-size: 95%;}
+	.mainbox-content .boxitems .boxtexttotal {	font-size: 95%;	font-weight: bold;}

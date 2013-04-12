@@ -1,0 +1,15 @@
+[2013/02/07 10:00:55][/?portal=mc_web&page=articleDetail&id=627]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articleDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/07 10:00:54]
+--Run time(s): 0.62736010551453
+
+[2013/02/07 10:01:04][/]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='index' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/07 10:01:01]
+--Run time(s): 3.1002039909363
+
+[2013/02/07 10:47:23][/?portal=mc_web&page=DocDetail&id=108]
+SELECT * FROM `document` WHERE `id` = 108 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/07 10:47:21]
+--Run time(s): 2.0004270076752
+

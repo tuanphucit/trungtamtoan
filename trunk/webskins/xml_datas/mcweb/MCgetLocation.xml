@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="MCgetLocation">
+	<bean name="MCgetLocationView" action="" method="post" onsubmit="return true;">
+		<property type="select"  id="province" name="province" display="province" option="" style="width:300px;"/>
+	</bean>
+	
+	<bean name="MCgetLocationInPage" action="" method="post" onsubmit="return true;">
+		<property type="select"  id="provinceChange" name="provinceChange" display="provinceChange" option="" style="width:100px;"/>
+	</bean>
+</page>

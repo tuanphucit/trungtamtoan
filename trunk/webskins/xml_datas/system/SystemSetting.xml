@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="SystemSetting">
+	<bean name="SystemSettingView" action="" method="post" onsubmit="return false;">
+		<property type="checkbox" name="rewrite_url" display="Cho phép sử dụng REWRITE URL"/>
+		<property type="button-submit" name="setting_btn_OK" display="lang.submit" class="submit"/>
+		<property type="button-reset" name="setting_btn_RESET" display="lang.reset" class="submit"/>
+	</bean>
+	<bean name="SystemHintView" action="" method="post" onsubmit="return false;">
+		<property type="checkbox" name="hint_layout_enable" display="Bật hint Layout" value="1" option="1:Bật Hint Layout" field="setting.layout_publish" required="false"/>
+		<property type="text" name="hint_layout_color" display="Border-Color" field="setting.layout_color" validateType="Text" size="7" readonly="readonly"/>
+		<property type="select" name="hint_layout_style" display="Border-Style" label="" value="dotted" option="none:none|hidden:hidden|dotted:dotted|dashed:dashed|solid:solid|double:double|groove:groove|ridge:ridge|inset:inset|outset:outset|inherit:inherit"/>
+		<property type="radio" name="hint_layout_width" display="Border-Width" label="" value="1px" option="0px:0px|1px:1px|2px:2px|3px:3px"/>
+		<property type="checkbox" name="hint_block_enable" display="Bật hint Block" value="1" field="setting.block_publish" required="false"/>
+		<property type="text" name="hint_block_color" display="Border-Color" field="setting.block_color" validateType="Text" size="7" readonly="readonly"/>
+		<property type="select" name="hint_block_style" display="Border-Style" label="" value="dashed" option="none:none|hidden:hidden|dotted:dotted|dashed:dashed|solid:solid|double:double|groove:groove|ridge:ridge|inset:inset|outset:outset|inherit:inherit"/>
+		<property type="radio" name="hint_block_width" display="Border-Width" label="" value="1px" option="0px:0px|1px:1px|2px:2px|3px:3px"/>
+		<property type="checkbox" name="hint_system_module_enable" display="Cho phép tác dụng system"/>
+		<property type="button-submit" name="hint_btn_OK" display="lang.submit" class="submit"/>
+		<property type="button-reset" name="hint_btn_RESET" display="lang.reset" class="submit"/>
+	</bean>
+	<bean name="SystemDebugView" action="" method="post" onsubmit="return false;">
+		<property type="checkbox" name="debug_enable" display="DEBUG ENABLE"/>
+		<property type="checkbox" name="debug_error" display="ERROR"/>
+		<property type="checkbox" name="debug_general_information" display="GENERAL INFORMATION"/>
+		<property type="checkbox" name="debug_layout_position_flugin" display="LAYOUT POSITION FLUGIN"/>
+		<property type="checkbox" name="debug_sql_query" display="SQL QUERY"/>
+		<property type="checkbox" name="debug_includes_file" display="INCLUDES FILE"/>
+		<property type="checkbox" name="debug_var" display="VAR"/>
+		<property type="checkbox" name="debug_request" display="REQUEST"/>
+		<property type="checkbox" name="debug_lang" display="LANG"/>
+		<property type="button-submit" name="debug_btn_OK" display="lang.submit" class="submit"/>
+		<property type="button-reset" name="debug_btn_RESET" display="lang.reset" class="submit"/>
+	</bean>
+	<bean name="SystemCacheView" action="" method="post" onsubmit="return false;">
+		<property type="checkbox" name="cache_enable" display="Cho phép sử dụng CACHE"/>
+		<property type="checkbox" name="cache_sql" display="Cache SQL"/>
+		<property type="text" name="cache_sql_time" display="Time (s)" validateType="Number" size="7"/>
+		<property type="checkbox" name="cache_uri" display="Cache URI"/>
+		<property type="text" name="cache_uri_time" display="Time" validateType="Number" size="7"/>
+		<property type="checkbox" name="cache_module" display="Cache Module"/>
+		<property type="text" name="cache_module_time" display="Time" validateType="Number" size="7"/>
+		<property type="checkbox" name="cache_js" display="Cache JS"/>
+		<property type="text" name="cache_js_time" display="Time" validateType="Number" size="7"/>
+		<property type="checkbox" name="cache_css" display="Cache CSS"/>
+		<property type="text" name="cache_css_time" display="Time" validateType="Number" size="7"/>
+		<property type="button-submit" name="cache_btn_OK" display="lang.submit" class="submit"/>
+		<property type="button-reset" name="cache_btn_RESET" display="lang.reset" class="submit"/>
+	</bean>
+	<bean name="SystemLogView" action="" method="post" onsubmit="return false;">
+		<property type="checkbox" name="log_enable" display="LOG ENABLE"/>
+		<property type="checkbox" name="log_error" display="LOG ERROR"/>
+		<property type="checkbox" name="log_sql" display="LOG SQL"/>
+		<property type="checkbox" name="log_sql_view" display="LOG VIEW"/>
+		<property type="checkbox" name="log_sql_add" display="LOG ADD"/>
+		<property type="checkbox" name="log_sql_edit" display="LOG EDIT"/>
+		<property type="checkbox" name="log_sql_delete" display="LOG DELETE"/>
+		<property type="checkbox" name="log_sql_other" display="LOG OTHER"/>
+		<property type="checkbox" name="log_sql_slow" display="LOG SQL SLOW"/>
+		<property type="text" name="log_sql_slow_time" display="Time" validateType="Number" size="7"/>
+		<property type="button-submit" name="log_btn_OK" display="lang.submit" class="submit"/>
+		<property type="button-reset" name="log_btn_RESET" display="lang.reset" class="submit"/>
+	</bean>
+</page>
+

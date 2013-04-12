@@ -1,0 +1,10 @@
+[2013/02/23 17:19:01][/?portal=mc_web&page=listClass]
+SELECT * FROM `province`;
+--Start time [2013/02/23 17:19:00]
+--Run time(s): 1.3834149837494
+
+[2013/02/23 17:19:04][/?portal=mc_web&page=listClass]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/23 17:19:02]
+--Run time(s): 1.7518627643585
+

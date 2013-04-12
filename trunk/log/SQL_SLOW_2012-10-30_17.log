@@ -1,0 +1,20 @@
+[2012/10/30 17:33:26][/?portal=mc_web&page=TeacherDetail&id=79]
+SELECT `giasu_id`,`firstname`,`lastname`,`gender`,`level`,`expected_fee`,`teach_classes`,`teach_locations`,`teach_sessions`,`validate`,`avatar`,`mobile`,`school`,`faculty`,`introduction` FROM `giasu` WHERE `status` = 1 AND `giasu_id` = 79 LIMIT 1;
+--Start time [2012/10/30 17:33:25]
+--Run time(s): 0.72174692153931
+
+[2012/10/30 17:41:09][/?portal=manager&page=pupil]
+SELECT COUNT(*) AS rows FROM `hocsinh`;
+--Start time [2012/10/30 17:41:09]
+--Run time(s): 0.65089082717896
+
+[2012/10/30 17:45:28][/?portal=manager&page=teacher]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='teacher' AND portal_id='14' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/30 17:45:27]
+--Run time(s): 1.3057000637054
+
+[2012/10/30 17:46:31][/?portal=manager&page=EditGiasu&id=89]
+SELECT `giasu_id`,`username`,`firstname`,`lastname`,`avatar` FROM `giasu` WHERE `username` = 'admin' AND `password` = 'baa408736e9a56dc887e48a095e68582' AND `status` = 1 LIMIT 1;
+--Start time [2012/10/30 17:46:31]
+--Run time(s): 0.72133111953735
+

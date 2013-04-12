@@ -1,0 +1,68 @@
+[2012/04/30 08:37:35][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: description}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(121)]
+
+[2012/04/30 08:38:09][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: description}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(121)]
+
+[2012/04/30 08:38:10][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: description}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(121)]
+
+[2012/04/30 08:50:45][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(544)]
+
+[2012/04/30 08:50:45][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 08:52:53][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(544)]
+
+[2012/04/30 08:52:53][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 08:55:32][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Missing argument 2 for CgsDatabase::select(), called in E:\xampp\htdocs\mc_web\modules\mcweb\MCregTeach.php on line 28 and defined}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.database.php(89)]
+
+[2012/04/30 08:55:32][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined variable: fields}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.database.php(90)]
+
+[2012/04/30 08:56:04][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(544)]
+
+[2012/04/30 08:56:04][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 08:56:57][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(544)]
+
+[2012/04/30 08:56:57][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 08:57:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(544)]
+
+[2012/04/30 08:57:54][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+
+[2012/04/30 08:58:49][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: checkboxlist}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(544)]
+
+[2012/04/30 08:58:49][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Warning(2) {Invalid argument supplied for foreach()}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(545)]
+

@@ -1,0 +1,15 @@
+[2012/10/15 18:23:26][/?portal=mc_web&page=crawl]
+SELECT * FROM `article` WHERE subject = 'Công bố quyết định bổ nhiệm Phó Giám đốc Học viện quản lý giáo dục' LIMIT 0,1;
+--Start time [2012/10/15 18:23:26]
+--Run time(s): 0.50616812705994
+
+[2012/10/15 18:23:33][/?portal=mc_web&page=crawl]
+SELECT * FROM `university` WHERE name = 'Trường Đại học Bách khoa Hà Nội' LIMIT 0,1;
+--Start time [2012/10/15 18:23:32]
+--Run time(s): 0.75666403770447
+
+[2012/10/15 18:23:35][/?portal=mc_web&page=crawl]
+SELECT * FROM `university` WHERE name = 'Học viện  Biên Phòng (Thi ở phía Bắc)' LIMIT 0,1;
+--Start time [2012/10/15 18:23:33]
+--Run time(s): 2.6941289901733
+

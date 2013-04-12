@@ -1,0 +1,10 @@
+[2012/12/18 11:54:42][/?portal=mc_web&page=articleDetail&id=421]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/12/18 11:54:42]
+--Run time(s): 0.64492797851562
+
+[2012/12/18 11:57:28][/?portal=mc_web&page=articleDetail&id=472]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=472 LIMIT 1;
+--Start time [2012/12/18 11:57:27]
+--Run time(s): 0.71486878395081
+

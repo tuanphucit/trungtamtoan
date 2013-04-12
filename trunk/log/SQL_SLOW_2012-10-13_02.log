@@ -1,0 +1,10 @@
+[2012/10/13 02:42:22][/?portal=mc_web&page=NewDoc]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/10/13 02:42:22]
+--Run time(s): 0.60841798782349
+
+[2012/10/13 02:42:23][/?portal=mc_web&page=NewDoc]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2012/10/13 02:42:22]
+--Run time(s): 0.77707695960999
+

@@ -1,0 +1,72 @@
+[2012/05/29 21:48:14][/debug.php?portal=mc_web&page=regLearn]
+Notice(8) {Undefined index: pupilname}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/lib/kernel/system.html.form.build.php(122)]
+
+[2012/05/29 21:48:14][/debug.php?portal=mc_web&page=regLearn]
+Notice(8) {Undefined index: login}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(23)]
+
+[2012/05/29 21:48:14][/debug.php?portal=mc_web&page=regLearn]
+Notice(8) {Undefined index: logout}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(31)]
+
+[2012/05/29 21:48:51][/debug.php?portal=mc_web&page=regLearn]
+Notice(8) {Undefined index: pupilname}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/lib/kernel/system.html.form.build.php(122)]
+
+[2012/05/29 21:48:52][/debug.php?portal=mc_web&page=regLearn]
+Notice(8) {Undefined index: login}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(23)]
+
+[2012/05/29 21:48:52][/debug.php?portal=mc_web&page=regLearn]
+Notice(8) {Undefined index: logout}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(31)]
+
+[2012/05/29 21:48:58][/debug.php?portal=mc_web&page=regLearn]
+Notice(8) {Undefined index: pupilname}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/lib/kernel/system.html.form.build.php(122)]
+
+[2012/05/29 21:48:58][/debug.php?portal=mc_web&page=regLearn]
+Notice(8) {Undefined index: login}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(23)]
+
+[2012/05/29 21:48:59][/debug.php?portal=mc_web&page=regLearn]
+Notice(8) {Undefined index: logout}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(31)]
+
+[2012/05/29 21:49:06][/debug.php?portal=mc_web&page=listClass]
+Notice(8) {Undefined index: login}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(23)]
+
+[2012/05/29 21:49:06][/debug.php?portal=mc_web&page=listClass]
+Notice(8) {Undefined index: logout}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(31)]
+
+[2012/05/29 21:49:29][/debug.php?portal=mc_web&page=listTeacher]
+Notice(8) {Undefined index: login}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(23)]
+
+[2012/05/29 21:49:29][/debug.php?portal=mc_web&page=listTeacher]
+Notice(8) {Undefined index: logout}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(31)]
+
+[2012/05/29 21:49:53][/debug.php?portal=mc_web&page=listTeacher]
+Notice(8) {Undefined index: logout}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(31)]
+
+[2012/05/29 21:50:03][/debug.php?portal=mc_web&page=listTeacher]
+Notice(8) {Undefined index: login}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(23)]
+
+[2012/05/29 21:50:07][/debug.php?portal=mc_web&page=listTeacher]
+Notice(8) {Undefined index: logout}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(31)]
+
+[2012/05/29 21:50:10][/debug.php?portal=mc_web&page=listTeacher]
+Notice(8) {Undefined index: login}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(23)]
+
+[2012/05/29 21:50:16][/debug.php?portal=mc_web&page=listTeacher]
+Notice(8) {Undefined index: logout}
+File: [/export/linux/www/com/n/a/trungtamtoan/3/6/dannd.H1136/trungtamtoan.com/modules/mcweb/MClog.php(31)]
+

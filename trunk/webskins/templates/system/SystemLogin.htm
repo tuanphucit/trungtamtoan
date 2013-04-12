@@ -1,0 +1,29 @@
+<div class="login">
+	<div class="boximage"><img width="100" src="webskins/skins/system/images/keepassx_128.png" alt="Login"></div>
+	<div class="boxtext">
+		<div class="title">Đăng nhập hệ thống</div>
+		{|FORM_BEGIN|}
+		<div class="box">
+			<div class="boxform">
+				<div class="label">Tên :</div>
+				<div class="textbox">{|username|}</div>
+			</div>
+			<div class="boxform">
+				<div class="label">Mật khẩu :</div>
+				<div class="textbox">{|password|}</div>
+			</div>
+			<div class="button">
+				{|save_password|} &nbsp; &nbsp;
+				{|login_btn_OK|}
+			</div>
+		</div>
+		{|FORM_END|}
+	</div>
+	<div class="boxcopyright">
+		Powered by <strong><a href="http://www.cgs.vn" target="_blank" style="color:#0089FE;">CGS</a></strong> <em>2.0.0</em> © 2007-{|this_year|}
+		&nbsp; &nbsp; &nbsp;
+		<a href="{|link_register|}">Đăng ký</a> | 
+		<a href="{|link_forgot_password|}">Quên mật khẩu?</a>
+	</div>
+</div>
+<div class="msg" id="msg">{|msg|}</div>

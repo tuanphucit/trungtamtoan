@@ -1,0 +1,5 @@
+[2013/02/05 04:59:34][/?portal=mc_web&page=NewDoc&page_no=4]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='70' LIMIT 1;
+--Start time [2013/02/05 04:59:32]
+--Run time(s): 2.2735929489136
+

@@ -1,0 +1,20 @@
+[2012/10/16 19:28:45][/?portal=mc_web&page=articleDetail&id=522]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2012/10/16 19:28:45]
+--Run time(s): 0.56561398506165
+
+[2012/10/16 19:30:29][/?portal=mc_web&page=articleDetail&id=510]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/16 19:30:28]
+--Run time(s): 1.5417590141296
+
+[2012/10/16 19:50:41][/?portal=mc_web&page=help]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/16 19:50:40]
+--Run time(s): 0.73957395553589
+
+[2012/10/16 19:52:41][/?portal=mc_web&page=listTeacher]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/16 19:52:40]
+--Run time(s): 0.62722086906433
+

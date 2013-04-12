@@ -1,0 +1,20 @@
+[2013/03/03 00:04:07][/]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/03 00:04:02]
+--Run time(s): 4.7133438587189
+
+[2013/03/03 00:04:13][/]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='index' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/03 00:04:07]
+--Run time(s): 5.8159849643707
+
+[2013/03/03 00:04:16][/]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/03/03 00:04:14]
+--Run time(s): 2.2923278808594
+
+[2013/03/03 00:56:26][/?portal=mc_web&page=DocOfClass&classID=9&cateID=1]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '1' AND `classID` = '9' AND `status` = 1 ;
+--Start time [2013/03/03 00:56:24]
+--Run time(s): 2.090029001236
+

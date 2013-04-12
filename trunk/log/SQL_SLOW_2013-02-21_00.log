@@ -1,0 +1,15 @@
+[2013/02/21 00:02:30][/?portal=mc_web&page=articleDetail&id=354]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=354 LIMIT 1;
+--Start time [2013/02/21 00:02:29]
+--Run time(s): 0.57278394699097
+
+[2013/02/21 00:02:32][/?portal=mc_web&page=articleDetail&id=354]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 354 AND `category_id` = 1 AND `updatetime` > TIMESTAMP('2012-08-17 22:44:01') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/21 00:02:30]
+--Run time(s): 1.973443031311
+
+[2013/02/21 00:02:33][/?portal=mc_web&page=articleDetail&id=354]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/21 00:02:32]
+--Run time(s): 1.1535520553589
+

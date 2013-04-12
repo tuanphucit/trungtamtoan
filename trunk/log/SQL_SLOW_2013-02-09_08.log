@@ -1,0 +1,15 @@
+[2013/02/09 08:06:28][/?portal=mc_web&page=DocDetail&id=95]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/09 08:06:27]
+--Run time(s): 1.0746350288391
+
+[2013/02/09 08:51:22][/?portal=mc_web&page=regLearn]
+SELECT `sessions_id`,`session`,`day` FROM `sessions` ORDER BY sessions_id ASC;
+--Start time [2013/02/09 08:51:21]
+--Run time(s): 0.76473903656006
+
+[2013/02/09 08:51:23][/?portal=mc_web&page=regLearn]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/09 08:51:22]
+--Run time(s): 0.57752704620361
+

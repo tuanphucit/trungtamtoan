@@ -1,0 +1,15 @@
+[2013/03/02 19:35:04][/?portal=mc_web&page=regLearn]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/02 19:35:03]
+--Run time(s): 0.78515291213989
+
+[2013/03/02 19:35:05][/?portal=mc_web&page=regLearn]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/02 19:35:04]
+--Run time(s): 0.51737189292908
+
+[2013/03/02 19:35:38][/?portal=mc_web&page=regLearn]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/02 19:35:38]
+--Run time(s): 0.62932515144348
+

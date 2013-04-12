@@ -1,0 +1,10 @@
+[2012/11/15 07:14:06][/?portal=mc_web&page=DocDetail&id=109]
+SELECT `name`,`updatetime`,`id` FROM `document` WHERE `id` != 109 AND `doc_cate_id` = 4 AND `classID` = 17 AND `updatetime` < TIMESTAMP('2012-09-22 16:51:36') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/11/15 07:14:04]
+--Run time(s): 1.5859911441803
+
+[2012/11/15 07:14:06][/?portal=mc_web&page=DocDetail&id=109]
+SELECT * FROM `doccate`;
+--Start time [2012/11/15 07:14:06]
+--Run time(s): 0.58826899528503
+

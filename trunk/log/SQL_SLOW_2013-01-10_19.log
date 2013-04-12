@@ -1,0 +1,60 @@
+[2013/01/10 19:19:06][/]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/01/10 19:19:05]
+--Run time(s): 0.83126711845398
+
+[2013/01/10 19:19:07][/]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='index' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/01/10 19:19:06]
+--Run time(s): 0.83020710945129
+
+[2013/01/10 19:19:08][/]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/01/10 19:19:07]
+--Run time(s): 1.5629408359528
+
+[2013/01/10 19:19:10][/]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/01/10 19:19:08]
+--Run time(s): 1.4679870605469
+
+[2013/01/10 19:19:12][/]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/01/10 19:19:10]
+--Run time(s): 2.1921439170837
+
+[2013/01/10 19:19:15][/]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/01/10 19:19:12]
+--Run time(s): 3.2406489849091
+
+[2013/01/10 19:19:18][/]
+SELECT * FROM `article` WHERE `category_id` = 4 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/01/10 19:19:16]
+--Run time(s): 1.9298138618469
+
+[2013/01/10 19:19:20][/]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/01/10 19:19:18]
+--Run time(s): 2.243115901947
+
+[2013/01/10 19:19:21][/]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/01/10 19:19:20]
+--Run time(s): 0.93967294692993
+
+[2013/01/10 19:19:45][/]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/01/10 19:19:45]
+--Run time(s): 0.52131199836731
+
+[2013/01/10 19:19:46][/]
+SELECT * FROM `article` WHERE `category_id` = 4 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/01/10 19:19:46]
+--Run time(s): 0.58512783050537
+
+[2013/01/10 19:19:48][/]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/01/10 19:19:46]
+--Run time(s): 1.0739359855652
+

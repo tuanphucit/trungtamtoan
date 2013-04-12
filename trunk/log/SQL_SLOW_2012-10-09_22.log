@@ -1,0 +1,10 @@
+[2012/10/09 22:04:00][/?portal=mc_web&page=crawl]
+SELECT * FROM `article` WHERE subject = 'Thí sinh còn cơ hội vào ĐH, CĐ công lập hệ chính quy' LIMIT 0,1;
+--Start time [2012/10/09 22:03:59]
+--Run time(s): 1.1326131820679
+
+[2012/10/09 22:04:35][/?portal=mc_web&page=articleDetail&id=512]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2012/10/09 22:04:34]
+--Run time(s): 0.71773910522461
+

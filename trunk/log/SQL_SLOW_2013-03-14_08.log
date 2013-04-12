@@ -1,0 +1,51 @@
+[2013/03/14 08:43:11][/?portal=manager&page=login]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='login' AND portal_id='14' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/14 08:43:08]
+--Run time(s): 2.5877599716187
+
+[2013/03/14 08:43:17][/?portal=manager&page=login]
+SELECT `giasu_id`,`username`,`firstname`,`lastname`,`avatar` FROM `giasu` WHERE `username` = 'admin' AND `password` = 'baa408736e9a56dc887e48a095e68582' AND `status` = 1 AND `permission` = 1 LIMIT 1;
+--Start time [2013/03/14 08:43:16]
+--Run time(s): 0.61478090286255
+
+[2013/03/14 08:43:24][/?portal=manager&page=base]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='base' AND portal_id='14' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/14 08:43:19]
+--Run time(s): 5.0504488945007
+
+[2013/03/14 08:43:26][/?portal=manager&page=base]
+SELECT `giasu_id`,`username`,`firstname`,`lastname`,`avatar` FROM `giasu` WHERE `username` = 'admin' AND `password` = 'baa408736e9a56dc887e48a095e68582' AND `status` = 1 LIMIT 1;
+--Start time [2013/03/14 08:43:24]
+--Run time(s): 1.3332459926605
+
+[2013/03/14 08:43:50][/?portal=manager&page=EditProvince&id=0]
+SELECT * FROM `location` WHERE `provinceID` = 0 ORDER BY location_id ASC;
+--Start time [2013/03/14 08:43:46]
+--Run time(s): 3.8330068588257
+
+[2013/03/14 08:44:24][/?portal=manager&page=article]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='manager' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/14 08:44:21]
+--Run time(s): 3.5359790325165
+
+[2013/03/14 08:44:26][/?portal=manager&page=article]
+SELECT * FROM `article` ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2013/03/14 08:44:25]
+--Run time(s): 1.2021400928497
+
+[2013/03/14 08:44:32][/?portal=manager&page=EditArticle&article_id=654]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='EditArticle' AND portal_id='14' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/14 08:44:29]
+--Run time(s): 3.5824899673462
+
+[2013/03/14 08:44:34][/?portal=manager&page=EditArticle&article_id=654]
+SELECT * FROM `document` WHERE `status` = 0 AND `name` = '654' AND `doc_cate_id` = 0 AND `classID` = 0  ORDER BY updatetime DESC;
+--Start time [2013/03/14 08:44:33]
+--Run time(s): 0.70400309562683
+
+[2013/03/14 08:45:03][/?portal=manager&page=EditArticle&article_id=654]
+INSERT INTO `document` (`name`, `description`, `classID`, `doc_cate_id`, `filename`, `createtime`, `author`, `type`, `status`) VALUES 
+('654', '', 0, 0, '20130314/admin_1363229102.jpg', null, 'admin', 'jpg', 0);
+--Start time [2013/03/14 08:45:02]
+--Run time(s): 0.73088192939758
+

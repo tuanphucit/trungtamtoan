@@ -1,0 +1,30 @@
+[2013/03/28 07:49:13][/]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/28 07:49:11]
+--Run time(s): 1.1014270782471
+
+[2013/03/28 07:49:14][/]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/03/28 07:49:13]
+--Run time(s): 0.84021687507629
+
+[2013/03/28 07:49:16][/]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/03/28 07:49:15]
+--Run time(s): 1.1812069416046
+
+[2013/03/28 07:49:18][/]
+SELECT * FROM `article` WHERE `category_id` = 3 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/28 07:49:16]
+--Run time(s): 1.977942943573
+
+[2013/03/28 07:49:19][/]
+SELECT * FROM `article` WHERE `category_id` = 4 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/28 07:49:18]
+--Run time(s): 0.87950301170349
+
+[2013/03/28 07:49:22][/]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/28 07:49:19]
+--Run time(s): 2.3353209495544
+

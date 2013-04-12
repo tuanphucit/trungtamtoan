@@ -1,0 +1,24 @@
+<div class="mainbox">	
+	<h3>Quên Mật Khẩu</h3>	
+	<form method = 'POST' action = '' id='forgetpassform'>
+	<table cellpadding="5" cellspacing="0">	
+		<tr>
+			<th colspan='2'><center>{|message|}</center></th>
+		</tr>	
+		<tr>
+			<th width="20%">Username</th>
+			<th width="80%"><input type='text' id='username' name ='username' value='{|usernameV|}' style='width:200px;' class="validate[required,custom[onlyLetterNumber]]"/></th>
+		</tr>
+		<tr>
+			<th>Email</th>
+			<th><input type='text' id='email' name ='email' value='{|emailV|}' style='width:200px;' class="validate[required,custom[email]]"/></th>
+		</tr>
+		<tr>
+		<td colspan="2" class="footoperation"><center>
+			<input type='submit' name='sendRequest' id='sendRequest' value='Gửi'/>
+			<input type="reset" value="Làm lại" id="reset"/></center>		
+			</td>
+		</tr>
+	</table>	
+	</form>
+</div>

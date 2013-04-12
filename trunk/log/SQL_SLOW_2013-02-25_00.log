@@ -1,0 +1,30 @@
+[2013/02/25 00:05:38][/?portal=mc_web&page=DocDetail&id=108]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/25 00:05:34]
+--Run time(s): 3.2619149684906
+
+[2013/02/25 00:05:42][/?portal=mc_web&page=DocDetail&id=108]
+SELECT * FROM `document` WHERE `id` = 108 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/25 00:05:38]
+--Run time(s): 4.3891181945801
+
+[2013/02/25 00:07:23][/?portal=mc_web&page=DocDetail&id=115]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/25 00:07:20]
+--Run time(s): 3.2209138870239
+
+[2013/02/25 00:07:24][/?portal=mc_web&page=DocDetail&id=115]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/25 00:07:24]
+--Run time(s): 0.81397485733032
+
+[2013/02/25 00:52:13][/?portal=mc_web&page=NewDoc]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='NewDoc' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/25 00:52:10]
+--Run time(s): 2.8031060695648
+
+[2013/02/25 00:52:23][/?portal=mc_web&page=NewDoc]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='70' LIMIT 1;
+--Start time [2013/02/25 00:52:13]
+--Run time(s): 9.5078518390656
+

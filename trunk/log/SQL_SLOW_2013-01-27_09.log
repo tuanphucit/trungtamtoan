@@ -1,0 +1,5 @@
+[2013/01/27 09:37:04][/?portal=mc_web&page=listTeacher]
+SELECT * FROM `province` WHERE `status` = 1 ORDER BY name DESC;
+--Start time [2013/01/27 09:37:03]
+--Run time(s): 0.58491206169128
+

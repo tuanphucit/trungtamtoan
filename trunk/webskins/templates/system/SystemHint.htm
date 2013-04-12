@@ -1,0 +1,47 @@
+<div class="box">
+	<h4>{|lang.header_hint|}</h4>
+	
+	{|FORM_BEGIN|}
+	<table cellpadding="5" cellspacing="0" class="toggle-content">
+		<tr>
+			<td style="width:200px;">{|hint_layout_enable|}</th>
+			<td>
+				<div style="float:left;">
+					<ul class="use_in_table">
+						<li><div id="view_hint_layout_color" style="padding:5px;border:1px groove #FCC;width:10px;height:10px;margin-bottom:10px;background-color:#{|hint_layout_color_value|};">&nbsp;</div></li>
+						<li>{|hint_layout_color|} {|lang.click_on_change|}</li>
+						<li>Border: Style {|hint_layout_style|} - Width {|hint_layout_width|}</li>
+					</ul>
+				</div>
+				<div id="demo-hint-layout" style="float:right; width:100px; height:50px; padding:5px; border-width: {|hint_layout_width_value|}; border-color: #{|hint_layout_color_value|}; border-style: {|hint_layout_style_value|};">Preview</div>
+			</td>
+		</tr>
+		<tr>
+			<td>{|hint_block_enable|}</th>
+			<td>
+				<div style="float:left;">
+					<ul class="use_in_table">
+						<li><div id="view_hint_block_color" style="padding:5px;border:1px groove #FCC;width:10px;height:10px;margin-bottom:10px;background-color:#{|hint_block_color_value|};">&nbsp;</div></li>
+						<li>{|hint_block_color|} {|lang.click_on_change|}</li>
+						<li>Border: Style {|hint_block_style|} - Width {|hint_block_width|}</li>
+					</ul>
+				</div>
+				<div id="demo-hint-block" style="float:right; width:100px; height:50px; padding:5px; border-width: {|hint_block_width_value|}; border-color: #{|hint_block_color_value|}; border-style: {|hint_block_style_value|};">Preview</div>
+			</td>
+		</tr>
+		<tr>
+			<td>{|hint_system_module_enable|}</th>
+			<td>
+				{|lang.hint_system_module_enable_brief|}
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="footoperation">
+				{|hint_btn_OK|}
+				{|hint_btn_RESET|}
+			</td>
+		</tr>
+	</table>
+	
+	{|FORM_END|}
+</div>

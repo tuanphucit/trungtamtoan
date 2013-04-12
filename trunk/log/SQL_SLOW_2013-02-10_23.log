@@ -1,0 +1,5 @@
+[2013/02/10 23:15:55][/?portal=mc_web&page=articleDetail&id=559]
+SELECT `category_id`,`updatetime` FROM `article` WHERE `article_id`=559 LIMIT 1;
+--Start time [2013/02/10 23:15:52]
+--Run time(s): 2.8379528522491
+

@@ -1,0 +1,10 @@
+[2012/10/09 21:01:05][/?portal=mc_web]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/10/09 21:01:04]
+--Run time(s): 0.98205304145813
+
+[2012/10/09 21:36:42][/?portal=mc_web&page=DocOfClass&classID=17&cateID=4]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '17' AND `status` = 1 ;
+--Start time [2012/10/09 21:36:41]
+--Run time(s): 1.3302400112152
+

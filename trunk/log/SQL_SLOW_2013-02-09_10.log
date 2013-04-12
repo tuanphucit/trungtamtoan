@@ -1,0 +1,5 @@
+[2013/02/09 10:51:20][/?portal=mc_web&page=articleDetail&id=453]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 453 AND `category_id` = 1 AND `updatetime` < TIMESTAMP('2012-09-20 08:45:43') AND  `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/09 10:51:18]
+--Run time(s): 1.236025094986
+

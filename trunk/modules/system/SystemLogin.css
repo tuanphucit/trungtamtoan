@@ -1,0 +1,89 @@
+div.content {
+	text-align:left;
+}
+
+div.login {
+	background: none repeat scroll 0 0 #FFFBF8;
+    border: 1px solid #E8C9B7;
+    line-height: 30px;
+    margin-top: 100px;
+    padding: 0;
+    text-align: center;
+    width: 400px;
+	height:170px;
+}
+
+div.login .boximage {
+	border: 0px solid #E8C9B7;
+    float: left;
+    margin: 30px 5px 10px 0;
+    padding: 0;
+    width: 100px;
+}
+div.login .boxtext {
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 290px;
+}
+div.login div.boxcopyright{
+	clear:both;
+	font: 11px/1.5em Arial,sans-serif;
+	padding-top:5px;
+	color:#7B7D72;
+}
+div.login .boxtext .title{
+	color: #CC0000;
+    font-weight: bold;
+    text-align: center;
+}
+div.login .boxtext .box{
+	height: 105px;
+	display:block;
+	margin:0 5px 6px 5px;
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E6E6E2;
+    padding-right: 10px;
+	line-height: 25px;
+}
+
+div.login .boxform{
+	clear:both;
+}
+div.login .boxform .label{
+	width:35%;
+	float:left;
+	text-align:right;
+	padding-top: 7px;
+}
+div.login .boxform .textbox{
+	float:right;
+	width:60%;
+	padding-top: 10px;
+}
+div.login div.button {clear:both;margin-top:40px;text-align:right;}
+div.login div.msg {font: 11px/1.5em Arial,sans-serif;color:red;}
+
+button.submit {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFF8C5;
+    border-color: #FFFDEE #FDB939 #FDB939 #FFFDEE;
+    border-style: solid;
+    border-width: 1px;
+    color: #FF3A00;
+    margin-right: 1em;
+    padding: 0 10px;
+	cursor: pointer;
+    height: 2em;
+    line-height: 2em;
+	text-align: center;
+	font: 11px/1.5em Arial,sans-serif;
+}
+
+div.login a{text-decoration:none;}
+div.login a:hover{text-decoration:underline; color:#CC0000;}
+div.msg {color:red;};

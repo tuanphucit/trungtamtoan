@@ -1,0 +1,15 @@
+[2013/02/05 17:02:46][/?portal=mc_web&page=DocOfClass&classID=15&cateID=2]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocOfClass' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/05 17:02:45]
+--Run time(s): 0.73458218574524
+
+[2013/02/05 17:18:05][/?portal=mc_web&page=listTeacherb]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/05 17:18:03]
+--Run time(s): 1.8452370166779
+
+[2013/02/05 17:18:06][/?portal=mc_web&page=listTeacherb]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/05 17:18:05]
+--Run time(s): 0.99006986618042
+

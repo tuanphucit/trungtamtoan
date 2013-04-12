@@ -1,0 +1,5 @@
+[2012/11/08 09:41:43][/?portal=mc_web&page=listClass]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2012/11/08 09:41:42]
+--Run time(s): 0.87209701538086
+

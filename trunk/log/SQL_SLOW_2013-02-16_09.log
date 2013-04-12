@@ -1,0 +1,20 @@
+[2013/02/16 09:01:46][/?portal=mc_web&page=DocOfClass&classID=8&cateID=2]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/16 09:01:45]
+--Run time(s): 0.52638292312622
+
+[2013/02/16 09:01:50][/?portal=mc_web&page=DocOfClass&classID=8&cateID=2]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/16 09:01:46]
+--Run time(s): 3.2508120536804
+
+[2013/02/16 09:01:54][/?portal=mc_web&page=DocOfClass&classID=8&cateID=2]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/16 09:01:50]
+--Run time(s): 3.8893260955811
+
+[2013/02/16 09:01:56][/?portal=mc_web&page=DocOfClass&classID=8&cateID=2]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/16 09:01:54]
+--Run time(s): 2.2475409507751
+

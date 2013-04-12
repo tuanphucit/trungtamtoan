@@ -1,0 +1,20 @@
+[2012/12/12 08:29:25][/]
+SELECT * FROM `article` WHERE `category_id` = 3 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/12 08:29:23]
+--Run time(s): 1.2491919994354
+
+[2012/12/12 08:51:29][/?portal=mc_web&page=DocDetail&id=114]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/12 08:51:28]
+--Run time(s): 0.64946293830872
+
+[2012/12/12 08:55:20][/?portal=mc_web&page=articleDetail&id=534]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/12/12 08:55:20]
+--Run time(s): 0.51861882209778
+
+[2012/12/12 08:55:21][/?portal=mc_web&page=articleDetail&id=534]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/12/12 08:55:20]
+--Run time(s): 0.50415205955505
+

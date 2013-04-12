@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="MCwebTeacher">
+	<bean name="MCwebTeacherView" action="" method="post" onsubmit="return true;">
+		<property type="text" name="username" display="Username" maxsize="255" validateType="Text" required="true" class="validate[required,custom[onlyLetterNumber]]" maxlength="255" style="width:140px;"/>
+		<property type="password" name="password" display="Password" maxsize="255" validateType="Text" required="true" class="validate[required]" maxlength="255" style="width:140px;"/>
+		<property type="text" name="birthday" id="birthday" display="Birthday" style="width:140px;"  required="true" class="validate[required,custom[date]]" />
+		<property type="text" name="firstname" id="firstname" display="Firstname" style="width:140px;"  required="true" class="validate[required]" />
+		<property type="text" name="lastname" id="lastname" display="Lastname" style="width:140px;"  required="true" class="validate[required]" />
+		<property type="text" name="email" id="email" display="Email" required="true" style="width:140px;" class="validate[required,custom[email]]" />
+		<property type="text" name="mobile" id="mobile" display="Mobile" style="width:140px;"  required="true" class="validate[required,custom[phone]]"/>
+		<property type="radio" name="gender" display="Gender" label="Gender" value="1" option="0:Nữ|1:Nam"/>
+		<property type="text" name="address" id="address" display="Address" style="width:200px;" required ="true" class="validate[required]"/>		
+		<property type="select" name="location" display="Location" style="width:140px;"/>
+		<property type="select" name="level" display="level" option="0:Cao đẳng|1:Đại học|2:Đã ra trường|3:Giáo viên"  style="width:140px;"/>
+		<property type="checkboxlist" name="teachat" id="teachat" display="teachat"/>
+		<property type="checkboxlist" name="sessions" id ="sessions" display="Sessions"/>	
+		<property type="checkboxlist" name="classes" id ="classes" display="Classes"/>	
+		<property type="text" name="school" id="school" display="School" style="width:200px;"/>
+		<property type="text" name="faculty" id="faculty" display="Faculty" style="width:140px;"/>
+		<property type="text" name="fee" id="fee" display="Fee" style="width:200px;"/>
+		<property type="textarea" name="introduction" id="introduction" display="Introduction" cols="50" rows="3" style="width:300px;"/>		
+		<property type="radio" name="isNeedValid" display="isNeedValid" label="isNeedValid" value="1" option="1:Có | 0:Không"/>
+	</bean>
+</page>
+

@@ -1,0 +1,5 @@
+[2013/02/10 03:05:19][/?cateID=2&classID=15&page=DocOfClass&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/10 03:05:18]
+--Run time(s): 0.74653601646423
+

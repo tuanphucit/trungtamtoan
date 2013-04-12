@@ -1,0 +1,15 @@
+[2012/10/29 12:56:44][/?portal=mc_web&page=regLearn]
+SELECT * FROM `province` WHERE `status` = 1 ORDER BY name DESC;
+--Start time [2012/10/29 12:56:43]
+--Run time(s): 1.2348761558533
+
+[2012/10/29 12:57:05][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `hocsinh_id`,`pupilnumber`,`duringtime`,`gender`,`starttime`,`introduction`,`expected_gender`,`teach_sessions`,`introduction`,`expected_level`,`expected_fee`,`class_id`,`location_id`,`updatetime`,`isNeedGoodTeacher`,`mobile` FROM `hocsinh` WHERE `status` = 1 AND `hocsinh_id` = 49 LIMIT 1;
+--Start time [2012/10/29 12:57:02]
+--Run time(s): 3.6672379970551
+
+[2012/10/29 12:57:38][/?portal=mc_web&page=articleDetail&id=386]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=386 LIMIT 1;
+--Start time [2012/10/29 12:57:34]
+--Run time(s): 3.6150529384613
+

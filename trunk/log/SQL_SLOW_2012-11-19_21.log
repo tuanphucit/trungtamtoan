@@ -1,0 +1,10 @@
+[2012/11/19 21:25:59][/?portal=mc_web&page=regLearn]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/19 21:25:58]
+--Run time(s): 0.52090501785278
+
+[2012/11/19 21:26:00][/?portal=mc_web&page=regLearn]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/19 21:25:59]
+--Run time(s): 0.83961200714111
+

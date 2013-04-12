@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="http://localhost/CGS-framework/trunk/cgs/webskins/templates/debug/debuging.css" type="text/css" charset="utf-8"/>
+<div class="system-error-alert">
+	<div class="system-error-header">
+			<div class="error-exec-hide" onclick="showError{|idErr|}(this, '{|idErr|}')" title="Show">!</div>
+			<div class="error-msg">{|msg|}</div>
+	</div>
+	<div class="system-error-content" id="{|idErr|}">
+		<ol>
+			<!-- BEGIN BlockList --><li><span class="err-file">{|file|}(<span class="err-line">{|line|}</span>): <span class="err-func">{|func|}</span></span></li>
+			<!-- END BlockList -->
+		</ol>
+	</div>
+</div>
+<div style="clear:both;"></div>
+
+<script type="text/javascript">
+function showError{|idErr|}(theMy, idErr) {
+	if (document.getElementById(idErr)) {
+		var theId = document.getElementById(idErr);
+		if (theId.style.display == 'none' || theId.style.display == '') {
+			theId.style.display = 'block';
+			theMy.className = 'error-exec-show';
+			theMy.title = 'Hidden';
+		}
+		else {
+			theId.style.display = 'none';
+			theMy.className = 'error-exec-hide';
+			theMy.title = 'Show';
+		}
+	}
+}
+</script>
+

@@ -1,0 +1,39 @@
+<div class="block">
+	<p>Portal:
+		<!-- BEGIN BlockPortal --><a href="{|portal_link|}" class="{|portal_class|}">{|portal_title|}</a> | <!-- END BlockPortal -->
+	</p>
+</div>
+<div class="mainbox list"> 
+	<span class="headactions"><a href="javascript:;">Trợ giúp</a> <span class="toggle"></span></span>
+	<h3>Danh sách Page</h3>
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<th width="30">ID</th>
+				<th>Tên Portal</th>
+				<th>Tên Page</th>
+				<th width="60">Page ID</th>
+				<th width="60">Master ID</th>
+				<th>Layout</th>
+				<th align="center" width="120">Hành động</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|stt|}</td>
+				<td>{|portal_name|}</td>
+				<td><a href="{|page_link|}" title="{|brief|}" target="_blank">{|name|}</a></td>
+				<td align="center">{|id|}</td>
+				<td align="center">{|master_id|}</td>
+				<td>{|layout|}</td>
+				<td align="center">
+					<span class="{|publish_class|} change_publish hand" rel="{|id|}|{|publish_flg|}" title="{|publish_label|}"></span>
+					<span class="icon-edit_16 hand item-edit" rel="{|item_link_edit|}" title="Sửa"></span>
+					<span class="icon-cancel_16 hand item-del" rel="{|id|}" title="Xóa"></span>
+				</td>
+			</tr>
+			<!-- END BlockList -->
+		</tbody>
+	</table>
+</div>

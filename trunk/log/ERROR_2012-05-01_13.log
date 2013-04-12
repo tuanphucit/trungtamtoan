@@ -1,0 +1,8 @@
+[2012/05/01 13:25:20][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: register_btn_OK}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(122)]
+
+[2012/05/01 13:25:20][/mc_web/debug.php?portal=mc_web&page=regTeach]
+Notice(8) {Undefined index: teach_btn_RESET}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\system.html.form.build.php(122)]
+

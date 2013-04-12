@@ -1,0 +1,30 @@
+[2012/11/20 07:30:18][/?portal=mc_web&page=NewDoc]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2012/11/20 07:30:17]
+--Run time(s): 0.50163793563843
+
+[2012/11/20 07:36:35][/?portal=mc_web&page=ClassDetail&id=50]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/20 07:36:33]
+--Run time(s): 1.3213739395142
+
+[2012/11/20 07:44:32][/?portal=mc_web&page=regTeach]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2012/11/20 07:44:31]
+--Run time(s): 0.83656191825867
+
+[2012/11/20 07:44:35][/?portal=mc_web&page=regTeach]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/20 07:44:35]
+--Run time(s): 0.58532190322876
+
+[2012/11/20 07:44:36][/?portal=mc_web&page=regTeach]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/20 07:44:35]
+--Run time(s): 0.59722995758057
+
+[2012/11/20 07:45:29][/]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2012/11/20 07:45:27]
+--Run time(s): 2.0431041717529
+

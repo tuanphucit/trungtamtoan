@@ -1,0 +1,91 @@
+/*action*/
+.hand{opacity:0.6;filter:alpha(opacity=60);color:#000000;}
+.hand:hover {opacity:1;filter:alpha(opacity=100); cursor: pointer;}
+
+.link {color:#666666; text-decoration: none;}
+.link:hover {color:blue; cursor: pointer; text-decoration: none;}
+
+/*icon 8px*/
+.icon-blank_8{background:url(../icons/icon-blank_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-bookmark_8{background:url(../icons/icon-bookmark_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-calendar_8{background:url(../icons/icon-calendar_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-cancel_8{background:url(../icons/icon-cancel_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-chart_8{background:url(../icons/icon-chart_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-clock_8{background:url(../icons/icon-clock_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-config_8{background:url(../icons/icon-config_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-connect_8{background:url(../icons/icon-connect_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-down_8{background:url(../icons/icon-down_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-dragon_8{background:url(../icons/icon-dragon_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-edit_8{background:url(../icons/icon-edit_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-email_8{background:url(../icons/icon-email_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-error_8{background:url(../icons/icon-error_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-find_8{background:url(../icons/icon-find_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-group_8{background:url(../icons/icon-group_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-help_8{background:url(../icons/icon-help_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-lock_8{background:url(../icons/icon-lock_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-locked_8{background:url(../icons/icon-locked_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-message_8{background:url(../icons/icon-message_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-messagebox-warning_8{background:url(../icons/icon-messagebox-warning_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-module_8{background:url(../icons/icon-module_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-ok_8{background:url(../icons/icon-ok_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-php_8{background:url(../icons/icon-php_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-question_8{background:url(../icons/icon-question_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-quick_8{background:url(../icons/icon-quick_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-reload_8{background:url(../icons/icon-reload_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-run_8{background:url(../icons/icon-run_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-settings_8{background:url(../icons/icon-settings_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-system_8{background:url(../icons/icon-system_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-tip_8{background:url(../icons/icon-tip_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-tool_8{background:url(../icons/icon-tool_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-trashcan_8{background:url(../icons/icon-trashcan_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-up_8{background:url(../icons/icon-up_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-update_8{background:url(../icons/icon-update_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-user-blue_8{background:url(../icons/icon-user-blue_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-user-yellow_8{background:url(../icons/icon-user-yellow_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-xclock_8{background:url(../icons/icon-xclock_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-xfmail_8{background:url(../icons/icon-xfmail_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+.icon-_8{background:url(../icons/icon-_8.png) scroll no-repeat left;padding:2px 0px 0px 10px; margin: 0px 3px;}
+
+/*icon 10px*/
+.icon-blank_16{background:url(../icons/icon-blank_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-bookmark_16{background:url(../icons/icon-bookmark_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-calendar_16{background:url(../icons/icon-calendar_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-cancel_16{background:url(../icons/icon-cancel_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-chart_16{background:url(../icons/icon-chart_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-clock_16{background:url(../icons/icon-clock_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-config_16{background:url(../icons/icon-config_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-connect_16{background:url(../icons/icon-connect_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-down_16{background:url(../icons/icon-down_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-dragon_16{background:url(../icons/icon-dragon_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-edit_16{background:url(../icons/icon-edit_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-email_16{background:url(../icons/icon-email_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-error_16{background:url(../icons/icon-error_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-find_16{background:url(../icons/icon-find_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-group_16{background:url(../icons/icon-group_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-help_16{background:url(../icons/icon-help_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-lock_16{background:url(../icons/icon-lock_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-locked_16{background:url(../icons/icon-locked_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-message_16{background:url(../icons/icon-message_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-messagebox-warning_16{background:url(../icons/icon-messagebox-warning_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-module_16{background:url(../icons/icon-module_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-ok_16{background:url(../icons/icon-ok_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-php_16{background:url(../icons/icon-php_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-question_16{background:url(../icons/icon-question_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-quick_16{background:url(../icons/icon-quick_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-reload_16{background:url(../icons/icon-reload_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-run_16{background:url(../icons/icon-run_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-settings_16{background:url(../icons/icon-settings_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-system_16{background:url(../icons/icon-system_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-tip_16{background:url(../icons/icon-tip_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-tool_16{background:url(../icons/icon-tool_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-trashcan_16{background:url(../icons/icon-trashcan_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-up_16{background:url(../icons/icon-up_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-update_16{background:url(../icons/icon-update_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-user-blue_16{background:url(../icons/icon-user-blue_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-user-yellow_16{background:url(../icons/icon-user-yellow_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-xclock_16{background:url(../icons/icon-xclock_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-xfmail_16{background:url(../icons/icon-xfmail_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+.icon-_16{background:url(../icons/icon-_16.png) scroll no-repeat left;padding:2px 0px 0px 18px; margin: 0px 3px;}
+
+
+

@@ -1,0 +1,5 @@
+[2013/02/08 04:02:50][/?portal=mc_web&page=DocDetail&id=144]
+SELECT `doc_cate_id`,`updatetime`,`classID`,`type`,`author` FROM `document` WHERE `id`=144 LIMIT 1;
+--Start time [2013/02/08 04:02:48]
+--Run time(s): 1.0850520133972
+

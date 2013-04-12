@@ -1,0 +1,5 @@
+[2013/03/04 13:05:31][/?id=628&page=articleDetail&portal=mc_web]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/03/04 13:05:31]
+--Run time(s): 0.613440990448
+

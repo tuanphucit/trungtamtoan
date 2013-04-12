@@ -1,0 +1,25 @@
+[2013/01/16 22:12:15][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/01/16 22:12:14]
+--Run time(s): 0.72766280174255
+
+[2013/01/16 22:12:16][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/01/16 22:12:16]
+--Run time(s): 0.81346297264099
+
+[2013/01/16 22:12:17][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `hocsinh_id`,`pupilnumber`,`duringtime`,`gender`,`starttime`,`introduction`,`expected_gender`,`teach_sessions`,`introduction`,`expected_level`,`expected_fee`,`class_id`,`location_id`,`updatetime`,`isNeedGoodTeacher`,`mobile` FROM `hocsinh` WHERE `status` = 1 AND `hocsinh_id` = 49 LIMIT 1;
+--Start time [2013/01/16 22:12:17]
+--Run time(s): 0.64149188995361
+
+[2013/01/16 22:12:19][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/01/16 22:12:18]
+--Run time(s): 1.116103887558
+
+[2013/01/16 22:12:22][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/01/16 22:12:20]
+--Run time(s): 1.7251780033112
+

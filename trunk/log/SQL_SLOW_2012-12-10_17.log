@@ -1,0 +1,55 @@
+[2012/12/10 17:01:31][/]
+SELECT * FROM `article` WHERE `category_id` = 3 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/10 17:01:31]
+--Run time(s): 0.61415505409241
+
+[2012/12/10 17:01:32][/]
+SELECT * FROM `article` WHERE `category_id` = 4 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/10 17:01:31]
+--Run time(s): 0.80522394180298
+
+[2012/12/10 17:01:33][/]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/12/10 17:01:32]
+--Run time(s): 0.58546996116638
+
+[2012/12/10 17:09:42][/?portal=mc_web&page=DocOfClass&classID=4&cateID=4]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocOfClass' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/10 17:09:40]
+--Run time(s): 1.8697350025177
+
+[2012/12/10 17:09:47][/?portal=mc_web&page=DocOfClass&classID=4&cateID=4]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='70' LIMIT 1;
+--Start time [2012/12/10 17:09:42]
+--Run time(s): 4.9761810302734
+
+[2012/12/10 17:09:49][/?portal=mc_web&page=DocOfClass&classID=4&cateID=4]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/10 17:09:47]
+--Run time(s): 1.4963200092316
+
+[2012/12/10 17:09:49][/?portal=mc_web&page=DocOfClass&classID=4&cateID=4]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2012/12/10 17:09:49]
+--Run time(s): 0.58846807479858
+
+[2012/12/10 17:09:50][/?portal=mc_web&page=DocOfClass&classID=4&cateID=4]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2012/12/10 17:09:49]
+--Run time(s): 0.87618780136108
+
+[2012/12/10 17:09:51][/?portal=mc_web&page=DocOfClass&classID=4&cateID=4]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2012/12/10 17:09:50]
+--Run time(s): 0.85850691795349
+
+[2012/12/10 17:09:52][/?portal=mc_web&page=DocOfClass&classID=4&cateID=4]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2012/12/10 17:09:51]
+--Run time(s): 1.3162961006165
+
+[2012/12/10 17:09:54][/?portal=mc_web&page=DocOfClass&classID=4&cateID=4]
+SELECT * FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '4' AND `status` = 1  ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2012/12/10 17:09:52]
+--Run time(s): 1.8381080627441
+

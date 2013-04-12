@@ -1,0 +1,10 @@
+[2012/11/15 18:54:47][/?portal=mc_web&page=articleDetail&id=574]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2012/11/15 18:54:46]
+--Run time(s): 0.55325794219971
+
+[2012/11/15 18:54:50][/?portal=mc_web&page=articleDetail&id=574]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/15 18:54:49]
+--Run time(s): 1.4247229099274
+

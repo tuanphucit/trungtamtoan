@@ -1,0 +1,5 @@
+[2013/03/09 13:14:37][/?portal=manager&page=base]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='manager' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/09 13:14:35]
+--Run time(s): 1.0342299938202
+

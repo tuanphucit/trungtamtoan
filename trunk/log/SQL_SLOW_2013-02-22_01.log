@@ -1,0 +1,10 @@
+[2013/02/22 01:00:45][/]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/22 01:00:45]
+--Run time(s): 0.63178896903992
+
+[2013/02/22 01:00:46][/]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/22 01:00:46]
+--Run time(s): 0.77569818496704
+

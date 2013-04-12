@@ -1,0 +1,20 @@
+[2013/02/16 12:37:28][/?portal=mc_web&page=index]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/16 12:37:25]
+--Run time(s): 3.3819601535797
+
+[2013/02/16 12:37:30][/?portal=mc_web&page=index]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/16 12:37:29]
+--Run time(s): 0.90131020545959
+
+[2013/02/16 12:37:31][/?portal=mc_web&page=index]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/16 12:37:30]
+--Run time(s): 0.71174311637878
+
+[2013/02/16 12:48:57][/?portal=mc_web&page=articleDetail&id=435]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/16 12:48:57]
+--Run time(s): 0.7718141078949
+

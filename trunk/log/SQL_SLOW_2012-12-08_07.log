@@ -1,0 +1,20 @@
+[2012/12/08 07:35:52][/?portal=mc_web&page=articleDetail&id=420]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2012/12/08 07:35:51]
+--Run time(s): 1.2115020751953
+
+[2012/12/08 07:57:46][/?portal=mc_web&page=DocOfClass&classID=12&cateID=1]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='70' LIMIT 1;
+--Start time [2012/12/08 07:57:45]
+--Run time(s): 1.4643671512604
+
+[2012/12/08 07:57:48][/?portal=mc_web&page=DocOfClass&classID=12&cateID=1]
+SELECT * FROM `document` WHERE `doc_cate_id` = '1' AND `classID` = '12' AND `status` = 1  ORDER BY updatetime DESC LIMIT 0,20;
+--Start time [2012/12/08 07:57:47]
+--Run time(s): 1.1287388801575
+
+[2012/12/08 07:57:51][/?portal=mc_web&page=DocOfClass&classID=12&cateID=1]
+SELECT * FROM `class`;
+--Start time [2012/12/08 07:57:49]
+--Run time(s): 2.3670761585236
+

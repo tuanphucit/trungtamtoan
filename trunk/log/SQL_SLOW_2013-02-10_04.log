@@ -1,0 +1,5 @@
+[2013/02/10 04:59:42][/?portal=mc_web&page=listTeacher]
+SELECT * FROM `province`;
+--Start time [2013/02/10 04:59:41]
+--Run time(s): 0.70399403572083
+

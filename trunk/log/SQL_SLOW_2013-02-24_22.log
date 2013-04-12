@@ -1,0 +1,25 @@
+[2013/02/24 22:04:53][/?portal=mc_web&page=articleDetail&id=598]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/24 22:04:52]
+--Run time(s): 1.0564098358154
+
+[2013/02/24 22:07:23][/?portal=mc_web&page=DocDetail&id=135]
+SELECT * FROM `document` WHERE `id` = 135 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/24 22:07:21]
+--Run time(s): 2.0414350032806
+
+[2013/02/24 22:14:29][/?portal=mc_web&page=DocDetail&id=125]
+SELECT * FROM `class`;
+--Start time [2013/02/24 22:14:28]
+--Run time(s): 0.70818686485291
+
+[2013/02/24 22:29:35][/?portal=mc_web&page=DocDetail&id=79]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/24 22:29:33]
+--Run time(s): 2.2373421192169
+
+[2013/02/24 22:47:18][/?portal=mc_web&page=articleDetail&id=563]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articleDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/24 22:47:17]
+--Run time(s): 1.6168329715729
+

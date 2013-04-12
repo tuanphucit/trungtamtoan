@@ -1,0 +1,10 @@
+[2013/02/21 19:04:40][/?portal=mc_web&page=regTeach]
+SELECT `sessions_id`,`session`,`day` FROM `sessions` ORDER BY sessions_id ASC;
+--Start time [2013/02/21 19:04:40]
+--Run time(s): 0.56949400901794
+
+[2013/02/21 19:04:49][/?portal=mc_web&page=regTeach]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/21 19:04:48]
+--Run time(s): 0.83509087562561
+

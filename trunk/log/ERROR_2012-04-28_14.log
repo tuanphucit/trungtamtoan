@@ -1,0 +1,48 @@
+[2012/04/28 14:08:50][/mc_web/debug.php?]
+Warning(2) {mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES)}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\database.mysqli.php(25)]
+
+[2012/04/28 14:08:50][/mc_web/debug.php?]
+Notice(8) {Undefined index: class}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.exception.php(50)]
+
+[2012/04/28 14:08:50][/mc_web/debug.php?]
+Notice(8) {Undefined index: type}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.exception.php(50)]
+
+[2012/04/28 14:08:50][/mc_web/debug.php?]
+Notice(8) {Undefined index: class}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.exception.php(50)]
+
+[2012/04/28 14:08:50][/mc_web/debug.php?]
+Notice(8) {Undefined index: type}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.exception.php(50)]
+
+[2012/04/28 14:19:46][/mc_web/debug.php?portal=system&page=genDatabase]
+Notice(8) {Undefined index: mcweb}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemGenModel.php(33)]
+
+[2012/04/28 14:21:26][/mc_web/debug.php?portal=system&page=genDatabase]
+Notice(8) {Undefined index: mcweb}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemGenModel.php(33)]
+
+[2012/04/28 14:21:26][/mc_web/debug.php?portal=system&page=genDatabase]
+Warning(2) {mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.func.php(44)]
+
+[2012/04/28 14:24:57][/mc_web/debug.php?portal=system&page=genDatabase]
+Notice(8) {Undefined index: mcweb}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemGenModel.php(33)]
+
+[2012/04/28 14:26:29][/mc_web/debug.php?portal=system&page=genDatabase]
+Warning(2) {mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists}
+File: [E:\xampp\htdocs\mc_web\lib\kernel\cgs.func.php(44)]
+
+[2012/04/28 14:30:33][/mc_web/debug.php?portal=system&page=genUI]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/page.base.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemGenUi.php(13)]
+
+[2012/04/28 14:31:10][/mc_web/debug.php?portal=system&page=genUI]
+Warning(2) {require_once(E:\xampp\htdocs\mc_web/lib/model/db/dbConn.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory}
+File: [E:\xampp\htdocs\mc_web\modules\system\SystemGenUi.php(14)]
+

@@ -1,0 +1,10 @@
+[2012/11/30 18:30:02][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT `session`,`day` FROM `sessions` WHERE `sessions_id` IN(3,9,15);
+--Start time [2012/11/30 18:30:01]
+--Run time(s): 0.93206214904785
+
+[2012/11/30 18:30:03][/?portal=mc_web&page=ClassDetail&id=49]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/30 18:30:02]
+--Run time(s): 0.93737196922302
+

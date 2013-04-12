@@ -1,0 +1,28 @@
+<div class="mainbox">	
+	<h3>Đổi mật khẩu</h3>	
+	<form method = 'POST' action = '' id='changepassform'>
+	<table cellpadding="5" cellspacing="0">	
+		<tr>
+			<th colspan="2"><center>{|message|}<center></th>
+		</tr>	
+		<tr>
+			<th width="30%">Mật khẩu đang dùng:</th>
+			<th width="70%"><input type='password' id='currentPass' name ='currentPass' value="{|old|}" style='width:200px;' class="validate[required]"/></th>
+		</tr>
+		<tr>
+			<th width="30%">Mật khẩu mới:</th>
+			<th width="70%"><input type='password' id='newPass' name ='newPass'  value="{|new|}" style='width:200px;' class="validate[required]"/></th>
+		</tr>
+		<tr>
+			<th width="30%">Nhập lại mật khẩu mới:</th>
+			<th width="70%"><input type='password' id='reNewPass' name ='reNewPass'  value="{|confirm|}" style='width:200px;' class="validate[required]"/></th>
+		</tr>
+		<tr>
+		<td colspan="2" class="footoperation"><center>
+			<input type='submit' name='change' id='change' value='Thay đổi'/>
+			<input type="reset" value="Làm lại" id="reset"/></center>		
+			</td>
+		</tr>
+	</table>	
+	</form>
+</div>

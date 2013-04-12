@@ -1,0 +1,15 @@
+[2013/03/15 18:28:16][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://trungtamtoan.com/?portal=mc_web&page=articleDetail&id=329' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2013/03/15 18:28:15]
+--Run time(s): 0.87588000297546
+
+[2013/03/15 18:32:05][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://trungtamtoan.com/?portal=mc_web&page=articleDetail&id=329' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2013/03/15 18:32:04]
+--Run time(s): 0.56845307350159
+
+[2013/03/15 18:32:10][/?portal=mc_web&page=articleDetail&id=320]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/15 18:32:09]
+--Run time(s): 0.6561131477356
+

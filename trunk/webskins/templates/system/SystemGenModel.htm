@@ -1,0 +1,38 @@
+{|FORM_BEGIN|}
+<div class="block">
+	<p>Chọn Database: {|connection|}
+		-- {|customTable|}
+	</p>
+	<br/>
+	<p>{|gen_btn_OK|}</p>
+</div>
+{|msg|}
+<div class="mainbox list"> 
+	<span class="headactions"><a href="javascript:;">Trợ giúp</a> <span class="toggle"></span></span>
+	<h3>{|data_info|}</h3>
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<th width="30">NO</th>
+				<th width="30">{|checkall|}</th>
+				<th>Table name</th>
+				<th align="center" width="120">Hành động</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|stt|}</td>
+				<td>{|chk_tbl|}</td>
+				<td><a href="{|page_link|}" title="{|brief|}" target="_blank">{|table_name|}</a></td>
+				<td align="center">
+					<span class="{|publish_class|} change_publish hand" rel="{|id|}|{|publish_flg|}" title="{|publish_label|}"></span>
+					<span class="icon-edit_16 hand item-edit" rel="{|item_link_edit|}" title="Sửa"></span>
+					<span class="icon-cancel_16 hand item-del" rel="{|id|}" title="Xóa"></span>
+				</td>
+			</tr>
+			<!-- END BlockList -->
+		</tbody>
+	</table>
+</div>
+{|FORM_END|}

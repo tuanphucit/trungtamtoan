@@ -1,0 +1,5 @@
+[2012/12/02 17:01:29][/?portal=mc_web&page=DocOfClass&classID=17&cateID=4&page_no=2]
+SELECT COUNT(`id`) AS rows FROM `document` WHERE `doc_cate_id` = '4' AND `classID` = '17' AND `status` = 1 ;
+--Start time [2012/12/02 17:01:28]
+--Run time(s): 0.54578495025635
+

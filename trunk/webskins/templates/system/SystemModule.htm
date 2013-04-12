@@ -1,0 +1,38 @@
+<div class="box">
+	<span class="headactions"><span class="toggle"></span></span>
+	<h4>Scan module from system</h4>
+	<table cellpadding="5" cellspacing="0" class="toggle-content">
+		<tr>
+			<td colspan="2" class="footoperation">
+				<button class="submit" value="true" name="f_btnOk_Scan_all" type="submit" id="f_btnOk_Scan_all">Scan module all</button>
+				<button class="submit" value="true" name="f_btnOk_Scan_custom" type="submit" id="f_btnOk_Scan_custom">Scan Custom</button>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div class="mainbox list"> 
+	<span class="headactions"><a href="javascript:;">Trợ giúp</a> <span class="toggle"></span></span>
+	<h3>Danh sách Module</h3> 
+	<table cellspacing="0" cellpadding="0" class="toggle-content"> 
+		<thead class="category">
+			<tr>
+				<th width="30">ID</th>
+				<th>Tên Module</th>
+				<th>Mô tả</th>
+				<th align="center" width="150">Hành động</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- BEGIN BlockList -->
+			<tr>
+				<td>{|stt|}</td>
+				<td>{|ls_name|}</td>
+				<td>{|ls_brief|}</td>
+				<td align="center"><a href="?module=system&page=module&id={|ls_id|}">Sửa</a> | <a href="javascript:;" class="list-del" rel="{|ls_id|}">Xóa</a></td>
+			</tr>
+			<!-- END BlockList -->
+		</tbody>
+	</table>
+	
+</div>

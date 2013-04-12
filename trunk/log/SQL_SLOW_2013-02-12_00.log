@@ -1,0 +1,40 @@
+[2013/02/12 00:53:44][/?id=96&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 96 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/12 00:53:42]
+--Run time(s): 2.6693670749664
+
+[2013/02/12 00:53:44][/?id=95&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 95 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/12 00:53:42]
+--Run time(s): 2.6817438602448
+
+[2013/02/12 00:53:45][/?id=96&page=DocDetail&portal=mc_web]
+SELECT `doc_cate_id`,`updatetime`,`classID`,`type`,`author` FROM `document` WHERE `id`=96 LIMIT 1;
+--Start time [2013/02/12 00:53:44]
+--Run time(s): 0.8513970375061
+
+[2013/02/12 00:53:45][/?id=95&page=DocDetail&portal=mc_web]
+SELECT `doc_cate_id`,`updatetime`,`classID`,`type`,`author` FROM `document` WHERE `id`=95 LIMIT 1;
+--Start time [2013/02/12 00:53:44]
+--Run time(s): 0.85013008117676
+
+[2013/02/12 00:53:56][/?name=20120922/admin_1348309876.pdf&page=Download&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/12 00:53:55]
+--Run time(s): 0.90534901618958
+
+[2013/02/12 00:58:10][/?id=120&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 120 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/12 00:58:07]
+--Run time(s): 3.5629231929779
+
+[2013/02/12 00:58:10][/?id=121&page=DocDetail&portal=mc_web]
+SELECT * FROM `document` WHERE `id` = 121 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/12 00:58:07]
+--Run time(s): 3.5717370510101
+
+[2013/02/12 00:58:27][/?id=125&page=DocDetail&portal=mc_web]
+SELECT `classID`,`doc_cate_id` FROM `document` WHERE `id` = 125 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/12 00:58:26]
+--Run time(s): 0.53213286399841
+

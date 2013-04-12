@@ -1,0 +1,20 @@
+[2012/12/10 15:34:13][/?portal=mc_web&page=DocOfClass&classID=11&cateID=4]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocOfClass' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2012/12/10 15:34:11]
+--Run time(s): 1.846871137619
+
+[2012/12/10 15:56:36][/?portal=mc_web&page=DocDetail&id=116]
+SELECT * FROM `document` WHERE `id` = 116 AND `status` = 1  LIMIT 1;
+--Start time [2012/12/10 15:56:36]
+--Run time(s): 0.51747703552246
+
+[2012/12/10 15:57:05][/?portal=mc_web&page=DocDetail&id=133]
+SELECT * FROM `document` WHERE `id` = 133 AND `status` = 1  LIMIT 1;
+--Start time [2012/12/10 15:56:46]
+--Run time(s): 18.850291013718
+
+[2012/12/10 15:57:57][/?portal=mc_web&page=DocDetail&id=119]
+SELECT `name`,`updatetime`,`id` FROM `document` WHERE `id` != 119 AND `doc_cate_id` = 4 AND `classID` = 17 AND `updatetime` < TIMESTAMP('2012-09-22 17:04:28') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2012/12/10 15:57:56]
+--Run time(s): 0.51148891448975
+

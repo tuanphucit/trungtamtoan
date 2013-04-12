@@ -1,0 +1,5 @@
+[2013/01/23 15:14:00][/?portal=mc_web&page=DocDetail&id=146]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='DocDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/01/23 15:13:59]
+--Run time(s): 0.79325604438782
+

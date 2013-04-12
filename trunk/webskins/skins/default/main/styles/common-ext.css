@@ -1,0 +1,102 @@
+div.header{
+	height: 200px;
+	background: url("../images/bg_banner.jpg") repeat-x bottom left;
+	margin: 0px 0px 10px 0px;
+	border-bottom: 1px solid #CAD9EA;
+}
+div.header div.wrap{
+	height:100%;
+	/*background: url("../images/sitenav.png") repeat-x bottom center transparent;*/
+}
+
+#menu ul li :hover{
+	color: #FFFFFF;
+}
+
+.comment {border: 1px solid #CAD9EA; background: white;}
+ .comment .active, .comment li :hover{
+ 		border: 1px solid;
+ 		border-color: #98BBFF; 
+ 		color: blue; 
+ 		
+ 	}
+ 	
+ .comment #mc_comment_content{
+	width:100%;
+	height:200px;
+	overflow:scroll;
+ }
+
+.paging ul { list-style-type: none; float: right;}
+		.paging li {list-style-type: none; float: left; margin:0 7px;background:#98bbff;}
+			.paging li a { 
+			     text-decoration: none; 
+                 float: left; 
+                 color: white; 
+                 padding: 2px 8px; 
+                 background:#3267d2;
+                 text-transform: none;
+                 font: bold 12px calibri;
+                 }
+				.paging li :hover,.paging li .active {
+					background: none repeat scroll 0 0 green;
+					color: yellow;
+				    }
+
+
+#menudoc {
+float: none;
+
+}
+
+#menudoc ul li .active{
+background: yellow;
+
+}
+
+#menudoc ul span {
+float: none;
+behavior: url(whateverhover.htc);
+}
+
+#menudoc ul li {
+position: relative;
+float: none;
+}
+
+#menudoc li a {
+display: block;
+color: #292929;
+font-weight: bold;
+}
+
+#menudoc li a:hover {
+color: white;
+background: orange;
+}
+
+#menudoc li ul{
+background: yellow;
+position: relative;
+display: none;
+width: 10em;
+}
+
+
+#menudoc li:hover ul{
+display: block;
+position: static;
+float: none;
+right: 60%;
+}
+
+#menudoc ul li ul li {
+	width: 100%;
+}
+
+
+.toggle-content tbody tr:hover td,.toggle-content tbody tr:hover th{
+	background-color: gray;
+}
+
+					

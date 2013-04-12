@@ -1,0 +1,16 @@
+[2012/12/10 23:06:08][/ajax.php?path=mcweb&fnc=mcweb.giasu.process]
+SELECT COUNT(`giasu_id`) AS rows FROM `giasu` WHERE `status` = 1 AND `validate` = 0 AND `provinceID` = 0;
+--Start time [2012/12/10 23:06:07]
+--Run time(s): 0.85646891593933
+
+[2012/12/10 23:06:49][/?portal=mc_web&page=crawl]
+INSERT INTO `article` (`subject`, `headImage`, `content`, `introduction`, `category_id`, `status`, `updatetime`) VALUES 
+('Công bố danh sách GS, PGS năm 2012', 'data/images/imageForArticle/images653170_1.jpg', '<p style=\"text-align: justify;\"></p>&#13;\n<table width=\"450\" cellspacing=\"0\" cellpadding=\"3\" align=\"center\" class=\"image center\" fck_template=\"imagecontener\"><tbody><tr><td><a href=\"http://gdtd.vn/dataimages/201212/original/images653170_1.jpg\"><img width=\"450\" height=\"326\" alt=\"xzxz\" src=\"data/images/imageForArticle/images653170_1.jpg\" /></a></td>&#13;\n        </tr><tr><td align=\"center\" class=\"image_desc\">Bộ trưởng Phạm Vũ Luận trao giấy chứng nhận đạt tiêu chuẩn chức danh GS, PGS</td>&#13;\n        </tr></tbody></table><p style=\"text-align: justify;\">Theo đó, có 41 ứng viên được công nhận đạt tiêu chuẩn chức danh GS, trong đó có 1 ứng viên được đề nghị công nhận đạt tiêu chuẩn chức danh GS đặc cách; 426 ứng viên được công nhận đạt tiêu chuẩn chức danh PGS, 1 ứng viên được đề nghị công nhận đạt tiêu chuẩn chức danh PGS đặc cách. <br /><br />&#13;\nNhà khoa học được đặc cách xét chức danh GS là ông Phùng Hồ Hải, Phó Viện trưởng Viện Toán học, SN 1970, đây cũng là GS trẻ nhất trong năm 2012.<br /><br />&#13;\nPGS trẻ nhất trong năm nay là Nguyễn Khánh Diệu Hồng sinh năm 1981, công tác tại Viện Kỹ thuật Hóa học, Trường ĐH Bách khoa.</p>&#13;\n<p style=\"text-align: justify;\">Xem danh sách các tâm GS, PGS <a href=\"http://www.hdcdgsnn.gov.vn/news/detail/tabid/77/newsid/305/seo/Danh-sach-cong-nhan-dat-tieu-chuan-chuc-danh-GS-PGS-2012/language/vi-VN/Default.aspx\"><span style=\"color: rgb(0, 0, 255);\">tại đây</span></a></p>&#13;\n<p style=\"text-align: right;\"><strong>Hiếu Nguyễn</strong></p>', '<i>(Nguồn giaoducthoidai.vn)</i> (GD&amp;TĐ)-Hội đồng Chức danh giáo sư nhà nước vừa chính thức công bố danh sách các tân GS, PGS được xét duyệt năm 2012.', '1', '1', null);
+--Start time [2012/12/10 23:06:49]
+--Run time(s): 0.50459218025208
+
+[2012/12/10 23:07:24][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://trungtamtoan.com/?portal=mc_web&page=articleDetail&id=609' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2012/12/10 23:07:23]
+--Run time(s): 1.4213190078735
+

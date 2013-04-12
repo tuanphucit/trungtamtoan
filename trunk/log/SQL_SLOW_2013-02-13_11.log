@@ -1,0 +1,15 @@
+[2013/02/13 11:01:00][/?portal=mc_web&page=articleDetail&id=481]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=481 LIMIT 1;
+--Start time [2013/02/13 11:00:59]
+--Run time(s): 0.85555601119995
+
+[2013/02/13 11:31:20][/?portal=mc_web&page=DocOfClass&classID=12&cateID=1]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/13 11:31:15]
+--Run time(s): 5.0367980003357
+
+[2013/02/13 11:31:21][/?portal=mc_web&page=DocOfClass&classID=12&cateID=1]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/13 11:31:20]
+--Run time(s): 0.52262306213379
+

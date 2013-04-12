@@ -1,0 +1,41 @@
+<div id="system_debug">
+	<div id="debug_header">
+		<ul>
+			<li class="header"><span>-o0o- <label>CGS Debug</label> -o0o-</span></li>
+			<li class="debug-item"><span>Hiển thị tất cả</span></li>
+			<li class="debug-item" id="debug_report_err"><a href="javascript:;"><span>Error</span></a>
+				<div class="debug_report" id="debug_report_err_sub">
+					<ol class="sub_item">
+						{debug_err}
+					</ol>
+					<p>&nbsp;</p>
+				</div>
+			</li>
+			<li class="debug-item" id="debug_report_sql"><span>SQL</span>
+				<div class="debug_report" id="debug_report_sql_sub">
+					<ol class="sub_item">
+						{debug_sql}
+					</ol>
+					<p>&nbsp;</p>
+				</div>
+			</li>
+			<li class="debug-item" id="debug_report_var"><span>Var</span>
+				<div class="debug_report" id="debug_report_var_sub">
+					<ol class="sub_item">
+						{debug_var}
+					</ol>
+					<p>&nbsp;</p>
+				</div>
+			</li>
+			<li class="debug-item" id="debug_report_inc"><span>Include file</span>
+				<div class="debug_report" id="debug_report_inc_sub">
+					<ol class="sub_item">
+						{debug_inc}
+					</ol>
+					<p>&nbsp;</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+</div>

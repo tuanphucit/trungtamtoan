@@ -1,0 +1,20 @@
+[2012/11/06 12:01:39][/?portal=mc_web&page=NewDoc]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2012/11/06 12:01:38]
+--Run time(s): 0.54304909706116
+
+[2012/11/06 12:01:39][/?portal=mc_web&page=NewDoc]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2012/11/06 12:01:39]
+--Run time(s): 0.57582402229309
+
+[2012/11/06 12:01:41][/?portal=mc_web&page=NewDoc]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2012/11/06 12:01:39]
+--Run time(s): 1.3865909576416
+
+[2012/11/06 12:01:43][/?portal=mc_web&page=NewDoc]
+SELECT * FROM `doccate`;
+--Start time [2012/11/06 12:01:42]
+--Run time(s): 0.57520294189453
+

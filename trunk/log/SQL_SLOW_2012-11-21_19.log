@@ -1,0 +1,15 @@
+[2012/11/21 19:29:40][/?portal=mc_web&page=articleDetail&id=230]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2012/11/21 19:29:38]
+--Run time(s): 1.2259469032288
+
+[2012/11/21 19:29:42][/?portal=mc_web&page=articleDetail&id=230]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/21 19:29:41]
+--Run time(s): 0.552983045578
+
+[2012/11/21 19:29:43][/?portal=mc_web&page=articleDetail&id=230]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2012/11/21 19:29:42]
+--Run time(s): 0.68082714080811
+

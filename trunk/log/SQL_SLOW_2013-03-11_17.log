@@ -1,0 +1,15 @@
+[2013/03/11 17:01:26][/?portal=mc_web&page=articleDetail&id=317]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=317 LIMIT 1;
+--Start time [2013/03/11 17:01:25]
+--Run time(s): 0.51786589622498
+
+[2013/03/11 17:30:04][/?portal=mc_web&page=articleDetail&id=588]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='articleDetail' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/03/11 17:30:00]
+--Run time(s): 4.0838658809662
+
+[2013/03/11 17:30:06][/?portal=mc_web&page=articleDetail&id=588]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/03/11 17:30:04]
+--Run time(s): 2.1138160228729
+

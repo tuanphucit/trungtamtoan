@@ -1,0 +1,10 @@
+[2013/02/16 15:24:58][/?portal=mc_web&page=regLearn]
+SELECT * FROM `province` WHERE `status` = 1 ORDER BY name DESC;
+--Start time [2013/02/16 15:24:57]
+--Run time(s): 1.0287201404572
+
+[2013/02/16 15:25:09][/?portal=mc_web&page=regLearn]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/16 15:25:08]
+--Run time(s): 0.81545782089233
+

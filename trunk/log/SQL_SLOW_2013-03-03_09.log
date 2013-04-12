@@ -1,0 +1,20 @@
+[2013/03/03 09:23:15][/?portal=mc_web&page=articleDetail&id=254]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/03 09:23:14]
+--Run time(s): 1.1904208660126
+
+[2013/03/03 09:23:16][/?portal=mc_web&page=articleDetail&id=254]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/03/03 09:23:16]
+--Run time(s): 0.51163291931152
+
+[2013/03/03 09:37:52][/]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/03/03 09:37:50]
+--Run time(s): 1.4308650493622
+
+[2013/03/03 09:37:54][/]
+SELECT * FROM `article` WHERE `category_id` = 4 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/03/03 09:37:52]
+--Run time(s): 2.1630120277405
+

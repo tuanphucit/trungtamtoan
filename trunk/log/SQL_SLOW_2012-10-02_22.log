@@ -1,0 +1,5 @@
+[2012/10/02 22:43:52][/ajax.php?path=mcweb&fnc=mcweb.comment.process]
+SELECT * FROM `comment` WHERE `page_url` = 'http://trungtamtoan.com/?portal=mc_web&page=articleDetail&article_id=220' AND `status` = 1 ORDER BY comment_time DESC;
+--Start time [2012/10/02 22:43:51]
+--Run time(s): 1.0313498973846
+

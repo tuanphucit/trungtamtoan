@@ -1,0 +1,80 @@
+[2013/02/03 06:05:08][/?portal=mc_web&page=DocDetail&id=107]
+SELECT * FROM `document` WHERE `id` = 107 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/03 06:05:07]
+--Run time(s): 1.0599610805511
+
+[2013/02/03 06:08:44][/?portal=mc_web&page=articleDetail&id=239]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=239 LIMIT 1;
+--Start time [2013/02/03 06:08:41]
+--Run time(s): 2.4684820175171
+
+[2013/02/03 06:08:45][/?portal=mc_web&page=articleDetail&id=239]
+SELECT * FROM `article` WHERE `category_id` = 7 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/03 06:08:44]
+--Run time(s): 0.83012294769287
+
+[2013/02/03 06:11:10][/?portal=mc_web&page=articleDetail&id=481]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=481 LIMIT 1;
+--Start time [2013/02/03 06:11:08]
+--Run time(s): 2.4868531227112
+
+[2013/02/03 06:11:18][/?portal=mc_web&page=articleDetail&id=274]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/03 06:11:15]
+--Run time(s): 2.3284528255463
+
+[2013/02/03 06:11:18][/?portal=mc_web&page=articleDetail&id=274]
+SELECT `subject`,`updatetime`,`article_id` FROM `article` WHERE `article_id` != 274 AND `category_id` = 1 AND `updatetime` > TIMESTAMP('2012-08-10 21:06:54') AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/03 06:11:18]
+--Run time(s): 0.52189993858337
+
+[2013/02/03 06:18:32][/?portal=mc_web&page=DocDetail&id=122]
+SELECT * FROM `document` WHERE `id` = 122 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/03 06:18:31]
+--Run time(s): 0.71080183982849
+
+[2013/02/03 06:18:48][/?portal=mc_web&page=DocDetail&id=124]
+SELECT * FROM `document` WHERE `id` = 124 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/03 06:18:46]
+--Run time(s): 2.1836829185486
+
+[2013/02/03 06:20:43][/?portal=mc_web&page=DocDetail&id=136]
+SELECT * FROM `document` WHERE `id` = 136 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/03 06:20:40]
+--Run time(s): 2.3605999946594
+
+[2013/02/03 06:20:43][/?portal=mc_web&page=DocDetail&id=136]
+SELECT `doc_cate_id`,`updatetime`,`classID`,`type`,`author` FROM `document` WHERE `id`=136 LIMIT 1;
+--Start time [2013/02/03 06:20:43]
+--Run time(s): 0.55852103233337
+
+[2013/02/03 06:21:48][/?portal=mc_web&page=DocDetail&id=102]
+SELECT * FROM `document` WHERE `id` = 102 AND `status` = 1  LIMIT 1;
+--Start time [2013/02/03 06:21:44]
+--Run time(s): 3.2144219875336
+
+[2013/02/03 06:24:53][/?portal=mc_web&page=articleDetail&id=492]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=492 LIMIT 1;
+--Start time [2013/02/03 06:24:51]
+--Run time(s): 2.1802170276642
+
+[2013/02/03 06:24:58][/?portal=mc_web&page=articleDetail&id=493]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=493 LIMIT 1;
+--Start time [2013/02/03 06:24:57]
+--Run time(s): 0.61380100250244
+
+[2013/02/03 06:26:29][/?portal=mc_web&page=articleDetail&id=273]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=273 LIMIT 1;
+--Start time [2013/02/03 06:26:27]
+--Run time(s): 2.4383761882782
+
+[2013/02/03 06:26:42][/?portal=mc_web&page=articleDetail&id=377]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=377 LIMIT 1;
+--Start time [2013/02/03 06:26:40]
+--Run time(s): 1.7792150974274
+
+[2013/02/03 06:27:07][/?portal=mc_web&page=articleDetail&id=381]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=381 LIMIT 1;
+--Start time [2013/02/03 06:27:06]
+--Run time(s): 0.96672582626343
+

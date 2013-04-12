@@ -1,0 +1,25 @@
+[2013/02/22 14:10:34][/?portal=mc_web&page=ClassDetail&id=50]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/22 14:10:33]
+--Run time(s): 0.66846704483032
+
+[2013/02/22 14:10:37][/?portal=mc_web&page=ClassDetail&id=50]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/22 14:10:34]
+--Run time(s): 2.4086761474609
+
+[2013/02/22 14:10:39][/?portal=mc_web&page=ClassDetail&id=50]
+SELECT * FROM `article` WHERE `category_id` = 5 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/22 14:10:38]
+--Run time(s): 0.50318193435669
+
+[2013/02/22 14:10:40][/?portal=mc_web&page=ClassDetail&id=50]
+SELECT * FROM `article` WHERE `category_id` = 1 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/22 14:10:39]
+--Run time(s): 0.96173810958862
+
+[2013/02/22 14:10:40][/?portal=mc_web&page=ClassDetail&id=50]
+SELECT * FROM `article` WHERE `category_id` = 2 AND `status` = 1 ORDER BY updatetime DESC LIMIT 0,3;
+--Start time [2013/02/22 14:10:40]
+--Run time(s): 0.63698101043701
+

@@ -1,0 +1,75 @@
+[2013/02/20 10:23:45][/?name=20120922/admin_1348308052.pdf&page=Download&portal=mc_web]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/20 10:23:42]
+--Run time(s): 3.0859131813049
+
+[2013/02/20 10:23:45][/?name=20120922/admin_1348308021.pdf&page=Download&portal=mc_web]
+SELECT `id`,`portal_name` FROM `portal` WHERE portal_name='mc_web' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/20 10:23:42]
+--Run time(s): 2.963840007782
+
+[2013/02/20 10:23:46][/?name=20120922/admin_1348308021.pdf&page=Download&portal=mc_web]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='Download' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/20 10:23:45]
+--Run time(s): 0.91000986099243
+
+[2013/02/20 10:23:48][/?name=20120922/admin_1348308052.pdf&page=Download&portal=mc_web]
+SELECT `id`,`page_name`,`layout`,`modules`,`portal_id`,`master_id`,`title`,`description`,`keyword` FROM `page` WHERE page_name='Download' AND portal_id='13' AND publish_flg='1' LIMIT 1;
+--Start time [2013/02/20 10:23:45]
+--Run time(s): 3.1615560054779
+
+[2013/02/20 10:23:49][/?name=20120922/admin_1348308052.pdf&page=Download&portal=mc_web]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/20 10:23:48]
+--Run time(s): 0.81042194366455
+
+[2013/02/20 10:23:49][/?name=20120922/admin_1348308021.pdf&page=Download&portal=mc_web]
+SELECT `id`,`modules`,`title`,`description`,`keyword` FROM `page` WHERE `id`='29' LIMIT 1;
+--Start time [2013/02/20 10:23:46]
+--Run time(s): 3.0772459506989
+
+[2013/02/20 10:23:50][/?name=20120922/admin_1348308021.pdf&page=Download&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/20 10:23:49]
+--Run time(s): 0.62998294830322
+
+[2013/02/20 10:23:52][/?name=20120922/admin_1348308052.pdf&page=Download&portal=mc_web]
+SELECT `hocsinh_id`,`class_id`,`location_id`,`updatetime` FROM `hocsinh` WHERE `status` = 1 ORDER BY updatetime DESC LIMIT 0,5;
+--Start time [2013/02/20 10:23:49]
+--Run time(s): 2.6892790794373
+
+[2013/02/20 10:23:52][/?name=20120922/admin_1348308021.pdf&page=Download&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/20 10:23:50]
+--Run time(s): 2.3626749515533
+
+[2013/02/20 10:23:52][/?name=20120922/admin_1348308052.pdf&page=Download&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/02/20 10:23:52]
+--Run time(s): 0.56946396827698
+
+[2013/02/20 10:23:53][/?name=20120922/admin_1348308021.pdf&page=Download&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/20 10:23:52]
+--Run time(s): 0.60803318023682
+
+[2013/02/20 10:23:53][/?name=20120922/admin_1348308052.pdf&page=Download&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =78 LIMIT 1;
+--Start time [2013/02/20 10:23:52]
+--Run time(s): 1.3023240566254
+
+[2013/02/20 10:23:56][/?name=20120922/admin_1348308021.pdf&page=Download&portal=mc_web]
+SELECT `name` FROM `class` WHERE class_id = 9 LIMIT 1;
+--Start time [2013/02/20 10:23:53]
+--Run time(s): 3.0583391189575
+
+[2013/02/20 10:23:56][/?name=20120922/admin_1348308052.pdf&page=Download&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/20 10:23:54]
+--Run time(s): 1.7558999061584
+
+[2013/02/20 10:23:58][/?name=20120922/admin_1348308021.pdf&page=Download&portal=mc_web]
+SELECT `name` FROM `location` WHERE `location_id` =2 LIMIT 1;
+--Start time [2013/02/20 10:23:56]
+--Run time(s): 2.3038759231567
+

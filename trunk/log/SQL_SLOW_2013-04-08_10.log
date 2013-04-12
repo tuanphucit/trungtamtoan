@@ -1,0 +1,5 @@
+[2013/04/08 10:58:55][/?portal=mc_web&page=articleDetail&id=636]
+SELECT * FROM `article` WHERE `status`= 1 AND `article_id`=636 LIMIT 1;
+--Start time [2013/04/08 10:58:54]
+--Run time(s): 0.84667110443115
+

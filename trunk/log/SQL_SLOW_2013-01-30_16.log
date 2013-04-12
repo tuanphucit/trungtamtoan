@@ -1,0 +1,5 @@
+[2013/01/30 16:20:11][/?portal=mc_web&page=DocOfClass&classID=11&cateID=3]
+SELECT `name` FROM `class` WHERE class_id = 17 LIMIT 1;
+--Start time [2013/01/30 16:20:10]
+--Run time(s): 1.5034379959106
+
